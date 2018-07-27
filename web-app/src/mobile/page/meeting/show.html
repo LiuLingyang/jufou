@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <title id="meetTitle"></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+    <link href="../../css/meeting/show.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group.css" rel="stylesheet" type="text/css"/>
+    <link href="../../../../res/mobile/style/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <!-- 活动首页 -->
+    <div data-role="page">
+      <div data-role="content" class="g-wrp m-id-j0">
+      	<div class="g-head f-cb bd01 bg01">
+      	  <a href="javascript:;" class="fl f-bg lbk" id="meet_back_btn"><img src="../../../../res/mobile/pic/backs.png"></a>
+          <div class="mbk fc03 fs06">活动详细</div>
+        </div>
+        <div class="g-body">
+          <div class="blk bd03">
+          	<div class="dtl">
+          	  <p class="ln0 fs10" id="meettitle">&nbsp;</p>
+          	  <a id="grouplink" href="javascript:;"><p class="ln0 ln0-x fc05 fs08" id="grouptitle">&nbsp;</p></a>
+          	</div>
+        	<div class="cover"><img class="lazy" id="meetingcover" src="../../../../res/mobile/pic/coverloading.gif"/></div>
+          </div>
+          <div class="blk bd03 fc03">
+            <div class="ln1 f-bg">
+              <p id="time"></p>
+            </div>
+            <p class="ln1" id="address"></p>
+            <div class="ln1">
+              <p id="feeItem"></p>
+              <p class="fs02 fc04" id="feeDesc"></p>
+            </div>
+            <div class="link">
+              <a href="javascript:;" rel="external" class="w-btn ln3 btn00" id="attendLink">我要报名</a>
+              <a href="comment.html" rel="external" class="w-btn ln4 btn00" id="addcomment">说些什么<span class="br1 bg00 fs02 fc05" id="commentCount"></span></a>
+              <a href="photo.html" rel="external" class="w-btn ln5 btn00" id="uploadPhoto">上传照片<span class="br1 bg00 fs02 fc05" id="photoCount"></span></a>
+            </div>
+            <div class="pon ln1">
+              <span class="per fs02 fc03" id="permission"></span>
+              <span class="per fc03 fs02">*剩余<span id="joinLimit"></span>名额</span>
+          	  <span class="fc03 fs02">*每人限带<span id="observerLimit"></span>人</span>
+            </div>
+          </div>
+          <div class="blk bd03 fc03" id="member">
+          	<a href="member.html" rel="external">
+          	<div class="jusp">
+          	  <div class="tol">
+          	  	<p id="joinCount" class="fs07 fc05"></p>
+          	  	<p class="fs03 fc03" id="hid">人报名</p>
+          	  </div>
+          	  <div class="mem"><span id="membership"></span></div>
+          	</div>
+          	</a>
+          </div>
+          <div class="blk bd03" id="detail">
+        	<p class="ln2" id="dtls"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- @NOPARSE -->
+    <script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp"></script>
+    <!-- /@NOPARSE -->
+    <!-- @DEFINE {nodep:true} -->
+    <script src="../../lib/tongji.js" type="text/javascript"></script> 
+    <script src="../../lib/jquery-1.7.1.min.js"></script>
+    <script src="../../lib/jstorage.js"></script>
+    <script src="../../lib/dateFormat.js"></script>
+    <script src="../../javascript/common/util.js"></script>
+    <script src="../../javascript/common/base.js"></script>
+    <script src="../../javascript/meeting/show.js"></script> 
+  </body>
+</html>

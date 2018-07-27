@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="headtitle"></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+    <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/user/regist.css" rel="stylesheet" type="text/css"/>
+    <link href="../../../../res/mobile/style/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body id="www-hijufou-com">
+    <div class="g-wrp m-id-10">
+      <a href="javascript:history.go(-1);"><img src="../../../../res/mobile/pic/login-x.png" class="lox"/></a>
+      <div class="msg">
+        <p class="fs03 fc00">短信已发送</p>
+        <p class="fs03 fc00">请输入您收到的验证码</p>
+      </div>
+      <div class="g-body">
+      	<p class="fc05 fs04 wrg" id="errorMsg">&nbsp;</p>
+        <form class="w-fom xcxt bg00 bd02">
+          <div class="blk blk-s">
+            <span class="fs04 bd02 itm fc03 itm-s">验证码</span><input id="captcha" type="text"/>
+          </div>
+        </form>
+        <a href="#" id="nextstep" class="xcxt w-btn btn00">下一步</a>
+        <div class="f-cb lnk" style="display:none;" id="resendBtn"><a href="#" class="fs04 fc00">重新发送</a></div>
+        <div class="f-cb lnk" id="resendMsg"><a href="#" class="fs04 fc06" id="count"></a></div>
+      </div>
+    </div>
+    <!-- @DEFINE {nodep:true} -->
+    <script src="../../lib/jquery-1.7.1.min.js"></script> 
+    <script src="../../lib/jstorage.js"></script>	
+    <script src="../../javascript/user/phoneStepTwo.js"></script>
+    <script src="../../lib/tongji.js" type="text/javascript"></script>   
+  </body>
+</html>

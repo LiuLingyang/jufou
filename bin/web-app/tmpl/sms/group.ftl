@@ -1,0 +1,1 @@
+${user.nickname}邀请您加入组织“${group.name}”，邀请链接：${stub}。关于组织更多的信息：www.hijufou.com/${group.homepage}。

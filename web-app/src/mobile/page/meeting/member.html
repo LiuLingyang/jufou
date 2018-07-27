@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="meetTitle"></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+		<link href="../../css/meeting/show.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/meeting/comment.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/meeting/member.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/meeting/photo.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/meeting/reply.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/group.css" rel="stylesheet" type="text/css"/>
+        <link href="../../../../res/mobile/style/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body id="www-hijufou-com">
+    
+    <!-- 组织首页 -->
+    <div class="g-wrp m-id-k0" data-role="page">
+      <div class="g-head f-cb bd01 bg01">
+      	<a href="detail.html" class="fl f-bg lbk" id="home_back_btn"><img src="../../../../res/mobile/pic/backs.png"></a>
+        <div class="mbk fc03 fs06">参加列表</div>
+        <a class="fr rbk w-btn fc05 fs04" style="display:none;">我是组织者</a>
+      </div>
+      <div class="g-body">
+        <p class="tip bd03 fc04 fs03">已有<span class="fc05" id="attend"></span>人参加 <span class="fc05 tip2" id="absent"></span>人未参加</p>
+		<div id="attendees"></div>
+      </div>
+      
+      <div class="loading_bottom" id="loading_bottom">加载中...</div>
+    </div>
+    <!-- @DEFINE {nodep:true} -->       
+        <script src="../../lib/jquery-1.7.1.min.js"></script>
+        <script src="../../lib/jstorage.js"></script>	
+        <script src="../../javascript/common/util.js"></script>
+    	<script src="../../javascript/common/base.js"></script> 
+        <script src="../../javascript/meeting/member.js"></script>
+        <script src="../../lib/tongji.js" type="text/javascript"></script> 
+  </body>
+</html>

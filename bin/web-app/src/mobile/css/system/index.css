@@ -1,0 +1,10 @@
+/* 系统首页 */
+.m-id-0{height:920px;overflow:hidden;background:url(../../../../res/mobile/pic/bgidx.png) no-repeat top center;}
+.m-id-0 .xttl h1{margin:150px 0 26px;font-size:96px;font-weight:normal;}
+.m-id-0 .xttl p{line-height:46px;font-size:28px;}
+.m-id-0 .xact{position:absolute;left:0;bottom:0;width:100%;padding:5px 0;background:rgba(150,150,150,0.5);}
+.m-id-0 .xact .ln{margin:30px auto;}
+.m-id-0 .xact .ln0{width:580px;}
+.m-id-0 .wbtn,.m-id-0 .wbtn-2{padding:5px;background:rgba(255,255,255,0.2);}
+.m-id-0 .wbtn{margin:0 10px;}
+.m-id-0 .wbtn-2{width:550px;margin:0 auto;}

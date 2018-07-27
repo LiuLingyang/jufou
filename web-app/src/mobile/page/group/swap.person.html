@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="groupTitle"></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+    <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group/swap.css" rel="stylesheet" type="text/css"/>
+    <link href="../../../../res/mobile/style/style.css" rel="stylesheet" type="text/css"/>          
+   </head>
+  <body id="www-hijufou-com">
+    
+    <!-- 组织首页 -->
+    <div class="g-wrp m-id-s2" data-role="page" data-add-back-btn="true">
+      <div class="g-head f-cb bd01 bg01">
+      	<a href="swap.home.html" class="fl f-bg lbk"><img src="../../../../res/mobile/pic/backs.png"></a>
+        <div class="mbk fc03 fs06">互动交流</div>
+      </div>
+      <div class="g-body" id="">
+      	<div class="vbox bg00 bd02">
+      	  <div class="ln1 fc03 fs08 f-cb bd02">
+      	  	<img id="portrait" class="br1 fl bg04"/>
+      	  	<p id="nickname" class="fl nam"></p>
+      	    <p id="publishTime" class="fr fc04"></p>
+      	  </div>
+      	  <div class="ln2 fc03 bd02">
+      	  	<p class="fs04 c1" id="title"></p>
+      	  	<p class="c2 fs03" id="content"></p>
+      	  	<div class="c3 bg04"><img src="" id="swap_img"/></div>
+      	  </div>
+      	  <div id="commentcount" class="ln4 bd02 fc03 fs03">
+      	  </div>
+      	  <div id="items"></div>
+      	</div>
+      </div>
+      <div class="com bg05 fs04 fc04">
+    	<input type="text" class="sed br0 jf_join_group" placeholder="点这里发表评论..." id="newcomment" />
+        <span id="addbtn" class="fc05">发送</span>
+      </div>
+    </div>
+    
+    <!-- 加入组织弹窗 -->
+    <div class="group_join_tip_box" id="group_join_tip_box" style="display:none;">
+      <div class="close_icon"><img src="../../../../res/mobile/pic/close_icon.png"></div>
+      <div class="sorry fc03 fs10">抱歉！非小组成员不允许操作！</div>
+      <a href="../group/joinintroduce.html"><div class="bg02 join fs04 fc00">现在就加入组织</div></a>
+    </div>
+    
+    <!--大图查看-->
+    <div class="big_img_show_box" id="big_img_show_box">
+      <div class="img"><img src="" id="big_img"/></div>
+    </div>
+    	
+    <!-- @DEFINE {nodep:true} -->
+    <script src="../../lib/jquery-1.7.1.min.js"></script>       
+    <script src="../../lib/jstorage.js"></script>
+    <script src="../../lib/dateFormat.js"></script>
+    <script src="../../javascript/common/util.js"></script>
+    <script src="../../javascript/common/base.js"></script> 
+    <script src="../../javascript/group/swap.person.js"></script>
+  </body>
+</html>

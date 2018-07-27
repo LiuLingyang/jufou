@@ -1,0 +1,193 @@
+/* 颜色定义 */
+.w-win .fc03{color:#C33806;}
+.w-win .fc06{color:#999;}
+#www-jufou-com .w-win .bd01{border-color:#D9D9D9;}
+#www-jufou-com .w-win .bd05{border-color:#C33806;}
+
+/* 日历控件 */
+.w-xdat{z-index:1003;border:1px solid #aaa;}
+.w-xdat td a{color:#333;padding:4px 0;}
+.w-xdat td a:hover{background:#eee;}
+.w-xdat td{border:2px solid #fff;background:#f5f5f5;cursor:pointer;}
+.w-xdat .zcard{padding:1px;border:0;width:262px;font-size:14px;text-align:center;}
+.w-xdat .zday{border:1px solid #aaa;}
+.w-xdat th{background: #bbb;padding:5px 0;}
+#www-jufou-com .w-xdat .zday a{font-size:12px;}
+#www-jufou-com .w-xdat .zday .js-selected{background:#d55f55;}
+#www-jufou-com .w-xdat .zday .js-disabled{background:transparent;}
+#www-jufou-com .w-xdat th{font-weight: bold;}
+/* 窗体控件 */
+#www-jufou-com .w-win{width:310px;border:1px solid #E6E6E6;}
+#www-jufou-com .w-win .zbar{height:38px;line-height:38px;border-bottom:1px solid #E6E6E6;background:#F9F9F9;cursor:move;}
+#www-jufou-com .w-win .zttl{margin-left:20px;font-size:16px;font-weight:bold;color:#666;}
+#www-jufou-com .w-win .zcls{top:10px;right:10px;font-size:18px;}
+.w-win .w-fom{padding:0 20px;}
+.w-win .xbtn{width:270px;padding:10px 0;margin:0 auto;}
+.w-win .blk{margin:10px 0;text-align:left;}
+.w-win .blk .lab{margin:10px 0;font-size:14px;}
+.w-win .blk .wd0{width:254px;}
+.w-win .btn{width:120px;height:30px;line-height:30px;font-size:14px;font-weight:bold;cursor:pointer;text-align:center;}
+.w-win a.btn,.w-win label.btn{display:block;}
+.w-win .btn-c{border:1px solid #DFDFDF;margin-right:20px;}
+.w-win .btn-k{border:1px solid #B3635C;color:#fff;}
+.w-win .btn-x{width:80px;height:26px;line-height:26px;font-size:12px;font-weight:normal;border:1px solid #DFDFDF;background:#F1F1F1;}
+.w-win .btn-y{width:120px;height:30px;line-height:30px;font-size:14px;font-weight:bold;border:1px solid #80AB62;color:#fff;}
+.w-win .xtb{width:100%;margin:15px 0;table-layout:fixed;}
+.w-win .xtb td{padding:5px;}
+.w-win .fc00{color:#999;}
+.w-win .fc01{color:#D35F53;}
+.w-win .w-loading{background:url(../../res/img/loading.gif) no-repeat center center;}
+/* 表单类窗体 */
+#www-jufou-com .w-wfm{width:440px;}
+.w-wfm .c0{width:60px;font-size:14px;text-align:right;}
+.w-wfm .wd0{width:250px;}
+.w-wfm .wd2{width:80px;}
+.w-wfm .wd3{width:70px;}
+#www-jufou-com .w-wfm .cxx .js-tip,
+#www-jufou-com .w-wfm .cxx .js-error{position:static;padding:5px 0 0;}
+#www-jufou-com .w-wfm .cxx .c0{line-height:30px;vertical-align:top;}
+/* 创建相册窗体 */
+#www-jufou-com .w-win-0 .w-wfm{width:auto;}
+#www-jufou-com .w-win-0 .js-pass{visibility:hidden;}
+/* 上传相片窗体 */
+.w-win-1 .blk-0{position:relative;margin:50px 0;text-align:center;}
+.w-win-1 .blk-0 .xuf{position:absolute;top:9px;left:74px;width:125px;height:35px;cursor:pointer;opacity:0;}
+.w-win-1 .blk-0 .btn{margin:0 auto;}
+.w-win-1 .blk-0 .w-loading{position:absolute;width:100%;top:-100px;left:0;}
+/* 邀请联系人 */  
+#www-jufou-com .w-win-2{width:800px;}
+.w-win-2 select{width:150px;}
+.w-win-2 .wrp{height:580px;width:100%;}
+.w-win-2 .left{height:530px;width:400px;float:left;}
+.w-win-2 .txt{padding:5px 2px;margin-left:15px;}
+.w-win-2 .itm{margin-left:-7px;padding:5px 0;background-position:7px -115px;}
+.w-win-2 .itm2{margin-top:20px;}
+.w-win-2 .rht{margin-left:400px;height:500px;width:290px;padding-left:50px;background-position:16px -3447px;}
+.w-win-2 table{border-collapse:collapse;table-layout:fixed;width:100%;}
+.w-win-2 th{border:1px solid #cccccc;text-align:center;padding:12px 0;background:#eeeeee;font-size:15px;}
+.w-win-2 .left td{border:1px solid #cccccc;text-align:center;padding:10px 0;}
+.w-win-2 .rht td{background-color:#f9f9f9;border-bottom:1px solid #f9f9f9;border-right:1px solid #cccccc;text-align:center;padding:10px 0;}
+.w-win-2 .scroll{width:100%;overflow:scroll;overflow-x:hidden;cursor:default;height:370px;border-bottom:1px solid #cccccc;}
+.w-win-2 .hgh{border-left:1px solid #cccccc;}
+.w-win-2  .scroll span{padding:0 0 0 10px;vertical-align:top;}
+.w-win-2 .tip{vertical-align:middle;margin-right:3px;}
+.w-win-2 .tip-x{margin-left:10px;}
+.w-win-2 .wrd{padding-top:20px;font-weight:bold;}
+.w-win-2 .wrd span{color:red;}
+.w-win-2 .s1{width:150px;height:20px;}
+.w-win-2 .s2{width:110px;height:20px;}
+/* 编辑回复 */
+.w-xtb{height:29px;margin:10px 0 15px;border-bottom:1px solid #eee;}
+.w-xtb .itm{width:100px;height:28px;line-height:28px;margin-left:5px;background:#eee;border:1px solid #eee;cursor:pointer;text-align:center;}
+.w-xtb .itm.js-selected{background:#fff;border-bottom-color:#fff;color:#D55F55;}
+#www-jufou-com .w-win-3{width:480px;}
+.w-win-3 .pager{padding:10px 0;}
+/* 确认/信息提示 */
+.w-win-4 .w-message{padding:30px 0;}
+/* 创建联系人 */
+.w-win-5 .cyy .js-pass{visibility:hidden;}
+/* 导入联系人 */
+#www-jufou-com .w-win-6{width:500px;}
+.w-win-6 td{vertical-align:top;text-align:left;}
+.w-win-6 .c0{width:9px;text-align:right;}
+.w-win-6 .c1{width:185px;}
+.w-win-6 .act{margin:20px 0 10px;}
+.w-win-6 .ln1{margin-top:10px;}
+.w-win-6 .ln2{margin-top:8px;}
+.w-win-6 .gcimg{margin-top:10px;}
+/* 修改密码&微信分享 */
+.w-win-7 .zcnt{text-align:center;}
+/* 修改个人信息 */
+.w-win-8 .bio{height:100px;}
+/* 手机号码绑定或解绑 */
+.w-win-9 .js-error{padding-left:140px;}
+/* 组织二维码 */
+.w-win-10 .zcnt{text-align:center;height:320px;}
+/* 登录 */
+.w-win-a{}
+/* 选择相册 */
+.w-win-b{}
+/* 发送消息 */
+#www-jufou-com .w-win-c{width:500px;}
+.w-win-c textarea{width:440px;height:150px;margin-top:10px;}
+.w-win-c .xbtn{margin-top:20px;}
+.w-win-c .js-pass{visibility:hidden;}
+/* 发送邀请结果提示 */
+#www-jufou-com .w-win-d{width:450px;}
+.w-win-d .rit{line-height:24px;margin-top:10px;}
+.w-win-d .msg{line-height:20px;margin-bottom:15px;}
+/* 图片裁剪 */
+#www-jufou-com .w-win-e{width:500px;}
+.w-win-e .img{margin:20px 0;position:relative;}
+.w-win-e .img .wtip{position:absolute;font-size:20px;bottom:0;left:320px;}
+.w-win-e .box{border:1px solid #eee;}
+.w-win-e .shw{position:relative;float:left;width:300px;height:300px;margin-right:-300px;}
+.w-win-e .prv{margin-left:300px;text-align:center;}
+.w-win-e .pbx{position:relative;overflow:hidden;width:100px;height:100px;margin:0 auto;}
+.w-win-f .pbx{width:100px;height:100px;}
+#www-jufou-com .w-win-h{width:600px;}
+.w-win-h .pbx{width:160px;height:106px;overflow:hidden;}
+#www-jufou-com .w-win-i{width:600px;}
+.w-win-i .pbx{width:176px;height:82px;overflow:hidden;}
+.w-win-i .prv{margin-left:320px;}
+/* 绑定窗口 */
+#www-jufou-com .w-win-g{width:550px;}
+#www-jufou-com .w-win-sina{width:620px;}
+#www-jufou-com .w-win-sina .wrp{height:330px;}
+#www-jufou-com .w-win-renren{width:630px;}
+#www-jufou-com .w-win-renren .wrp{height:380px;}
+.w-win-g iframe{width:100%;height:100%;overflow:hidden;}
+
+/* 组织操作菜单 */
+.w-crd-0{width:80px;line-height:30px;color:#666666;border:1px solid #C0C0C0;text-align:left;}
+.w-crd-0 .mix{display:block;padding:0 10px;border-bottom:1px solid #ddd;}
+.w-crd-0 .mix:hover{text-decoration:none;background:#F5F5F5;}
+/* 活动管理菜单 */
+.w-crd-1{width:197px;line-height:30px;color:#666666;border:1px solid #C0C0C0;text-align:left;}
+.w-crd-1 .mix{display:block;padding:0 10px;border-bottom:1px solid #ddd;}
+.w-crd-1 .mix:hover{text-decoration:none;background:#F5F5F5;}
+
+.w-lightbx{position:fixed;width:100%;height:100%;background:#aaa;opacity:0.5;}
+.w-lightbx td{width:100%;height:100%;}
+.w-lightbx .cls{position:absolute;top:10px;right:10px;width:20px;height:20px;line-height:20px;background:#666;color:#fff;}
+.w-lightbx img{max-width:100%;max-height:100%;}
+
+/* css3 */
+.w-win .btn-c{
+    background:-webkit-linear-gradient(top,#fdfdfd,#f0f0f0);
+    background:   -moz-linear-gradient(top,#fdfdfd,#f0f0f0);
+    background:    -ms-linear-gradient(top,#fdfdfd,#f0f0f0);
+    background:     -o-linear-gradient(top,#fdfdfd,#f0f0f0); 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#fdfdfd,endColorstr=#f0f0f0,grandientType=0);
+}
+.w-win .btn-k{
+    background:-webkit-linear-gradient(top,#d55f55,#d35950);
+    background:   -moz-linear-gradient(top,#d55f55,#d35950);
+    background:    -ms-linear-gradient(top,#d55f55,#d35950);
+    background:     -o-linear-gradient(top,#d55f55,#d35950); 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#d55f55,endColorstr=#d35950,grandientType=0);
+}
+.w-win .btn-y{
+    background:-webkit-linear-gradient(top,#9dca7f,#93c472);
+    background:   -moz-linear-gradient(top,#9dca7f,#93c472);
+    background:    -ms-linear-gradient(top,#9dca7f,#93c472);
+    background:     -o-linear-gradient(top,#9dca7f,#93c472); 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#9dca7f,endColorstr=#93c472,grandientType=0);
+}
+.w-win .btn-xx{
+    background:-webkit-linear-gradient(top,#e5e5e5,#f6f6f6);
+    background:   -moz-linear-gradient(top,#e5e5e5,#f6f6f6);
+    background:    -ms-linear-gradient(top,#e5e5e5,#f6f6f6);
+    background:     -o-linear-gradient(top,#e5e5e5,#f6f6f6); 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#e5e5e5,endColorstr=#f6f6f6,grandientType=0);
+}
+.w-win .btn-yy{
+    background:-webkit-linear-gradient(top,#ffffff,#eeeeee);
+    background:   -moz-linear-gradient(top,#ffffff,#eeeeee);
+    background:    -ms-linear-gradient(top,#ffffff,#eeeeee);
+    background:     -o-linear-gradient(top,#ffffff,#eeeeee); 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#eeeeee,grandientType=0);
+}
+
+
+

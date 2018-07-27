@@ -1,0 +1,8 @@
+CACHE MANIFEST
+CACHE:
+*.jpg
+*.png
+*.mp3
+
+NETWORK:
+*

@@ -1,0 +1,8 @@
+.g-admin .t-man{margin-top:80px;}
+.g-admin .itm{display:block;height:24px;line-height:24px;margin:6px 0;padding:0 12px 0 8px;cursor:pointer;color:#fff;}
+.g-admin .js-selected{background:#d55f55;}
+.g-admin .clst{width:100%;border-width:1px;border-style:solid;table-layout:fixed;border-collapse:collapse;text-align:center;}
+.g-admin .clst th,.g-admin .clst td{padding:10px 5px;border-width:1px;border-style:solid;}
+.g-admin .clst .c1{width:250px;}
+.g-admin .clst .c3{width:120px;}
+.g-admin .clst .c3 a{margin:0 5px;}

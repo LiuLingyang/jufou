@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>安徽大学社团联合会</title>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="target-densitydpi=320,width=640,user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="description" content="安徽大学社团联合会，聚否平台微首页" />
+<meta name="keywords" content="安徽大学 社团联合会 聚否 微首页" />
+<!-- @STYLE -->
+<link rel="stylesheet" type="text/css" href="../../css/icard/icard.css" ></link>
+<style>
+.ctn-sy{background: url(http://www.hijufou.com/res/mobile/pic/cardpic/adbg.jpg) no-repeat center center;}
+.ctn-ver-btn{
+	bottom:110px;
+	color:white;
+}
+.btn-ver-main{
+	margin-bottom:20px;
+	height:120px;
+	width:120px;
+	line-height:120px;
+	font-size:30px;
+	text-align:center;
+}
+.btn-ver-main:last-child{
+	margin-bottom:0 !important;
+}
+.img-btnimg{-webkit-transform-origin:50% 60%;}
+
+#btnimg1{
+	-webkit-transform:translate3d(0,0,0) rotate(30deg);
+	-webkit-animation:ani-rotate1 2s linear 0s infinite;
+}
+#btnimg2{
+	-webkit-transform:translate3d(0,0,0) rotate(5deg);
+	-webkit-animation:ani-rotate2 2s linear .5s infinite;
+}
+#btnimg3{
+	-webkit-transform:translate3d(0,0,0) rotate(20deg);
+	-webkit-animation:ani-rotate3 2s linear 1s infinite;
+}
+@-webkit-keyframes ani-rotate1{
+	0% {-webkit-transform:translate3d(0,0,0) rotate(30deg)}
+	50% {-webkit-transform:rotate(210deg)}
+	100% {-webkit-transform:rotate(30deg)}
+}
+@-webkit-keyframes ani-rotate2{
+	0% {-webkit-transform:translate3d(0,0,0) rotate(5deg)}
+	50% {-webkit-transform:rotate(185deg)}
+	100% {-webkit-transform:rotate(365deg)}
+}
+@-webkit-keyframes ani-rotate3{
+	0% {-webkit-transform:translate3d(0,0,0) rotate(20deg)}
+	50% {-webkit-transform:rotate(200deg)}
+	100% {-webkit-transform:rotate(380deg)}
+}
+.btn-contact{
+	position:absolute;
+	top:40px;
+	right:40px;
+	height:30px;
+	color:white;
+	font-size:20px;
+	background:url(http://www.hijufou.com/res/mobile/pic/cardpic/adline.png);
+}
+.btntext{
+	margin:0 20px 0 40px;
+}
+</style>
+</head>
+<body class="icard">
+<img id="img-load" src="../../../../res/mobile/pic/cardpic/loading.gif"></img>
+<div class="ctn-sy" style="display:none">
+<div class="btn-contact"><p class="btntext">关于我们</p></div>
+<div class="ctn-ver-btn l-hor-cen">
+<div class="btn-ver-main" id="btn1"><img class="img-btnimg" id="btnimg1" src="../../../../res/mobile/pic/cardpic/adang.png"></img>社团纳新</div>
+<div class="btn-ver-main" id="btn2"><img class="img-btnimg" id="btnimg2" src="../../../../res/mobile/pic/cardpic/adang.png"></img>找社团</div>
+<div class="btn-ver-main" id="btn3"><img class="img-btnimg" id="btnimg3" src="../../../../res/mobile/pic/cardpic/adang.png"></img>找活动</div>
+</div>
+</div>
+	<!-- @DEFINE {nodep:true} -->
+	<script src="../../lib/tongji.js" type="text/javascript"></script>
+	<script src="../../lib/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="../../javascript/icard/adsy.js"></script>
+</body>
+</html>

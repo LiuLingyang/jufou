@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>浙江理工大学社团之窗</title>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="target-densitydpi=320,width=640,user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="description" content="浙江理工大学社团之窗，聚否平台微首页" />
+<meta name="keywords" content="浙江理工大学 社团之窗 聚否 微首页" />
+<!-- @STYLE -->
+<link rel="stylesheet" type="text/css" href="../../css/icard/icard.css" ></link>
+<style>
+.ctn-sy{background: url(http://www.hijufou.com/res/mobile/pic/cardpic/zlgbg.jpg) no-repeat center center;}
+.ctn-ver-btn{
+	bottom:26px;
+	color:white;
+	font-size:30px;
+	line-height:60px;
+}
+.btn-ver-main:before{
+	display:inline-block;
+	margin-right:10px;
+	content:"";
+	height:60px;
+	width:60px;
+	background:url(http://www.hijufou.com/res/mobile/pic/cardpic/zlgbtn.png) no-repeat;
+}
+#btn1:before{
+	background-position:0 -366px;
+}
+#btn2:before{
+	background-position:0 -426px;
+}
+#btn3:before{
+	background-position:0 -486px;
+}
+#btn4:before{
+	background-position:0 -546px;
+}
+.ctn-item{
+	top:46%;
+	right:0;
+}
+.btn-contact{
+	position:absolute;
+	top:55%;
+	right:0;
+	width:60px;
+	height:60px;
+	background:url(http://www.hijufou.com/res/mobile/pic/cardpic/zlgbtn.png) no-repeat;
+}
+.btn-item{
+	margin-right:55px;
+	width:60px;
+	height:60px;
+	background:url(http://www.hijufou.com/res/mobile/pic/cardpic/zlgbtn.png) no-repeat;
+	background-size: 100% auto !important;
+}
+.btn-item:last-child{
+	margin:0 !important;
+}
+#item1{
+	background-position:0 -244px;;
+}
+#item2{
+	background-position:0 -305px;;
+}
+#item3{
+	background-position:0 -183px;;
+}
+#item4{
+	background-position:0 -122px;;
+}
+#item5{
+	background-position:0 -61px;;
+}
+.btn-text{
+	display:table-cell;
+	vertical-align:middle;
+}
+.btn-ver-main{
+	display:table !important;
+}
+.dia-wx{
+	background:url(http://www.hijufou.com/res/mobile/pic/cardpic/zlgdialog.jpg) no-repeat;
+}
+.bc{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:url(http://www.hijufou.com/res/mobile/pic/cardpic/zlgbc.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+	transition:all 1s;
+	-webkit-transition:all 1s;
+	transform-origin:50% 100%;
+	-webkit-transform-origin:50% 100%;
+}
+.bc.fold{
+	transform:scale(0.01);
+	-webkit-transform:scale(0.01);
+}
+</style>
+</head>
+<body class="icard">
+<img id="img-load" src="../../../../res/mobile/pic/cardpic/loading.gif"></img>
+<div class="ctn-sy" style="display:none">
+<div class="ctn-hor-btn ctn-item" style="display:none">
+<div class="btn-hor-main btn-item" id="item1"></div>
+<div class="btn-hor-main btn-item" id="item2"></div>
+<div class="btn-hor-main btn-item" id="item3"></div>
+<div class="btn-hor-main btn-item" id="item4"></div>
+<div class="btn-hor-main btn-item" id="item5"></div>
+</div>
+<div class="btn-contact"></div>
+<div class="ctn-ver-btn l-hor-cen">
+<div class="btn-ver-main" id="btn1"><p class="btn-text">社团荟萃</p></div>
+<div class="btn-ver-main" id="btn2"><p class="btn-text">社团活动</p></div>
+<div class="btn-ver-main" id="btn3"><p class="btn-text">社团纳新</p></div>
+<div class="btn-ver-main" id="btn4"><p class="btn-text">联系我们</p></div>
+</div>
+<div class="dia-wx" style="display:none"><img class="btn-close" src="../../../../res/mobile/pic/sw/close.png"></img></div>
+<div class="bc fold" id="bc" style="display:none"></div>  
+</div>
+	<!-- @DEFINE {nodep:true} -->
+	<script src="../../lib/tongji.js" type="text/javascript"></script>
+	<script src="../../lib/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="../../javascript/icard/zlgsy.js"></script>
+</body>
+</html>

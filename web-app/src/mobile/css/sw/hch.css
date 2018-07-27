@@ -1,0 +1,243 @@
+*{ border: 0; outline: none; margin: 0; padding: 0;}
+body#hch {-webkit-tap-highlight-color: rgba(0,0,0,0);font-family: Helvetica; height: 100%; width: 100%;background-color: black;-webkit-user-select: none;user-select: none;overflow:hidden;color:white}
+a, img { -webkit-touch-callout: none;}
+#hch .card#global{
+	position: absolute;
+	left:50%; 
+	width:100%;
+	max-width:640px;
+	height: 100%;
+    -webkit-transform:translate(-50%,0); 
+    color:white;
+    font-family:"黑体",Georgia,Serif;
+}
+#hch #music-control {
+	position: fixed;
+	right: 15px; 
+	top: 110px; 
+	z-index: 1000;
+	width: 50px; 
+	height: 50px;  
+	cursor: pointer; 
+	background:url(http://www.hijufou.com/res/mobile/pic/sw/music2.png);
+	background-size: 100% auto;
+}
+#hch #music-control.playing{background:url(http://www.hijufou.com/res/mobile/pic/sw/music.png);background-size: 100% auto;}
+.card {
+	height: 100%; 
+	width: 100%; 
+	overflow: hidden;
+}
+.card .section-holder { 
+	height: 100%; 
+	-webkit-backface-visibility:hidden; 
+}
+.card section {
+	display:none;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%; 
+	height: 100%; 
+	overflow: hidden;
+	-webkit-transition : all 0s linear;
+}
+.card section.active{
+	display:block;
+}
+.card section.showing{
+	display:block;
+}
+.card .content { 
+	width: 100%; 
+	height: 100%; 
+}
+#hch .bg {
+	z-index:-1;
+	position:absolute;
+	width: 100%;
+	height: 100%;
+}
+.card .arrow{
+	position: absolute;left:50%;
+	z-index:100;
+    width:8%;
+    bottom:20px;
+    -webkit-transform:translate(-50%,0) rotate(180deg);
+    -webkit-animation: ani-arrow 1s;
+    -webkit-animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes ani-arrow{
+    0%  {bottom: 20px;opacity: 0;}
+    50%    {bottom: 30px;opacity: 1;}
+    100%    {bottom: 40px;opacity: 0;}
+}
+
+.card .l-a-center{ position: absolute;left:50%; -webkit-transform:translate(-50%,0); }
+.card .textimg{position:absolute;z-index:20;}
+
+
+#content-1 #logo{
+ position: absolute;left:50%;top:50%;width:40%;-webkit-transform:translate(-50%,-50%); 
+}
+#content-1 #header{
+	width:90%;
+	top:-10%;
+}
+#content-1 #footer{
+	width:90%;
+	bottom:9.5%;
+}
+#content-1 #descri{
+	font-size:2em;
+	border-bottom:thick solid white;
+	margin-bottom:18px;
+}
+
+#content-1 #footerimg{
+	position:relative;
+	bottom:-200px;
+	width:100%;
+}
+#content-1 #tip{
+	top:20px;
+	font-size:3em;
+}
+
+#content-2 #title{
+	font-size:2.25em;
+	margin-left:5%;
+	padding-top:3%;
+}
+
+#content-2 #jb1{
+	position:absolute;
+	top:9.5%;
+	left:-110%;
+	width:90%;
+}
+#content-2 #jb2{
+	position:absolute;
+	right:-110%;
+	width:90%;
+	bottom:50px;
+}
+
+#content-2 #bmtext{
+	top:95px;
+	width:70%;
+}
+#content-2 #bm{
+	position: absolute;left:50%;top:50%;width:240px;height:240px;
+	-webkit-transform:translate(-50%,-50%); 
+	background:url(http://www.hijufou.com/res/mobile/pic/sw/bm.png);
+	background-size:100% 100%;
+	cursor:pointer;
+}
+
+#content-2 #list{
+	position:absolute;
+	top:9.5%;
+	left:5%;
+	list-style-type:none
+}
+#content-2 li{
+	margin-bottom:5px;
+}
+#content-2 .listtext{
+	top:9.5%;
+	font-size:28px;
+	margin-bottom:5px;
+}
+#content-2 .listtext:before{
+	display: inline-block;
+	width:35px;
+	height:35px;
+	margin-right: 20px;
+	content:'';
+    background-image: url(http://www.hijufou.com/res/mobile/pic/sw/cloc.png);
+    background-size: 100% 100%;
+}
+
+#content-2 .lc{
+	position:relative;
+	height:150px;
+}
+#content-2 .timeline{
+	position:absolute;
+	top:0;
+	left:20px;
+	width:2px;
+	height:150px;
+}
+ #content-2 .lcdetail{
+	position:absolute;
+	top:-1000px;
+	left:40px;
+}
+
+
+.showing #header{-webkit-animation: ani-hch-sec1-head .8s ease 0 1 alternate forwards;}
+@-webkit-keyframes ani-hch-sec1-head{
+    0%  {top:-10%;}
+    100%   {top:3%;}
+}
+.showing #footerimg{-webkit-animation: ani-hch-sec1-foot .8s ease 0 1 alternate forwards;}
+@-webkit-keyframes ani-hch-sec1-foot{
+    0%  {bottom:-200px;}
+    100%   {bottom:0;}
+}
+
+.showing #jb1{-webkit-animation: ani-hch-sec2-jb1 .8s ease 0 1 alternate forwards;}
+@-webkit-keyframes ani-hch-sec2-jb1{
+    0%  {left:-110%;}
+    100%   {left:5%;}
+}
+.showing #jb2{-webkit-animation: ani-hch-sec2-jb2 .8s ease 0 1 alternate forwards;}
+@-webkit-keyframes ani-hch-sec2-jb2{
+    0%  {right:-110%;}
+    100%   {right:5%;}
+}
+
+/* #hch #sec-3.showing #tl1{-webkit-animation: ani-hch-sec3-tl1 1s linear 0 1 alternate forwards;}
+@-webkit-keyframes ani-hch-sec3-tl1{
+    0%  {height:0;}
+    100%   {height:150px;}
+} */
+.showing #ld1{-webkit-animation: ani-hch-sec3-ld1 1.2s ease-in 0 1 alternate forwards;}
+@-webkit-keyframes ani-hch-sec3-ld1{
+    0%  {top:-400px;}
+    100%   {top:25px;}
+}
+
+/* #hch #sec-3.showing #tl2{-webkit-animation: ani-hch-sec3-tl2 1s linear 1s 1 alternate forwards;}
+@-webkit-keyframes ani-hch-sec3-tl2{
+    0%  {height:0;}
+    100%   {height:150px;}
+} */
+.showing #ld2{-webkit-animation: ani-hch-sec3-ld2 1s ease-in 1s 1 alternate forwards;}
+@-webkit-keyframes ani-hch-sec3-ld2{
+    0%  {top:-600px;}
+    100%   {top:25px;}
+}
+/* #hch #sec-3.showing #tl3{-webkit-animation: ani-hch-sec3-tl3 1s linear 2s 1 alternate forwards;}
+@-webkit-keyframes ani-hch-sec3-tl3{
+    0%  {height:0;}
+    100%   {height:150px;}
+} */
+.showing #ld3{-webkit-animation: ani-hch-sec3-ld3 1s ease-in 2s 1 alternate forwards;}
+@-webkit-keyframes ani-hch-sec3-ld3{
+    0%  {top:-800px;}
+    100%   {top:25px;}
+}
+/* #hch #sec-3.showing #tl4{-webkit-animation: ani-hch-sec3-tl4 1s linear 3s 1 alternate forwards;}
+@-webkit-keyframes ani-hch-sec3-tl4{
+    0%  {height:0;}
+    100%   {height:150px;}
+} */
+.showing #ld4{-webkit-animation: ani-hch-sec3-ld4 1s ease-in 3s 1 alternate forwards;}
+@-webkit-keyframes ani-hch-sec3-ld4{
+    0%  {top:-1000px;}
+    100%   {top:25px;}
+}

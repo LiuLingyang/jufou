@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="description" content="宁波诺丁汉大学社团中心纳新"/>
+<meta name="keywords" content="宁波诺丁汉大学社团中心 纳新 聚否 电子海报"/>
+<title>宁波诺丁汉大学社团中心纳新</title>
+<!-- @STYLE -->
+<link rel="stylesheet" type="text/css" href="../../css/icard/icard.css" ></link>
+<style>
+#ctn-page {
+	color: white;
+	background-color: white;
+}
+#btn-ac {
+	right: 10px;
+	top: 10px;
+	width: 25px;
+	height: 25px;
+	background:url(http://www.hijufou.com/res/mobile/pic/cardpic/musicclosegreen.png);
+}
+#btn-ac.playing {
+	background:url(http://www.hijufou.com/res/mobile/pic/cardpic/musicopengreen.png);
+}
+.arrowup {
+	-webkit-animation: ani-arrow 1.5s ease 0s infinite;
+}
+@-webkit-keyframes ani-arrow{ 
+	0% {
+		-webkit-transform: translate3d(0px,20px,0px);
+		transform: translate3d(0px,20px,0px);
+		opacity: 0;
+	}
+	50% {
+		-webkit-transform: translate3d(0px,0px,0px);
+		transform: translate3d(0px,0px,0px);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: translate3d(0px,-20px,0px);
+		transform: translate3d(0px,-20px,0px);
+		opacity: 0;
+	}
+}
+#sec1 .logo{
+	position:absolute;
+	top:19.8%;
+	left:3.5%;
+	width:93%;
+	opacity:0;
+}
+#sec1.showing .logo{-webkit-animation: ani-sec1-swlogo 1.5s ease .5s 1 alternate forwards;}
+@-webkit-keyframes ani-sec1-swlogo{
+    0%  { -webkit-transform:rotateY(180deg);}
+    100%    {-webkit-transform:none;opacity:1;}
+}
+#sec2 .title{
+	position: absolute;
+	top: 15.5%;
+	left: 47.5%;
+	width:36.4%;
+	opacity:0;
+}
+#sec2.showing .title{-webkit-animation: ani-sec1-title 1s ease 0 1 alternate forwards;}
+@-webkit-keyframes ani-sec1-title{
+   	0% {opacity:0;-webkit-transform: translate3d(30px,0px,0);}
+	100%{opacity:1;-webkit-transform:none;}
+}
+.text{opacity:0;}
+#sec2 .text {
+	position: absolute;
+	top: 27%;
+	left: 25.8%;
+	width: 67.1%;
+}
+#sec3 .text {
+	position: absolute;
+	top: 33.1%;
+	left: 17%;
+	width: 50.2%;
+}
+#sec4 .text {
+	position: absolute;
+	top: 14.2%;
+	left: 11.2%;
+	width: 62.6%;
+}
+#sec5 .text {
+	position: absolute;
+	top: 14.7%;
+	left:12.2%;
+	width: 62.1%;
+}
+#sec6 .text {
+	position: absolute;
+	top: 17%;
+	left: 17.2%;
+	width: 61.8%;
+}
+#sec7 .join {
+	position: absolute;
+	top: 45%;
+	left: 25%;
+	width: 50%;
+}
+#sec7.showing .join{-webkit-animation: ani-sec1-join 1s ease 0 1 alternate forwards;}
+@-webkit-keyframes ani-sec1-join{
+   	0% {-webkit-transform: rotate(0deg);}
+	100%{-webkit-transform: rotate(360deg);}
+}
+.showing .text{
+	-webkit-animation:a-in 1s ease 0s 1 alternate forwards;
+}
+@-webkit-keyframes a-in { 
+	0% {opacity:0;-webkit-transform: translate3d(0px,30px,0px);}
+	100%{opacity:1;-webkit-transform:none;}
+}
+
+</style>
+</head>
+<body class="icard">
+<img id="img-load" src="../../../../res/mobile/pic/cardpic/loading.gif"></img>
+<div id="btn-ac"></div>
+<div class="ctn-page">
+	<section id="sec1" >
+	<img class="img-bg" src="../../../../res/mobile/pic/cardpic/ndhbg1.jpg"></img>
+	<img class="logo" src="../../../../res/mobile/pic/cardpic/ndhsec1text.png"></img>
+	<img class="arrowup" src="../../../../res/mobile/pic/cardpic/arrowupgreen.png"></img>
+	</section>
+	<section id="sec2" >
+	<img class="img-bg" src="../../../../res/mobile/pic/cardpic/ndhbg1.jpg"></img>
+	<img class="title" src=../../../../res/mobile/pic/cardpic/ndhsec2title.png></img>
+	<img class="text" src=../../../../res/mobile/pic/cardpic/ndhsec2text.png></img>
+	<img class="arrowup" src="../../../../res/mobile/pic/cardpic/arrowupgreen.png"></img>
+	</section>
+	<section id="sec3">
+	<img class="img-bg" src="../../../../res/mobile/pic/cardpic/ndhsec3bg.jpg"></img>
+	<img class="text" src=../../../../res/mobile/pic/cardpic/ndhsec3text.png></img>
+	<img class="arrowup" src="../../../../res/mobile/pic/cardpic/arrowupgreen.png"></img>
+	</section >
+	<section id="sec4">
+	<img class="img-bg" src="../../../../res/mobile/pic/cardpic/ndhsec4bg.jpg"></img>
+	<img class="text" src=../../../../res/mobile/pic/cardpic/ndhsec4text.png></img>
+	<img class="arrowup" src="../../../../res/mobile/pic/cardpic/arrowupgreen.png"></img>
+    </section>
+	<section id="sec5">
+	<img class="img-bg" src="../../../../res/mobile/pic/cardpic/ndhsec5bg.jpg"></img>
+	<img class="text" src=../../../../res/mobile/pic/cardpic/ndhsec5text.png></img>
+	<img class="arrowup" src="../../../../res/mobile/pic/cardpic/arrowupgreen.png"></img>
+	</section>
+	<section id="sec6">
+	<img class="img-bg" src="../../../../res/mobile/pic/cardpic/ndhsec6bg.jpg"></img>
+	<img class="text" src=../../../../res/mobile/pic/cardpic/ndhsec6text.png></img>
+	<img class="arrowup" src="../../../../res/mobile/pic/cardpic/arrowupgreen.png"></img>
+	</section>
+	<section id="sec7">
+	<img class="img-bg" src="../../../../res/mobile/pic/cardpic/ndhsec7bg.jpg"></img>
+	<img class="join" src=../../../../res/mobile/pic/cardpic/nlsec6join.png></img>
+	<img class="jfjoin" draggable="false" src="../../../../res/mobile/pic/cardpic/jflogo.png"></img>
+	</section>
+</div>
+<audio id="bgm" src="../../../../res/mobile/pic/cardpic/nl.mp3" loop="loop"></audio>
+</body>
+<!-- @DEFINE {nodep:true} -->
+<script src="../../lib/tongji.js" type="text/javascript"></script>
+<script src="../../lib/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="../../javascript/icard/icard.js" type="text/javascript"></script>
+<script src="../../javascript/icard/ndhc.js" type="text/javascript"></script>
+</html>

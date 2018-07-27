@@ -1,0 +1,190 @@
+*{ border: 0; outline: none; margin: 0; padding: 0;}
+body.shangwai {-webkit-tap-highlight-color: rgba(0,0,0,0);font-family: Helvetica; height: 100%; width: 100%;background-color: white;-webkit-user-select: none;user-select: none;overflow:hidden;}
+a, img { -webkit-touch-callout: none;}
+.card#global{
+	position: absolute;
+	left:50%; 
+	width:100%;
+	max-width:640px;
+	height: 100%;
+    -webkit-transform:translate(-50%,0); 
+}
+.card #music-control {
+	position: fixed;
+	right: 30px; 
+	top: 30px; 
+	z-index: 1000;
+	width: 50px; 
+	height: 50px;  
+	cursor: pointer; 
+	background:url(http://www.hijufou.com/res/mobile/pic/sw/music2.png);
+	background-size: 100% auto;
+}
+.card audio{visibility: hidden;}
+.card #music-control.playing{background:url(http://www.hijufou.com/res/mobile/pic/sw/music.png);background-size: 100% auto;}
+.card {
+	height: 100%; 
+	width: 100%; 
+	overflow: hidden;
+}
+.card .section-holder { 
+	height: 100%; 
+	-webkit-backface-visibility:hidden; }
+.card section {
+	display:none;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%; 
+	height: 100%; 
+	overflow: hidden;
+	-webkit-transition : all 0s linear;
+}
+.card section.active{
+	display:block;
+}
+.card section.showing{
+	display:block;
+}
+.card .content { 
+	width: 100%; 
+	height: 100%; 
+}
+.card .bg {
+	z-index:15;
+	width: 100%;
+	height: 100%;
+}
+.card .arrow{
+	position: absolute;left:50%;
+	z-index:100;
+    width:8%;
+    bottom:20px;
+    -webkit-transform:translate(-50%,0) rotate(180deg);
+    -webkit-animation: ani-arrow 1s;
+    -webkit-animation-iteration-count:infinite;
+}
+.card section img.full{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+@-webkit-keyframes ani-arrow{
+    0%  {bottom: 20px;opacity: 0;}
+    50%    {bottom: 30px;opacity: 1;}
+    100%    {bottom: 40px;opacity: 0;}
+}
+
+.card .l-a-center{ position: absolute;left:50%; -webkit-transform:translate(-50%,0); }
+.card .textimg{position:absolute;z-index:20;}
+#sec-0 #sec0img{
+	left:50%;
+	top:50%; 
+	-webkit-transform:translate(-50%,-50%);
+}
+#sec-1 #sec1text1{
+	height:6%;
+	left:23%;
+}
+#sec-1 #sec1text2{
+	height:13.5%;
+	left:3%;
+}
+#sec-1 #sec1text3{
+	height:12%;
+	left:12.5%;
+}
+#sec-1.showing #sec1text1{-webkit-animation: ani-sec1-text1 1s ease 0 1 alternate forwards;}
+@-webkit-keyframes ani-sec1-text1{
+    0%  { top:-50%;}
+    100%    {top:22%;}
+}
+#sec-1.showing #sec1text2{-webkit-animation: ani-sec1-text2 1s ease 1s 1 alternate forwards;}
+@-webkit-keyframes ani-sec1-text2{
+    0%  { top:-50%;}
+    100%    {top:32%;}
+}
+#sec-1.showing #sec1text3{-webkit-animation: ani-sec1-text3 1s ease 2s 1 alternate forwards;}
+@-webkit-keyframes ani-sec1-text3{
+    0%  { top:-50%;}
+    100%    {top:49%;}
+}
+
+#sec-2 #sec2text1{
+	width:33%;
+	top:12%;
+	right:-50%;
+}
+#sec-2.showing #sec2text1{-webkit-animation: ani-sec2-text1 1s ease 0 1 alternate forwards;}
+@-webkit-keyframes ani-sec2-text1{
+    0%  { right:-50%;}
+    100%    {right:12.5%;}
+}
+
+#sec-3 #sec3text1{
+	width:33%;
+	top:24%;
+	left:-50%;
+}
+#sec-3.showing #sec3text1{-webkit-animation: ani-sec3-text1 1s ease 0 1 alternate forwards;}
+@-webkit-keyframes ani-sec3-text1{
+    0%  { left:-50%;}
+    100%    {left:10%;}
+}
+
+#sec-4 #sec4text1{
+	width:33%;
+	bottom:-50%;
+	left:10%;
+}
+#sec-4.showing #sec4text1{-webkit-animation: ani-sec4-text1 1s ease 0 1 alternate forwards;}
+@-webkit-keyframes ani-sec4-text1{
+    0%  { bottom:-50%;}
+    100%    {bottom:24%;}
+}
+
+#sec-5 #sec5text1{
+	width:33%;
+	top:-50%;
+	left:9%;
+}
+#sec-5.showing #sec5text1{-webkit-animation: ani-sec5-text1 1s ease 0 1 alternate forwards;}
+@-webkit-keyframes ani-sec5-text1{
+    0%  { top:-50%;}
+    100%    {top:50%;}
+}
+
+#sec-6 #sec6text1{
+	width:100%;
+	top:0;
+	left:0;
+	opacity:0;
+}
+#sec-6.showing #sec6text1{-webkit-animation: ani-sec6-text1 3s ease 0 1 alternate forwards;}
+@-webkit-keyframes ani-sec6-text1{
+    0%  { opacity:0;}
+    100%    {opacity:1;}
+}
+
+#sec-6 #sec6text2{
+	width:60%;
+	bottom:5%;
+	left:-60%;
+}
+#sec-6 #swtext1{
+	//width:60%;
+	top:5%;
+	left:150px;
+}
+#sec-6 #swtext2{
+	width:60%;
+	top:200px;
+	left:150px;
+	z-index:2000;
+	cursor:pointer;
+}
+#sec-6.showing #sec6text2{-webkit-animation: ani-sec6-text2 1s cubic-bezier(0,0,0.18,1) 1.5s 1 alternate forwards;}
+@-webkit-keyframes ani-sec6-text2{
+    0%  { left:-50%;}
+    100%    {left:20%;}
+}

@@ -1,0 +1,28 @@
+/* 基本设置模块 */
+#www-jufou-com .t-mdl-a0 .mtx{font-size:26px;}
+.t-mdl-a0{padding:5px 18px 25px;}
+.t-mdl-a0 .t-cnt{margin-left:7px;}
+.t-mdl-a0 .ipt{margin:3px;}
+.t-mdl-a0 .t-ttl{letter-spacing:-1px;padding:10px 0 14px;}
+.t-mdl-a0 .tip1{margin-left:-6px;}
+.t-mdl-a0 .tip2{margin-left:10px;}
+.t-mdl-a0 .section{width:422px;margin-top:10px;}
+.t-mdl-a0 .wd0{width:390px;}
+.t-mdl-a0 .wd1{width:600px;}
+.t-mdl-a0 .wd2{width:480px;}
+.t-mdl-a0 .wd3{width:85px;}
+.t-mdl-a0 .wd4{width:130px;margin-right:18px;}
+.t-mdl-a0 .ht0{height:140px;}
+
+/* 表单块 */
+.w-byk{margin:20px 0 25px;}
+.w-byk .lab{padding-bottom:10px;font-size:14px;font-weight:bold;margin-left:-1px;}
+.w-byk .tip1{font-size:12px;font-weight:normal;margin-left:4px;}
+.w-byk .tip2{font-size:12px;font-weight:normal;margin-left:1px;}
+.w-byk .itm1{margin-top:26px;}
+.w-byk .itm2{margin-top:29px;}
+.w-byk select{margin-right:10px;}
+.w-byk .acp{margin-top:40px;}
+.w-byk .acp .wrd{padding-left:12px;}
+.w-byk .acp .js-mhd{margin-left:160px;}
+.w-byk .acp .js-pass{visibility:hidden;}

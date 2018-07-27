@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title id="headtitle"></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>    
+    <!-- @STYLE -->
+    <link href="../../css/mobiscroll.scroller.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/mobiscroll.scroller.android-holo.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../../../../res/mobile/style/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/user/setting.css" rel="stylesheet" type="text/css"/>    
+  </head>
+  <body id="www-hijufou-com" class="bg05 setting-page">
+  	<div class="g-wrp container m-id-f1 fc-lightblack">
+  		<!-- 标题栏 -->
+    	<a href="javascript:history.go(-1)"><img class="backPic" src="../../../../res/mobile/pic/back.png"/></a>
+  		<h1 class="header fs10">信息修改</h1>
+  		<!--a class="goback fc05 fs04" href="javascript:history.go(-1)">取消</a-->
+  		<!-- 内容 -->
+  		<div id="photoArea">
+  			<img id="photo"></img>
+  		</div>
+  		<div class="content fs04 fc-lightblack inputline align-left">
+  			<label class="inputtip" for="nickname">昵称</label>
+  			<input type="text" id="nickname"/>
+  		</div>
+  		<div class="content fs04 fc-lightblack inputline align-left">
+  			<label class="inputtip" >所在地</label>
+  			<span class="inputcontent">
+  				<select id="selectProvince" class="locationinput fs04"></select> 
+            	<select id="selectCity" class="locationinput fs04" ></select> 
+            </span>
+  		</div>
+  		<div class="content fs04 fc-lightblack inputline align-left">
+  			<label class="inputtip" for="nickname">性别</label>
+  			<span class="inputcontent">
+  				<input type="radio" name="gender" class="f-bg genderinput" id="male" value="0" /><label class="genderinputtip" for="male">男</label>
+  				<input type="radio" name="gender" class="f-bg genderinput" id="female" value="1" /><label class="genderinputtip" for="female">女</label>
+  			</span>
+  		</div>
+  		<div class="content fs04 fc-lightblack inputline align-left">
+  			<label class="inputtip" for="nickname">生日</label>
+  			<input type="text" data-role="datebox"   id="birthday" name="birthday" />
+  		</div>
+  		<textarea id="bio" class="fs04 fc-lightblack" placeholder="说点什么吧~"></textarea>
+  		<a id="infoSubmit" href="#" class="end fc00 fs05"><img src="../../../../res/mobile/pic/tick.png"/></a>
+  	</div>
+  	<!-- @DEFINE {nodep:true} -->
+  	<script src="../../lib/jquery-1.11.0.min.js"></script>
+    <script src="../../lib/jstorage.js"></script>
+    <script src="../../lib/address.js"></script>
+    <script src="../../lib/js.city.select.js"></script>
+    <script src="../../lib/mobiscroll.core.js"></script>
+    <script src="../../lib/mobiscroll.scroller.js" type="text/javascript"></script>
+    <script src="../../lib/mobiscroll.datetime.js" type="text/javascript"></script>
+    <script src="../../lib/mobiscroll.scroller.android-holo.js" type="text/javascript"></script>
+	<script src="../../javascript/common/util.js"></script>
+    <script src="../../javascript/common/base.js"></script>
+	<script src="../../javascript/user/personInfo.js"></script>
+  </body>
+</html>

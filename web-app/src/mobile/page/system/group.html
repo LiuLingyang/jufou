@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="sysGroupTitle"></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+    <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/system/group.css" rel="stylesheet" type="text/css"/>
+    <link href="../../../../res/mobile/style/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body id="www-hijufou-com">
+    <!-- 找组织 -->
+    <div class="g-wrp m-id-31 bg01">
+      <div class="g-head f-cb bd01">
+      	<a href="javascript:showmenu()" class="fl f-bg lbk">菜单</a>
+      	<a href="javascript:search();" class="rbk w-btn fc05 fs04 f-bg" id="searchBtn"></a>
+        <div class="mbk fc03 fs06">找组织</div>
+        <div class="g-sch" id="search">
+          <input type="text" class="w-ipt" placeholder="搜索活动或组织" id="searchInput"/>
+          <a href="javascript:searchResult()" class="fs02 fc03" id="searchResult">搜索</a>
+        </div>
+      </div>
+      <div class="g-schshow f-cb bd01 fs03" id="searchShow">
+      	<a href="javascript:searchcancel()" class="f-bg cancel"></a>
+      	<p></p>
+      </div>
+      <div class="g-menu f-cb bd02">
+          <div class="itm fl fc04 bd01"><span id="txtorder">成员最多</span><span class="f-bg sel">
+          	<select class="set" id="order" onChange="javascript:resort()">
+	          	<option value="memberCount">成员最多</option>	
+	          	<option value="createTime">最新创立</option>
+	         </select>
+          </div>
+          <div class="itm fl fc04 bd01"><span id="txtArea">区域</span><span class="f-bg sel"></span>
+          	<select class="set" id="area" onChange="javascript:reArea()">
+          		<option value="">全部</option>
+          	</select>
+          </div>
+          <div class="itm fl fc04 bd01"><span id="txtCate">类别</span><span class="f-bg sel"></span>
+          	<select class="set" id="category" onChange="javascript:reCategory()">
+          		<option value="">全部</option>
+          	</select>
+          </div>
+      </div>
+      <div class="g-body">
+        <div class="lbox f-cb" id="groupsElments"> 	
+        </div>
+        <div class="w-loading" id="loading">&nbsp;</div>
+      </div>
+      
+      <!--  加载中显示 -->
+      <div class="loading_bottom" id="loading_bottom">加载中...</div>
+      <a href="javascript:$('body').animate({scrollTop:'0px'},500);"><img class="b-top" src="../../../../res/mobile/pic/topbtn.png" /></a>	
+    </div>
+    
+	<!-- @NOPARSE -->
+    <script src=" http://hm.baidu.com/h.js?97832f9ae9b27c3a59b02014406e928d" type="text/javascript"></script>
+    <!-- /@NOPARSE -->
+    <!-- @DEFINE {nodep:true} -->
+    <script src="../../lib/jquery-1.7.1.min.js"></script> 
+    <script src="../../lib/jstorage.js"></script>
+    <script src="../../javascript/common/util.js"></script>
+    <script src="../../javascript/common/menu.js"></script>
+    <script src="../../javascript/common/base.js"></script>
+    <script src="../../lib/address.js"></script>
+    <script src="../../javascript/common/customize.js"></script>
+    <script src="../../javascript/system/group.js"></script>
+    <script src="../../javascript/common/wxshare.js"></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="meetTitle"></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+    <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/meeting/photo.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/meeting/styles.css" type="text/css" rel="stylesheet" />
+    <link href="../../../../res/mobile/style/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body id="www-hijufou-com">
+    
+    <!-- 组织首页 -->
+    <div class="g-wrp m-id-n0" data-role="page">
+      <div class="g-head f-cb bd01 bg01">
+      	<a href="detail.html" class="fl f-bg lbk" id="home_back_btn"><img src="../../../../res/mobile/pic/backs.png"></a>
+        <div class="mbk fc03 fs06">活动照片</div>
+      </div>
+      <div class="g-body" id="small">
+        <div class="w-loading" id="loading">&nbsp;</div>
+        <div id="Gallery" class="gallery">
+	    </div>
+        <!--没有照片 -->
+        <div class="" id="nophoto" style="display:none;">
+      	  <div class="f-bg fail"></div>
+          <p class="fs10 fc04">该活动还没有照片</p>
+        </div>
+	  </div>
+	  <form class="fix f-cb" id="fileBox">
+	  	<div id="selectFile" class="fl itm fc00 fs04">选择文件</div>
+	    <input type="file" id="file" name="file" class="fil"/>
+	  	<div class="fl itm fc00 fs04" id="imgupload">本地上传</div>
+	  </form>
+	  
+	  <!--大图查看 -->
+      <div class="main" id="large" style="display:none">
+		<div class="pro-switch">
+			<div class="slider">
+				<div class="flexslider">
+					<ul class="slides" id="slideDiv">
+					</ul>
+			    </div>
+		    </div>
+	    </div>
+	    <div class="back_link fc05 fs02 f-fwb">点击查看缩略图</div>
+      </div>
+      
+    </div>
+    <!-- @DEFINE {nodep:true} -->
+    <script src="../../lib/jquery-1.7.1.min.js"></script>
+    <script src="../../lib/jstorage.js"></script>
+    <script src="../../lib/photoslide.js"></script>
+    <script src="../../javascript/common/util.js"></script>
+    <script src="../../javascript/common/base.js"></script>
+	<script src="../../javascript/meeting/photo.js"></script>
+	<script src="../../lib/tongji.js" type="text/javascript"></script>
+  </body>
+</html>

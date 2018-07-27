@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="groupTitle"></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+    <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group/home.css" rel="stylesheet" type="text/css"/>
+    <link href="../../../../res/mobile/style/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body id="www-hijufou-com">
+    <!-- 组织首页 -->
+    <div class="g-wrp m-id-50">
+      <div class="g-head f-cb bd01">
+      	<a href="../system/group.html" class="fl f-bg lbk" id="home_back_btn"><img src="../../../../res/mobile/pic/backs.png"></a>
+      	<div class="mbk fc03 fs06">组织详情</div>
+      	<a class="fr rbk w-btn user_center" href="javascript:;">个人中心</a>
+      	<div class="w-menu">
+      	  <a href="javascript:;" class="group_card">组织名片</a>
+      	  <a href="javascript:;" class="group_exit">退出组织</a>
+      	</div>
+      </div>
+      <div class="g-ban fc00 bg04">
+      	<div id="lsPhoto"></div>
+      	<img src="../../../../res/mobile/pic/grouphomemask.png" class="mask">
+      	<div class="dtl">
+          <div id="logo" class="logo bg04 bd00"></div>
+      	  <p class="fs06 gna" id="groupname"></p>
+      	  <p class="fs02 city" id="city"></p>
+      	</div>
+      </div>
+      <div class="w-mem bd07 f-cb bg00">
+      	<div class="fr bd07 ln">
+      	  <p class="fs04" id="membership"></p>
+      	  <p class="fs03">成员</p>
+      	</div>
+      	<a href="member.html"><div class="img" id="memeberall"></div></a>
+      </div>
+      <div class="w-ent bg00 bd07">
+      	<div class="itm bd07">
+      	  <a href="../group/about.html">
+      	    <div class="f-bg c c1"></div>
+      	    <p class="fs02 fc04">关于我们</p>
+      	  </a>
+      	</div>
+      	<div class="itm bd07">
+      	  <a href="../group/news.home.html">
+      	    <div class="f-bg c c2"></div>
+      	    <p class="fs02 fc04">新闻分享</p>
+      	  </a>
+      	</div>
+      	<div class="itm bd07">
+      	  <a href="../group/album.html">
+      	    <div class="f-bg c c3"></div>
+      	    <p class="fs02 fc04">组织相册</p>
+      	  </a>
+      	</div>
+      	<div class="itm bd07">
+      	  <a href="../group/swap.home.html">
+      	    <div class="f-bg c c4"></div>
+      	    <p class="fs02 fc04">互动交流</p>
+      	  </a>
+      	</div>
+      	<div class="itm bd07">
+  		  <a class="jf_need_login" loginUrl="http://www.hijufou.com/m/group/vote.home.html">
+      	    <div class="f-bg c c5"></div>
+      	    <p class="fs02 fc04">组织投票</p>
+      	  </a>
+      	</div>
+      	<div class="itm bd07">
+      	  <a href="javascript:;" class="jf_join_group" joinGroupUrl="../group/contact.html">
+      	    <div class="f-bg c c6"></div>
+      	    <p class="fs02 fc04">通讯录</p>
+      	  </a>
+      	</div>
+      </div>
+      <div class="g-menu-0 f-cb bd02 fc04">
+        <div id="upcome" class="itm fl">
+          <span class="chk">即将开始</span>
+        </div>
+        <div id="finish" class="itm fl bd02">
+          <span class="chk">已经结束</span>
+        </div>
+      </div>
+      <div class="g-body">
+      	<div class="w-loading" id="loading">&nbsp;</div>
+        <div class="vbox" id="tlist"></div>
+        <div class="noresult" id="noresult">
+          <div class="f-bg fail"></div>
+      	  <p class="fs10 fc04">没有活动</p>
+        </div>
+      </div>
+      
+      <div class="fix fs04 fc00" joinGroupUrl="../group/joinintroduce.html" id="joinLink">加入组织</div>
+    </div>
+    <div class="group_join_tip_box" id="group_join_tip_box" style="display:none;">
+      <div class="close_icon"><img src="../../../../res/mobile/pic/close_icon.png"></div>
+      <div class="sorry fc03 fs10">抱歉！非小组成员不允许操作！</div>
+      <a href="../group/joinintroduce.html"><div class="bg02 join fs04 fc00">现在就加入组织</div></a>
+    </div>
+    <!-- @NOPARSE -->
+    <script src=" http://hm.baidu.com/h.js?97832f9ae9b27c3a59b02014406e928d" type="text/javascript"></script>
+    <!-- /@NOPARSE -->
+    <!-- @DEFINE {nodep:true} -->
+    <script src="../../lib/css3-mediaqueries.js"></script>
+    <script src="../../lib/jquery-1.7.1.min.js"></script>
+    <script src="../../lib/jstorage.js"></script>
+    <script src="../../lib/dateFormat.js"></script>
+    <script src="../../javascript/common/util.js"></script>
+    <script src="../../javascript/common/base.js"></script> 
+    <script src="../../javascript/group/home.js"></script>
+    <script src="../../javascript/common/wxshare.js"></script>
+  </body>
+</html>

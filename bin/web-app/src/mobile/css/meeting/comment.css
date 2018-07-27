@@ -1,0 +1,12 @@
+/* l0-l9 */
+.m-id-l0 .g-body{padding-bottom:88px;}
+.m-id-l0 .sed{border:2px solid #d4d4d4;float:left;width:80%;}
+.m-id-l0 .w-btn-b{float:right;}
+/* css3 */
+.m-id-l0 .sed{
+  -webkit-border-radius:8px;
+     -moz-border-radius:8px;
+      -ms-border-radius:8px;
+       -o-border-radius:8px;
+          border-radius:8px;
+}

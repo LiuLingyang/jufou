@@ -1,0 +1,18 @@
+.g-download .ttl{font-size:26px;border-style:solid;border-width:0 0 1px 0;line-height:80px;}
+.g-download .pr{position:relative;}
+.g-download .pa{position:absolute;}
+.g-download .con{height:388px;}
+.g-download .iphone{top:17px;left:577px;width:204px;height:233px;background:url(/res/img/download_sprite.png) -196px 0 no-repeat}
+.g-download .d-iphone{top:255px;left:557px;width:240px;height:96px;line-height:96px;border-color:#80AB62;font-size:20px;font-weight:bold;color:#fff;text-align:center;}
+.g-download .android{top:17px; left:150px; width:182px;height:200px;background:url(/res/img/download_sprite.png) 0 0 no-repeat;}
+.g-download .d-android{top:255px; left:112px; width:240px;height:96px;line-height:96px;border-color:#80AB62;font-size:20px;font-weight:bold;color:#fff;text-align:center;}
+
+
+/* css3 */
+.g-download .d-iphone,.g-download .d-android{
+    background:-webkit-linear-gradient(top,#9dca7f,#93c472);
+    background:   -moz-linear-gradient(top,#9dca7f,#93c472);
+    background:    -ms-linear-gradient(top,#9dca7f,#93c472);
+    background:     -o-linear-gradient(top,#9dca7f,#93c472);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#9dca7f,endColorstr=#93c472,grandientType=0);
+}

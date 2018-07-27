@@ -1,0 +1,1036 @@
+[INFO] 2013-07-21 15:28:30.952	-	parse D:/WorkSet/meetup/web/deploy/release.conf
+[INFO] 2013-07-21 15:28:30.963	-	config -> {"DIR_CONFIG":"D:/WorkSet/meetup/web/deploy/","DIR_LOGGER":"D:/WorkSet/meetup/web/deploy/20130721.152830951.txt","DIR_TEMPORARY":"D:/WorkSet/meetup/web/deploy/20130721.152830951/","DIR_WEBROOT":"D:/WorkSet/meetup/web/web-app/","DIR_OUTPUT_STATIC":"D:/WorkSet/meetup/web/web-app/r/","DIR_SOURCE_TP":"D:/WorkSet/meetup/web/grails-app/views/_dev/","DIR_OUTPUT_TP":"D:/WorkSet/meetup/web/grails-app/views/_prd/","ALIAS_DICTIONARY":{"css_root":"/src/css/","lib_root":"/src/javascript/com/lib/","pro_root":"/src/javascript/","cfg_root":"?pro=/src/javascript/&com=/src/javascript/com/pro/"},"X_NOCOMPRESS":true,"DM_STATIC":"http://ijufou.com/","OBF_MAX_JS_INLINE_SIZE":50,"CORE_LIST_CS":["/src/css/base.css","/src/css/window.css","/src/css/group.css"],"DIR_SOURCE":"","DIR_OUTPUT":"D:/WorkSet/meetup/web/web-app/","DIR_STATIC":"D:/WorkSet/meetup/web/web-app/res/","NEJ_DIR":"","ALIAS_START_TAG":"${","ALIAS_END_TAG":"}","ALIAS_REG":{},"DIR_MANIFEST":"","FILE_SUFFIXE":"","FILE_CHARSET":"utf-8","RAND_VERSION":false,"STATIC_VERSION":false,"X_NOPARSE_FLAG":0,"X_NOCORE_STYLE":false,"X_NOCORE_SCRIPT":false,"X_NOT_CLEAR_TEMP":false,"DM_STATIC_CS":"http://ijufou.com/","DM_STATIC_JS":"http://ijufou.com/","DIR_STATIC_REG":{},"OBF_LEVEL":3,"OBF_LINE_MODE":1,"OBF_MAX_CS_INLINE_SIZE":50,"OBF_NAME_BAGS":"D:/WorkSet/meetup/web/deploy/names.txt","CORE_LIST_JS":""}
+[INFO] 2013-07-21 15:28:30.967	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/config.ftl
+[INFO] 2013-07-21 15:28:30.971	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/group/about.ftl
+[INFO] 2013-07-21 15:28:30.989	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/group/competence.ftl
+[INFO] 2013-07-21 15:28:30.992	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/group/create.ftl
+[INFO] 2013-07-21 15:28:30.997	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/group/home.ftl
+[INFO] 2013-07-21 15:28:31.0	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/group/inform.ftl
+[INFO] 2013-07-21 15:28:31.4	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/group/invite.ftl
+[INFO] 2013-07-21 15:28:31.8	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/group/join.ftl
+[INFO] 2013-07-21 15:28:31.12	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/helper/about.ftl
+[INFO] 2013-07-21 15:28:31.18	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/helper/address.ftl
+[INFO] 2013-07-21 15:28:31.22	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/helper/feedback.ftl
+[INFO] 2013-07-21 15:28:31.62	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/helper/help.ftl
+[INFO] 2013-07-21 15:28:31.67	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/helper/job.ftl
+[INFO] 2013-07-21 15:28:31.70	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/helper/license.ftl
+[INFO] 2013-07-21 15:28:31.874	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/answer.ftl
+[INFO] 2013-07-21 15:28:31.884	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/copy.ftl
+[INFO] 2013-07-21 15:28:31.894	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/create.ftl
+[INFO] 2013-07-21 15:28:31.905	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/print.ftl
+[INFO] 2013-07-21 15:28:31.912	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/reply.ftl
+[INFO] 2013-07-21 15:28:31.918	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/show.ftl
+[INFO] 2013-07-21 15:28:31.923	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/update.ftl
+[INFO] 2013-07-21 15:28:31.929	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/member/card.ftl
+[INFO] 2013-07-21 15:28:31.934	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/member/member.ftl
+[INFO] 2013-07-21 15:28:31.940	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/member/update.ftl
+[INFO] 2013-07-21 15:28:31.945	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/photo/album.ftl
+[INFO] 2013-07-21 15:28:31.949	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/photo/list.ftl
+[INFO] 2013-07-21 15:28:31.954	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/photo/show.ftl
+[INFO] 2013-07-21 15:28:31.959	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/setting/basic.ftl
+[INFO] 2013-07-21 15:28:31.962	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/setting/home.ftl
+[INFO] 2013-07-21 15:28:31.966	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/setting/join.ftl
+[INFO] 2013-07-21 15:28:31.977	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/setting/message.ftl
+[INFO] 2013-07-21 15:28:31.982	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/setting/privacy.ftl
+[INFO] 2013-07-21 15:28:31.987	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/setting/tag.ftl
+[INFO] 2013-07-21 15:28:31.991	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/setting/theme.ftl
+[INFO] 2013-07-21 15:28:31.995	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/setting/url.ftl
+[INFO] 2013-07-21 15:28:31.999	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/system/home.ftl
+[INFO] 2013-07-21 15:28:32.3	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/system/search.ftl
+[INFO] 2013-07-21 15:28:32.7	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/user/activate.ftl
+[INFO] 2013-07-21 15:28:32.10	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/user/contact.ftl
+[INFO] 2013-07-21 15:28:32.14	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/user/group.ftl
+[INFO] 2013-07-21 15:28:32.18	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/user/home.ftl
+[INFO] 2013-07-21 15:28:32.23	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/user/login.ftl
+[INFO] 2013-07-21 15:28:32.26	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/user/message.ftl
+[INFO] 2013-07-21 15:28:32.30	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/user/password.ftl
+[INFO] 2013-07-21 15:28:32.35	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/user/react.ftl
+[INFO] 2013-07-21 15:28:32.39	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/user/regist.ftl
+[INFO] 2013-07-21 15:28:32.43	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/user/reset.ftl
+[INFO] 2013-07-21 15:28:32.47	-	parse D:/WorkSet/meetup/web/grails-app/views/_dev/user/setting.ftl
+[WARN] 2013-07-21 15:28:32.51	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/group/about.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleAbout);
+});
+[DBUG] 2013-07-21 15:28:32.57	-	dependency result: js-code-1374391712050 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/about.js"]
+[INFO] 2013-07-21 15:28:32.61	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/about.js
+[DBUG] 2013-07-21 15:28:32.66	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/about.js -> ["{pro}module/common/group.js"]
+[INFO] 2013-07-21 15:28:32.70	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/common/group.js
+[DBUG] 2013-07-21 15:28:32.75	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/common/group.js -> ["{com}util/module/module.js","{pro}module/common/common.js"]
+[INFO] 2013-07-21 15:28:32.79	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/module/module.js
+[DBUG] 2013-07-21 15:28:32.84	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/module/module.js -> ["{com}util/api.js","{lib}util/dispatcher/module.2.js"]
+[INFO] 2013-07-21 15:28:32.89	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/api.js
+[DBUG] 2013-07-21 15:28:32.95	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/api.js -> ["{lib}base/util.js","{lib}util/template/tpl.js","{lib}util/cache/cookie.js","{lib}util/ajax/xdr.js"]
+[INFO] 2013-07-21 15:28:32.100	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/util.js
+[DBUG] 2013-07-21 15:28:32.108	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/util.js -> ["{lib}base/global.js","{lib}base/element.js"]
+[INFO] 2013-07-21 15:28:32.112	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/global.js
+[DBUG] 2013-07-21 15:28:32.119	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/global.js -> null
+[INFO] 2013-07-21 15:28:32.124	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/element.js
+[DBUG] 2013-07-21 15:28:32.145	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/element.js -> ["{lib}base/constant.js","{lib}base/event.js","{lib}base/util.js","{patch}api.js","{patch}json.js"]
+[INFO] 2013-07-21 15:28:32.150	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/constant.js
+[DBUG] 2013-07-21 15:28:32.156	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/constant.js -> ["{lib}base/global.js","{patch}config.js"]
+[INFO] 2013-07-21 15:28:32.161	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/config.js
+[DBUG] 2013-07-21 15:28:32.165	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/config.js -> ["{lib}patched/config.js"]
+[INFO] 2013-07-21 15:28:32.170	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/config.js
+[DBUG] 2013-07-21 15:28:32.176	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/config.js -> ["{lib}base/platform.js"]
+[INFO] 2013-07-21 15:28:32.180	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/platform.js
+[DBUG] 2013-07-21 15:28:32.186	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/platform.js -> ["{lib}base/global.js"]
+[INFO] 2013-07-21 15:28:32.191	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/config.js
+[DBUG] 2013-07-21 15:28:32.196	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/config.js -> ["{lib}patched/config.js"]
+[INFO] 2013-07-21 15:28:32.200	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/config.js
+[DBUG] 2013-07-21 15:28:32.206	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/config.js -> ["{lib}patched/config.js"]
+[INFO] 2013-07-21 15:28:32.210	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/config.js
+[DBUG] 2013-07-21 15:28:32.215	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/config.js -> ["{lib}patched/config.js"]
+[INFO] 2013-07-21 15:28:32.220	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/config.js
+[DBUG] 2013-07-21 15:28:32.225	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/config.js -> ["{lib}patched/config.js"]
+[INFO] 2013-07-21 15:28:32.230	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/config.js
+[DBUG] 2013-07-21 15:28:32.235	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/config.js -> ["{lib}patched/config.js"]
+[INFO] 2013-07-21 15:28:32.240	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/event.js
+[DBUG] 2013-07-21 15:28:32.247	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/event.js -> ["{lib}base/element.js","{lib}base/util.js","{patch}api.js"]
+[INFO] 2013-07-21 15:28:32.252	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/api.js
+[DBUG] 2013-07-21 15:28:32.258	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/api.js -> ["{lib}patched/api.js"]
+[INFO] 2013-07-21 15:28:32.263	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/api.js
+[DBUG] 2013-07-21 15:28:32.270	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/api.js -> ["{lib}base/platform.js"]
+[INFO] 2013-07-21 15:28:32.275	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/api.js
+[DBUG] 2013-07-21 15:28:32.280	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/api.js -> ["{lib}patched/api.js"]
+[INFO] 2013-07-21 15:28:32.285	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/api.js
+[DBUG] 2013-07-21 15:28:32.292	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/api.js -> ["{lib}patched/api.js"]
+[INFO] 2013-07-21 15:28:32.297	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/api.js
+[DBUG] 2013-07-21 15:28:32.302	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/api.js -> ["{lib}patched/api.js"]
+[INFO] 2013-07-21 15:28:32.308	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/api.js
+[DBUG] 2013-07-21 15:28:32.313	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/api.js -> ["{lib}patched/com/api.js"]
+[INFO] 2013-07-21 15:28:32.318	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/com/api.js
+[DBUG] 2013-07-21 15:28:32.324	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/com/api.js -> ["{lib}patched/api.js"]
+[INFO] 2013-07-21 15:28:32.328	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/api.js
+[DBUG] 2013-07-21 15:28:32.333	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/api.js -> ["{lib}patched/api.js"]
+[INFO] 2013-07-21 15:28:32.339	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/json.js
+[DBUG] 2013-07-21 15:28:32.345	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/json.js -> ["{lib}util/encode/json.js","{lib}patched/json.js"]
+[INFO] 2013-07-21 15:28:32.350	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/encode/json.js
+[DBUG] 2013-07-21 15:28:32.357	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/encode/json.js -> ["{lib}base/global.js"]
+[INFO] 2013-07-21 15:28:32.362	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/json.js
+[DBUG] 2013-07-21 15:28:32.367	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/json.js -> null
+[INFO] 2013-07-21 15:28:32.372	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/json.js
+[DBUG] 2013-07-21 15:28:32.377	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/json.js -> ["{lib}patched/json.js"]
+[INFO] 2013-07-21 15:28:32.382	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/json.js
+[DBUG] 2013-07-21 15:28:32.388	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/json.js -> ["{lib}util/encode/json.js","{lib}patched/json.js"]
+[INFO] 2013-07-21 15:28:32.393	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/json.js
+[DBUG] 2013-07-21 15:28:32.398	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/json.js -> ["{lib}patched/json.js"]
+[INFO] 2013-07-21 15:28:32.404	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/json.js
+[DBUG] 2013-07-21 15:28:32.409	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/json.js -> ["{lib}patched/json.js"]
+[INFO] 2013-07-21 15:28:32.415	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/json.js
+[DBUG] 2013-07-21 15:28:32.420	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/json.js -> ["{lib}patched/json.js"]
+[INFO] 2013-07-21 15:28:32.426	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/template/tpl.js
+[DBUG] 2013-07-21 15:28:32.433	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/template/tpl.js -> ["{lib}util/template/jst.js","{lib}util/event/event.js","{lib}util/ajax/tag.js","{lib}util/ajax/xdr.js"]
+[INFO] 2013-07-21 15:28:32.438	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/template/jst.js
+[DBUG] 2013-07-21 15:28:32.444	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/template/jst.js -> ["{lib}base/util.js","{lib}base/element.js","{lib}util/template/trimpath.nej.js"]
+[INFO] 2013-07-21 15:28:32.450	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/template/trimpath.nej.js
+[DBUG] 2013-07-21 15:28:32.456	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/template/trimpath.nej.js -> undefined
+[INFO] 2013-07-21 15:28:32.462	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/event/event.js
+[DBUG] 2013-07-21 15:28:32.469	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/event/event.js -> ["{lib}base/util.js","{lib}base/event.js","{lib}base/element.js","{lib}util/event.js"]
+[INFO] 2013-07-21 15:28:32.477	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/event.js
+[DBUG] 2013-07-21 15:28:32.485	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/event.js -> ["{lib}base/event.js","{lib}base/util.js"]
+[INFO] 2013-07-21 15:28:32.492	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/tag.js
+[DBUG] 2013-07-21 15:28:32.498	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/tag.js -> ["{lib}util/ajax/loader/html.js","{lib}util/ajax/loader/style.js","{lib}util/ajax/loader/script.js"]
+[INFO] 2013-07-21 15:28:32.505	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/loader/html.js
+[DBUG] 2013-07-21 15:28:32.512	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/loader/html.js -> ["{lib}util/ajax/loader/loader.js"]
+[INFO] 2013-07-21 15:28:32.519	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/loader/loader.js
+[DBUG] 2013-07-21 15:28:32.528	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/loader/loader.js -> ["{lib}base/constant.js","{lib}base/event.js","{lib}util/event.js"]
+[INFO] 2013-07-21 15:28:32.534	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/loader/style.js
+[DBUG] 2013-07-21 15:28:32.541	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/loader/style.js -> ["{lib}util/ajax/loader/loader.js"]
+[INFO] 2013-07-21 15:28:32.547	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/loader/script.js
+[DBUG] 2013-07-21 15:28:32.554	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/loader/script.js -> ["{lib}util/ajax/loader/loader.js"]
+[INFO] 2013-07-21 15:28:32.561	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/xdr.js
+[DBUG] 2013-07-21 15:28:32.568	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/xdr.js -> ["{lib}base/constant.js","{lib}base/util.js","{patch}ajax.js"]
+[INFO] 2013-07-21 15:28:32.575	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/ajax.js
+[DBUG] 2013-07-21 15:28:32.581	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/ajax.js -> ["{lib}patched/ajax.js"]
+[INFO] 2013-07-21 15:28:32.589	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/ajax.js
+[DBUG] 2013-07-21 15:28:32.595	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/ajax.js -> ["{lib}base/platform.js","{lib}base/constant.js","{lib}util/ajax/proxy/xhr.js","{lib}util/ajax/proxy/flash.js","{lib}util/ajax/proxy/frame.js","{lib}util/ajax/proxy/upload.js"]
+[INFO] 2013-07-21 15:28:32.603	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/xhr.js
+[DBUG] 2013-07-21 15:28:32.610	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/xhr.js -> ["{lib}util/ajax/proxy/proxy.js"]
+[INFO] 2013-07-21 15:28:32.617	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/proxy.js
+[DBUG] 2013-07-21 15:28:32.624	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/proxy.js -> ["{patch}config.js","{lib}base/util.js","{lib}base/event.js","{lib}base/constant.js","{lib}base/element.js","{lib}util/event.js"]
+[INFO] 2013-07-21 15:28:32.631	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/flash.js
+[DBUG] 2013-07-21 15:28:32.638	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/flash.js -> ["{lib}util/flash/flash.js","{lib}util/ajax/proxy/proxy.js"]
+[INFO] 2013-07-21 15:28:32.645	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/flash/flash.js
+[DBUG] 2013-07-21 15:28:32.653	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/flash/flash.js -> ["{lib}util/template/jst.js","{lib}util/timer/animation.js"]
+[INFO] 2013-07-21 15:28:32.660	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/timer/animation.js
+[DBUG] 2013-07-21 15:28:32.667	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/timer/animation.js -> ["{lib}base/platform.js"]
+[INFO] 2013-07-21 15:28:32.674	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/frame.js
+[DBUG] 2013-07-21 15:28:32.681	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/frame.js -> ["{lib}util/ajax/message.js","{lib}util/ajax/proxy/proxy.js"]
+[INFO] 2013-07-21 15:28:32.688	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/message.js
+[DBUG] 2013-07-21 15:28:32.696	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/message.js -> ["{patch}message.js","{lib}base/element.js"]
+[INFO] 2013-07-21 15:28:32.702	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/message.js
+[DBUG] 2013-07-21 15:28:32.710	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/message.js -> ["{lib}patched/message.js"]
+[INFO] 2013-07-21 15:28:32.717	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/message.js
+[DBUG] 2013-07-21 15:28:32.726	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/message.js -> ["{lib}base/platform.js"]
+[INFO] 2013-07-21 15:28:32.732	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/message.js
+[DBUG] 2013-07-21 15:28:32.739	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/message.js -> ["{lib}patched/message.js"]
+[INFO] 2013-07-21 15:28:32.747	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/message.js
+[DBUG] 2013-07-21 15:28:32.754	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/message.js -> ["{lib}patched/message.js","{lib}base/util.js","{lib}util/event/event.js","{lib}util/encode/json.js"]
+[INFO] 2013-07-21 15:28:32.762	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/message.js
+[DBUG] 2013-07-21 15:28:32.768	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/message.js -> ["{lib}patched/message.js"]
+[INFO] 2013-07-21 15:28:32.776	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/message.js
+[DBUG] 2013-07-21 15:28:32.783	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/message.js -> ["{lib}patched/message.js"]
+[INFO] 2013-07-21 15:28:32.790	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/message.js
+[DBUG] 2013-07-21 15:28:32.797	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/message.js -> ["{lib}patched/message.js"]
+[INFO] 2013-07-21 15:28:32.805	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/upload.js
+[DBUG] 2013-07-21 15:28:32.813	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/upload.js -> ["{lib}util/ajax/message.js","{lib}util/ajax/proxy/proxy.js"]
+[INFO] 2013-07-21 15:28:32.820	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/ajax.js
+[DBUG] 2013-07-21 15:28:32.827	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/ajax.js -> ["{lib}patched/ajax.js"]
+[INFO] 2013-07-21 15:28:32.834	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/ajax.js
+[DBUG] 2013-07-21 15:28:32.842	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/ajax.js -> ["{lib}patched/ajax.js","{lib}util/encode/json.js"]
+[INFO] 2013-07-21 15:28:32.849	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/ajax.js
+[DBUG] 2013-07-21 15:28:32.856	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/ajax.js -> ["{lib}patched/ajax.js"]
+[INFO] 2013-07-21 15:28:32.864	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/ajax.js
+[DBUG] 2013-07-21 15:28:32.871	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/ajax.js -> ["{lib}patched/ajax.js"]
+[INFO] 2013-07-21 15:28:32.878	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/ajax.js
+[DBUG] 2013-07-21 15:28:32.885	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/ajax.js -> ["{lib}patched/ajax.js"]
+[INFO] 2013-07-21 15:28:32.893	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/cache/cookie.js
+[DBUG] 2013-07-21 15:28:32.900	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/cache/cookie.js -> ["{lib}base/util.js"]
+[INFO] 2013-07-21 15:28:32.908	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/module.2.js
+[DBUG] 2013-07-21 15:28:32.915	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/module.2.js -> ["{lib}util/event.js"]
+[INFO] 2013-07-21 15:28:32.924	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/common/common.js
+[DBUG] 2013-07-21 15:28:32.932	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/common/common.js -> ["{com}util/module/module.js","{lib}util/file/select.js","{lib}util/ajax/xdr.js","{lib}util/cache/cookie.js","{com}util/cache/group.js"]
+[INFO] 2013-07-21 15:28:32.940	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/file/select.js
+[DBUG] 2013-07-21 15:28:32.948	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/file/select.js -> ["{lib}base/element.js","{lib}base/event.js"]
+[INFO] 2013-07-21 15:28:32.955	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/group.js
+[DBUG] 2013-07-21 15:28:32.965	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/group.js -> ["{com}util/api.js","{com}util/cache/cache.js","{lib}util/ajax/tag.js"]
+[INFO] 2013-07-21 15:28:32.973	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/cache.js
+[DBUG] 2013-07-21 15:28:32.981	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/cache.js -> ["{lib}base/util.js","{lib}util/ajax/xdr.js","{lib}util/cache/cache.list.base.js"]
+[INFO] 2013-07-21 15:28:32.988	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/cache/cache.list.base.js
+[DBUG] 2013-07-21 15:28:32.996	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/cache/cache.list.base.js -> ["{lib}util/cache/cache.list.js"]
+[INFO] 2013-07-21 15:28:33.4	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/cache/cache.list.js
+[DBUG] 2013-07-21 15:28:33.14	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/cache/cache.list.js -> ["{lib}util/cache/cache.js"]
+[INFO] 2013-07-21 15:28:33.22	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/cache/cache.js
+[DBUG] 2013-07-21 15:28:33.31	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/cache/cache.js -> ["{lib}util/event.js"]
+[WARN] 2013-07-21 15:28:33.38	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/template/tpl.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dispatcher.2.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step1.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step2.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step3.js'],
+function(){
+var _  = NEJ.P,
+_e = _('nej.e'),
+_t = _('nej.ut'),
+_m = _('mu.m.g');
+_e._$parseTemplate('template-box');
+window.dispatcher = _t._$$Dispatcher
+._$getInstance()._$regist({
+'/?/m/s1/':{gid:'abc',module:_m._$$ModuleStep1},
+'/?/m/s2/':{gid:'abc',module:_m._$$ModuleStep2},
+'/?/m/s3/':{gid:'abc',module:_m._$$ModuleStep3}
+})._$redirect('/?/m/s1/');
+});
+[DBUG] 2013-07-21 15:28:33.55	-	dependency result: js-code-1374391712051 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/template/tpl.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dispatcher.2.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step1.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step2.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step3.js"]
+[INFO] 2013-07-21 15:28:33.65	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dispatcher.2.js
+[DBUG] 2013-07-21 15:28:33.76	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dispatcher.2.js -> ["{lib}util/dispatcher/dsp/group.single.js","{lib}util/history/history.js","{lib}util/template/tpl.js"]
+[INFO] 2013-07-21 15:28:33.84	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dsp/group.single.js
+[DBUG] 2013-07-21 15:28:33.93	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dsp/group.single.js -> ["{lib}util/dispatcher/dsp/group.js"]
+[INFO] 2013-07-21 15:28:33.101	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dsp/group.js
+[DBUG] 2013-07-21 15:28:33.110	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dsp/group.js -> ["{lib}base/constant.js","{lib}util/event.js","{lib}util/template/tpl.js","{lib}util/dispatcher/dsp/util.js"]
+[INFO] 2013-07-21 15:28:33.118	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dsp/util.js
+[DBUG] 2013-07-21 15:28:33.127	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dsp/util.js -> ["{lib}base/util.js","{lib}util/dispatcher/module.2.js","{lib}util/dispatcher/dsp/node.js"]
+[INFO] 2013-07-21 15:28:33.135	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dsp/node.js
+[DBUG] 2013-07-21 15:28:33.144	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dsp/node.js -> ["{lib}util/event.js"]
+[INFO] 2013-07-21 15:28:33.152	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/history/history.js
+[DBUG] 2013-07-21 15:28:33.161	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/history/history.js -> ["{lib}util/event/event.js","{lib}util/timer/animation.js","{patch}api.js"]
+[INFO] 2013-07-21 15:28:33.169	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step1.js
+[DBUG] 2013-07-21 15:28:33.178	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step1.js -> ["{pro}module/setting/basic.js"]
+[INFO] 2013-07-21 15:28:33.186	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/setting/basic.js
+[DBUG] 2013-07-21 15:28:33.195	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/setting/basic.js -> ["{pro}module/common/group.js","{pro}widget/editor/editor2.js","{com}util/cache/group.js","{com}util/form/form.js","{lib}util/data/region/zh.js","{lib}util/region/region.zh.js"]
+[INFO] 2013-07-21 15:28:33.203	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/editor/editor2.js
+[DBUG] 2013-07-21 15:28:33.212	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/editor/editor2.js -> ["{lib}ui/editor/editor.js","{lib}util/editor/command/fontsize.js","{lib}util/editor/command/fontname.js","{lib}util/editor/command/bold.js","{lib}util/editor/command/italic.js","{lib}util/editor/command/insertorderedlist.js","{lib}util/editor/command/insertunorderedlist.js","{lib}util/editor/command/underline.js","{lib}util/editor/command/strikethrough.js","{lib}util/editor/command/forecolor.js","{lib}util/editor/command/backcolor.js","{lib}util/editor/command/justifyleft.js","{lib}util/editor/command/justifycenter.js","{lib}util/editor/command/justifyright.js","{lib}util/editor/command/link.js","{lib}util/editor/command/blockquote.js","{pro}widget/editor/photo.js"]
+[INFO] 2013-07-21 15:28:33.224	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/editor.js
+[DBUG] 2013-07-21 15:28:33.234	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/editor.js -> ["{patch}config.js","{lib}ui/base.js","{lib}util/editor/editor.js"]
+[INFO] 2013-07-21 15:28:33.242	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/base.js
+[DBUG] 2013-07-21 15:28:33.251	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/base.js -> ["{lib}base/element.js","{lib}util/event.js","{lib}util/template/tpl.js"]
+[INFO] 2013-07-21 15:28:33.260	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/editor.js
+[DBUG] 2013-07-21 15:28:33.269	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/editor.js -> ["{lib}util/editor/area.js","{lib}util/editor/toolbar.js","{lib}util/editor/command.js"]
+[INFO] 2013-07-21 15:28:33.278	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/area.js
+[DBUG] 2013-07-21 15:28:33.287	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/area.js -> ["{lib}util/event.js","{patch}editor.js"]
+[INFO] 2013-07-21 15:28:33.296	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/editor.js
+[DBUG] 2013-07-21 15:28:33.304	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/editor.js -> ["{lib}patched/editor.js"]
+[INFO] 2013-07-21 15:28:33.313	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/editor.js
+[DBUG] 2013-07-21 15:28:33.322	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/editor.js -> ["{lib}base/platform.js","{lib}base/element.js"]
+[INFO] 2013-07-21 15:28:33.331	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/editor.js
+[DBUG] 2013-07-21 15:28:33.339	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/editor.js -> ["{lib}patched/com/editor.td.js"]
+[INFO] 2013-07-21 15:28:33.348	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/com/editor.td.js
+[DBUG] 2013-07-21 15:28:33.357	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/com/editor.td.js -> ["{lib}patched/editor.js"]
+[INFO] 2013-07-21 15:28:33.366	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/editor.js
+[DBUG] 2013-07-21 15:28:33.374	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/editor.js -> ["{lib}patched/com/editor.td.js"]
+[INFO] 2013-07-21 15:28:33.383	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/editor.js
+[DBUG] 2013-07-21 15:28:33.392	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/editor.js -> ["{lib}patched/editor.js"]
+[INFO] 2013-07-21 15:28:33.401	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/editor.js
+[DBUG] 2013-07-21 15:28:33.409	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/editor.js -> ["{lib}patched/editor.js"]
+[INFO] 2013-07-21 15:28:33.418	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/editor.js
+[DBUG] 2013-07-21 15:28:33.426	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/editor.js -> ["{lib}patched/editor.js"]
+[INFO] 2013-07-21 15:28:33.436	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/toolbar.js
+[DBUG] 2013-07-21 15:28:33.445	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/toolbar.js -> ["{lib}util/event.js"]
+[INFO] 2013-07-21 15:28:33.454	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command.js
+[DBUG] 2013-07-21 15:28:33.463	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command.js -> ["{lib}util/event.js"]
+[INFO] 2013-07-21 15:28:33.472	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/fontsize.js
+[DBUG] 2013-07-21 15:28:33.481	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/fontsize.js -> ["{lib}util/editor/command/font.js","{lib}ui/editor/command/fontsize.js"]
+[INFO] 2013-07-21 15:28:33.489	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/font.js
+[DBUG] 2013-07-21 15:28:33.498	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/font.js -> ["{lib}util/editor/command/card.js"]
+[INFO] 2013-07-21 15:28:33.507	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/card.js
+[DBUG] 2013-07-21 15:28:33.516	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/card.js -> ["{lib}util/editor/command.js"]
+[INFO] 2013-07-21 15:28:33.525	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/fontsize.js
+[DBUG] 2013-07-21 15:28:33.535	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/fontsize.js -> ["{lib}ui/editor/command/font.js"]
+[INFO] 2013-07-21 15:28:33.544	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/font.js
+[DBUG] 2013-07-21 15:28:33.553	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/font.js -> ["{lib}ui/layer/card.wrapper.js"]
+[INFO] 2013-07-21 15:28:33.563	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/card.wrapper.js
+[DBUG] 2013-07-21 15:28:33.572	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/card.wrapper.js -> ["{lib}ui/layer/layer.wrapper.js","{lib}ui/layer/card.js"]
+[INFO] 2013-07-21 15:28:33.582	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/layer.wrapper.js
+[DBUG] 2013-07-21 15:28:33.591	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/layer.wrapper.js -> ["{lib}ui/layer/layer.js"]
+[INFO] 2013-07-21 15:28:33.600	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/layer.js
+[DBUG] 2013-07-21 15:28:33.612	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/layer.js -> ["{lib}ui/base.js"]
+[INFO] 2013-07-21 15:28:33.621	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/card.js
+[DBUG] 2013-07-21 15:28:33.632	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/card.js -> ["{lib}ui/layer/layer.js"]
+[INFO] 2013-07-21 15:28:33.640	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/fontname.js
+[DBUG] 2013-07-21 15:28:33.649	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/fontname.js -> ["{lib}util/editor/command/font.js","{lib}ui/editor/command/fontname.js"]
+[INFO] 2013-07-21 15:28:33.658	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/fontname.js
+[DBUG] 2013-07-21 15:28:33.668	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/fontname.js -> ["{lib}ui/editor/command/font.js"]
+[INFO] 2013-07-21 15:28:33.677	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/bold.js
+[DBUG] 2013-07-21 15:28:33.686	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/bold.js -> ["{lib}util/editor/command/simple.js"]
+[INFO] 2013-07-21 15:28:33.696	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/simple.js
+[DBUG] 2013-07-21 15:28:33.705	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/simple.js -> ["{lib}util/editor/command.js"]
+[INFO] 2013-07-21 15:28:33.714	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/italic.js
+[DBUG] 2013-07-21 15:28:33.724	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/italic.js -> ["{lib}util/editor/command/simple.js"]
+[INFO] 2013-07-21 15:28:33.733	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/insertorderedlist.js
+[DBUG] 2013-07-21 15:28:33.742	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/insertorderedlist.js -> ["{lib}util/editor/command/simple.js"]
+[INFO] 2013-07-21 15:28:33.752	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/insertunorderedlist.js
+[DBUG] 2013-07-21 15:28:33.761	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/insertunorderedlist.js -> ["{lib}util/editor/command/simple.js"]
+[INFO] 2013-07-21 15:28:33.771	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/underline.js
+[DBUG] 2013-07-21 15:28:33.780	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/underline.js -> ["{lib}util/editor/command/simple.js"]
+[INFO] 2013-07-21 15:28:33.789	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/strikethrough.js
+[DBUG] 2013-07-21 15:28:33.799	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/strikethrough.js -> ["{lib}util/editor/command/simple.js"]
+[INFO] 2013-07-21 15:28:33.808	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/forecolor.js
+[DBUG] 2013-07-21 15:28:33.818	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/forecolor.js -> ["{lib}util/editor/command/color.js"]
+[INFO] 2013-07-21 15:28:33.827	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/color.js
+[DBUG] 2013-07-21 15:28:33.838	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/color.js -> ["{lib}util/editor/command/card.js","{lib}ui/editor/command/color.js"]
+[INFO] 2013-07-21 15:28:33.848	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/color.js
+[DBUG] 2013-07-21 15:28:33.858	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/color.js -> ["{lib}ui/layer/card.wrapper.js","{lib}ui/colorpick/colorpick.js"]
+[INFO] 2013-07-21 15:28:33.867	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/colorpick/colorpick.js
+[DBUG] 2013-07-21 15:28:33.877	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/colorpick/colorpick.js -> ["{lib}ui/colorpick/colorpanel.js"]
+[INFO] 2013-07-21 15:28:33.887	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/colorpick/colorpanel.js
+[DBUG] 2013-07-21 15:28:33.898	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/colorpick/colorpanel.js -> ["{lib}ui/base.js","{lib}util/slider/slider.y.js","{lib}util/slider/slider.xy.js","{lib}ui/colorpick/util.js"]
+[INFO] 2013-07-21 15:28:33.907	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/slider/slider.y.js
+[DBUG] 2013-07-21 15:28:33.917	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/slider/slider.y.js -> ["{lib}util/slider/slider.js"]
+[INFO] 2013-07-21 15:28:33.927	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/slider/slider.js
+[DBUG] 2013-07-21 15:28:33.939	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/slider/slider.js -> ["{lib}util/dragger/dragger.js"]
+[INFO] 2013-07-21 15:28:33.948	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dragger/dragger.js
+[DBUG] 2013-07-21 15:28:33.959	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dragger/dragger.js -> ["{lib}util/event.js"]
+[INFO] 2013-07-21 15:28:33.969	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/slider/slider.xy.js
+[DBUG] 2013-07-21 15:28:33.979	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/slider/slider.xy.js -> ["{lib}util/slider/slider.js"]
+[INFO] 2013-07-21 15:28:33.989	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/colorpick/util.js
+[DBUG] 2013-07-21 15:28:34.0	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/colorpick/util.js -> ["{lib}base/util.js"]
+[INFO] 2013-07-21 15:28:34.10	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/backcolor.js
+[DBUG] 2013-07-21 15:28:34.20	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/backcolor.js -> ["{lib}util/editor/command/color.js"]
+[INFO] 2013-07-21 15:28:34.29	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/justifyleft.js
+[DBUG] 2013-07-21 15:28:34.39	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/justifyleft.js -> ["{lib}util/editor/command/simple.js"]
+[INFO] 2013-07-21 15:28:34.50	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/justifycenter.js
+[DBUG] 2013-07-21 15:28:34.59	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/justifycenter.js -> ["{lib}util/editor/command/simple.js"]
+[INFO] 2013-07-21 15:28:34.69	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/justifyright.js
+[DBUG] 2013-07-21 15:28:34.79	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/justifyright.js -> ["{lib}util/editor/command/simple.js"]
+[INFO] 2013-07-21 15:28:34.89	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/link.js
+[DBUG] 2013-07-21 15:28:34.99	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/link.js -> ["{lib}util/editor/command/card.js","{lib}ui/editor/command/link.js"]
+[INFO] 2013-07-21 15:28:34.109	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/link.js
+[DBUG] 2013-07-21 15:28:34.120	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/link.js -> ["{lib}ui/layer/window.wrapper.js"]
+[INFO] 2013-07-21 15:28:34.131	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/window.wrapper.js
+[DBUG] 2013-07-21 15:28:34.141	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/window.wrapper.js -> ["{lib}ui/layer/layer.wrapper.js","{lib}ui/layer/window.js"]
+[INFO] 2013-07-21 15:28:34.152	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/window.js
+[DBUG] 2013-07-21 15:28:34.162	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/window.js -> ["{lib}ui/layer/layer.js","{lib}ui/mask/mask.js","{lib}util/dragger/dragger.js"]
+[INFO] 2013-07-21 15:28:34.173	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/mask/mask.js
+[DBUG] 2013-07-21 15:28:34.183	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/mask/mask.js -> ["{lib}ui/base.js"]
+[INFO] 2013-07-21 15:28:34.193	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/blockquote.js
+[DBUG] 2013-07-21 15:28:34.203	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/blockquote.js -> ["{lib}util/editor/command.js"]
+[INFO] 2013-07-21 15:28:34.213	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/editor/photo.js
+[DBUG] 2013-07-21 15:28:34.224	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/editor/photo.js -> ["{lib}util/editor/command.js","{com}util/cache/meeting.js","{pro}widget/window/photo.upload.js"]
+[INFO] 2013-07-21 15:28:34.234	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/meeting.js
+[DBUG] 2013-07-21 15:28:34.244	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/meeting.js -> ["{com}util/api.js","{com}util/cache/cache.js","{lib}util/ajax/tag.js"]
+[INFO] 2013-07-21 15:28:34.255	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/photo.upload.js
+[DBUG] 2013-07-21 15:28:34.265	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/photo.upload.js -> ["{com}ui/window/window.js"]
+[INFO] 2013-07-21 15:28:34.276	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/ui/window/window.js
+[DBUG] 2013-07-21 15:28:34.287	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/ui/window/window.js -> ["{com}util/form/form.js","{lib}ui/layer/window.wrapper.js"]
+[INFO] 2013-07-21 15:28:34.297	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/form/form.js
+[DBUG] 2013-07-21 15:28:34.308	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/form/form.js -> ["{lib}util/form/form.js"]
+[INFO] 2013-07-21 15:28:34.318	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/form/form.js
+[DBUG] 2013-07-21 15:28:34.332	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/form/form.js -> ["{lib}base/util.js","{lib}util/event.js","{lib}util/counter/counter.js","{lib}util/placeholder/placeholder.js"]
+[INFO] 2013-07-21 15:28:34.343	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/counter/counter.js
+[DBUG] 2013-07-21 15:28:34.354	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/counter/counter.js -> ["{lib}base/element.js","{lib}base/event.js"]
+[INFO] 2013-07-21 15:28:34.364	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/placeholder/placeholder.js
+[DBUG] 2013-07-21 15:28:34.374	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/placeholder/placeholder.js -> ["{patch}holder.js"]
+[INFO] 2013-07-21 15:28:34.385	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/holder.js
+[DBUG] 2013-07-21 15:28:34.396	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/holder.js -> ["{lib}patched/holder.js"]
+[INFO] 2013-07-21 15:28:34.406	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/holder.js
+[DBUG] 2013-07-21 15:28:34.416	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/holder.js -> ["{lib}base/element.js"]
+[INFO] 2013-07-21 15:28:34.428	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/holder.js
+[DBUG] 2013-07-21 15:28:34.438	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/holder.js -> ["{lib}patched/holder.js"]
+[INFO] 2013-07-21 15:28:34.449	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/holder.js
+[DBUG] 2013-07-21 15:28:34.460	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/holder.js -> ["{lib}patched/holder.js"]
+[INFO] 2013-07-21 15:28:34.471	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/holder.js
+[DBUG] 2013-07-21 15:28:34.481	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/holder.js -> ["{lib}patched/holder.js"]
+[INFO] 2013-07-21 15:28:34.491	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/holder.js
+[DBUG] 2013-07-21 15:28:34.501	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/holder.js -> ["{lib}patched/holder.js"]
+[INFO] 2013-07-21 15:28:34.512	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/holder.js
+[DBUG] 2013-07-21 15:28:34.523	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/holder.js -> ["{lib}patched/holder.js"]
+[INFO] 2013-07-21 15:28:34.533	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/data/region/zh.js
+[DBUG] 2013-07-21 15:28:34.549	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/data/region/zh.js -> ["{lib}util/cache/cache.list.base.js"]
+[INFO] 2013-07-21 15:28:34.561	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/region/region.zh.js
+[DBUG] 2013-07-21 15:28:34.574	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/region/region.zh.js -> ["{lib}util/event.js"]
+[INFO] 2013-07-21 15:28:34.586	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step2.js
+[DBUG] 2013-07-21 15:28:34.598	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step2.js -> ["{pro}module/setting/tag.js"]
+[INFO] 2013-07-21 15:28:34.611	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/setting/tag.js
+[DBUG] 2013-07-21 15:28:34.625	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/setting/tag.js -> ["{lib}util/ajax/xdr.js","{com}util/form/form.js","{com}util/cache/group.js","{pro}widget/item/tag.js","{pro}module/common/group.js"]
+[INFO] 2013-07-21 15:28:34.638	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/tag.js
+[DBUG] 2013-07-21 15:28:34.649	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/tag.js -> ["{lib}ui/item/item.js"]
+[INFO] 2013-07-21 15:28:34.660	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/item/item.js
+[DBUG] 2013-07-21 15:28:34.672	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/item/item.js -> ["{lib}ui/base.js"]
+[INFO] 2013-07-21 15:28:34.682	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step3.js
+[DBUG] 2013-07-21 15:28:34.694	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step3.js -> ["{pro}module/setting/join.js"]
+[INFO] 2013-07-21 15:28:34.706	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/setting/join.js
+[DBUG] 2013-07-21 15:28:34.717	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/setting/join.js -> ["{com}util/form/form.js","{com}util/cache/group.js","{pro}widget/item/tag.js","{pro}module/common/group.js"]
+[WARN] 2013-07-21 15:28:34.729	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/group/home.js'],
+function(){
+var _ = NEJ.P;
+_('data').index = parseInt(
+location.hash.substring(1,2))||0;
+_('mu.x')._$setup(_('mu.m.g')._$$ModuleHome);
+});
+[DBUG] 2013-07-21 15:28:34.743	-	dependency result: js-code-1374391712052 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/home.js"]
+[INFO] 2013-07-21 15:28:34.754	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/home.js
+[DBUG] 2013-07-21 15:28:34.766	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/home.js -> ["{pro}module/common/group.js","{pro}widget/item/meeting.js","{com}util/cache/meeting.js","{com}util/cache/event.js","{lib}util/tab/tab.js","{lib}util/list/module.waterfall.js"]
+[INFO] 2013-07-21 15:28:34.778	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/meeting.js
+[DBUG] 2013-07-21 15:28:34.791	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/meeting.js -> ["{pro}widget/item/item.js"]
+[INFO] 2013-07-21 15:28:34.802	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/item.js
+[DBUG] 2013-07-21 15:28:34.814	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/item.js -> ["{lib}ui/item/list.js"]
+[INFO] 2013-07-21 15:28:34.825	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/item/list.js
+[DBUG] 2013-07-21 15:28:34.836	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/item/list.js -> ["{lib}ui/item/item.js"]
+[INFO] 2013-07-21 15:28:34.885	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/event.js
+[DBUG] 2013-07-21 15:28:34.897	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/event.js -> ["{com}util/cache/cache.js"]
+[INFO] 2013-07-21 15:28:34.909	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/tab/tab.js
+[DBUG] 2013-07-21 15:28:34.921	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/tab/tab.js -> ["{lib}base/event.js","{lib}base/element.js","{lib}util/event.js"]
+[INFO] 2013-07-21 15:28:34.961	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/list/module.waterfall.js
+[DBUG] 2013-07-21 15:28:34.976	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/list/module.waterfall.js -> ["{lib}util/list/module.js"]
+[INFO] 2013-07-21 15:28:34.988	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/list/module.js
+[DBUG] 2013-07-21 15:28:35.38	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/list/module.js -> ["{lib}ui/item/list.js","{lib}ui/pager/pager.js","{lib}util/cache/cache.list.base.js"]
+[INFO] 2013-07-21 15:28:35.60	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/pager/pager.js
+[DBUG] 2013-07-21 15:28:35.71	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/pager/pager.js -> ["{lib}ui/pager/pager.base.js","{lib}util/page/page.js"]
+[INFO] 2013-07-21 15:28:35.98	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/pager/pager.base.js
+[DBUG] 2013-07-21 15:28:35.112	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/pager/pager.base.js -> ["{lib}ui/base.js"]
+[INFO] 2013-07-21 15:28:35.123	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/page/page.js
+[DBUG] 2013-07-21 15:28:35.137	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/page/page.js -> ["{lib}util/page/page.base.js"]
+[INFO] 2013-07-21 15:28:35.150	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/page/page.base.js
+[DBUG] 2013-07-21 15:28:35.165	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/page/page.base.js -> ["{lib}util/event.js"]
+[WARN] 2013-07-21 15:28:35.195	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/group/inform.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleInform);
+});
+[DBUG] 2013-07-21 15:28:35.261	-	dependency result: js-code-1374391712053 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/inform.js"]
+[INFO] 2013-07-21 15:28:35.272	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/inform.js
+[DBUG] 2013-07-21 15:28:35.284	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/inform.js -> ["{pro}module/common/group.js","{com}util/cache/group.js","{com}util/form/form.js"]
+[WARN] 2013-07-21 15:28:35.297	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/group/invite.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleInvite);
+});
+[DBUG] 2013-07-21 15:28:35.313	-	dependency result: js-code-1374391712054 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/invite.js"]
+[INFO] 2013-07-21 15:28:35.326	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/invite.js
+[DBUG] 2013-07-21 15:28:35.338	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/invite.js -> ["{pro}module/common/group.js","{pro}widget/window/contact.create.js","{pro}widget/window/invite.retry.js","{com}util/cache/group.js","{com}util/cache/member.js","{com}util/cache/contact.js","{lib}util/tab/tab.js","{lib}util/list/module.waterfall.js"]
+[INFO] 2013-07-21 15:28:35.352	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/contact.create.js
+[DBUG] 2013-07-21 15:28:35.364	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/contact.create.js -> ["{com}ui/window/window.js"]
+[INFO] 2013-07-21 15:28:35.396	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/invite.retry.js
+[DBUG] 2013-07-21 15:28:35.410	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/invite.retry.js -> ["{com}ui/window/window.js"]
+[INFO] 2013-07-21 15:28:35.422	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/member.js
+[DBUG] 2013-07-21 15:28:35.434	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/member.js -> ["{com}util/cache/cache.js"]
+[INFO] 2013-07-21 15:28:35.447	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/contact.js
+[DBUG] 2013-07-21 15:28:35.460	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/contact.js -> ["{com}util/cache/cache.js"]
+[WARN] 2013-07-21 15:28:35.472	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/group/join.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleJoinGroup);
+});
+[DBUG] 2013-07-21 15:28:35.486	-	dependency result: js-code-1374391712055 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/join.js"]
+[INFO] 2013-07-21 15:28:35.499	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/join.js
+[DBUG] 2013-07-21 15:28:35.511	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/join.js -> ["{lib}util/file/select.js","{pro}module/common/group.js","{com}util/cache/group.js","{com}util/form/form.js"]
+[WARN] 2013-07-21 15:28:35.536	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/answer.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleMeetingAnswer);
+});
+[DBUG] 2013-07-21 15:28:35.551	-	dependency result: js-code-1374391712056 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/answer.js"]
+[INFO] 2013-07-21 15:28:35.564	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/answer.js
+[DBUG] 2013-07-21 15:28:35.576	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/answer.js -> ["{pro}module/common/group.js","{com}util/cache/meeting.js","{lib}util/list/module.pager.js"]
+[INFO] 2013-07-21 15:28:35.589	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/list/module.pager.js
+[DBUG] 2013-07-21 15:28:35.603	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/list/module.pager.js -> ["{lib}util/list/module.js"]
+[WARN] 2013-07-21 15:28:35.616	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/create.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleMeetingCreate);
+});
+[DBUG] 2013-07-21 15:28:35.631	-	dependency result: js-code-1374391712057 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/create.js"]
+[INFO] 2013-07-21 15:28:35.643	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/create.js
+[DBUG] 2013-07-21 15:28:35.669	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/create.js -> ["{pro}module/common/group.js","{pro}widget/editor/editor.js","{com}util/cache/meeting.js","{com}util/form/form.js","{lib}ui/datepick/datepick.js","{lib}util/tab/tab.js","{lib}util/data/region/zh.js","{lib}util/region/region.zh.js"]
+[INFO] 2013-07-21 15:28:35.682	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/editor/editor.js
+[DBUG] 2013-07-21 15:28:35.695	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/editor/editor.js -> ["{lib}ui/editor/editor.js","{lib}util/editor/command/fontsize.js","{lib}util/editor/command/fontname.js","{lib}util/editor/command/bold.js","{lib}util/editor/command/italic.js","{lib}util/editor/command/insertorderedlist.js","{lib}util/editor/command/insertunorderedlist.js","{lib}util/editor/command/underline.js","{lib}util/editor/command/strikethrough.js","{lib}util/editor/command/forecolor.js","{lib}util/editor/command/backcolor.js","{lib}util/editor/command/justifyleft.js","{lib}util/editor/command/justifycenter.js","{lib}util/editor/command/justifyright.js","{lib}util/editor/command/link.js","{lib}util/editor/command/blockquote.js","{pro}widget/editor/photo.js"]
+[INFO] 2013-07-21 15:28:35.711	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/datepick/datepick.js
+[DBUG] 2013-07-21 15:28:35.724	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/datepick/datepick.js -> ["{lib}ui/layer/card.wrapper.js","{lib}util/calendar/calendar.js"]
+[INFO] 2013-07-21 15:28:35.736	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/calendar/calendar.js
+[DBUG] 2013-07-21 15:28:35.750	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/calendar/calendar.js -> ["{lib}util/event.js"]
+[WARN] 2013-07-21 15:28:35.763	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/create.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleMeetingCreate);
+});
+[DBUG] 2013-07-21 15:28:35.777	-	dependency result: js-code-1374391712058 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/create.js"]
+[WARN] 2013-07-21 15:28:35.789	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/reply.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleMeetingReply);
+});
+[DBUG] 2013-07-21 15:28:35.804	-	dependency result: js-code-1374391712059 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/reply.js"]
+[INFO] 2013-07-21 15:28:35.816	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/reply.js
+[DBUG] 2013-07-21 15:28:35.829	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/reply.js -> ["{pro}module/common/group.js","{com}util/cache/meeting.js","{com}util/form/form.js"]
+[WARN] 2013-07-21 15:28:35.841	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/show.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleMeetingShow);
+});
+[DBUG] 2013-07-21 15:28:35.856	-	dependency result: js-code-1374391712060 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/show.js"]
+[INFO] 2013-07-21 15:28:35.868	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/show.js
+[DBUG] 2013-07-21 15:28:35.882	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/show.js -> ["{com}util/cache/meeting.js","{com}util/form/form.js","{pro}module/common/group.js","{pro}module/comment/comment.js","{pro}widget/window/meeting.reply.js","{pro}widget/window/meeting.manager.js"]
+[INFO] 2013-07-21 15:28:35.896	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/comment/comment.js
+[DBUG] 2013-07-21 15:28:35.909	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/comment/comment.js -> ["{pro}widget/item/comment.js","{pro}widget/window/confirm.js","{com}util/module/module.js","{com}util/cache/comment.js","{com}util/form/form.js","{lib}util/list/module.pager.js","{lib}util/file/select.js"]
+[INFO] 2013-07-21 15:28:35.923	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/comment.js
+[DBUG] 2013-07-21 15:28:35.936	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/comment.js -> ["{pro}widget/item/item.js","{com}ui/replier.js"]
+[INFO] 2013-07-21 15:28:35.949	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/ui/replier.js
+[DBUG] 2013-07-21 15:28:35.961	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/ui/replier.js -> ["{lib}ui/base.js","{com}util/form/form.js"]
+[INFO] 2013-07-21 15:28:35.974	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/confirm.js
+[DBUG] 2013-07-21 15:28:35.987	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/confirm.js -> ["{com}ui/window/window.js"]
+[INFO] 2013-07-21 15:28:36.0	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/comment.js
+[DBUG] 2013-07-21 15:28:36.13	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/comment.js -> ["{com}util/cache/cache.js"]
+[INFO] 2013-07-21 15:28:36.26	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/meeting.reply.js
+[DBUG] 2013-07-21 15:28:36.40	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/meeting.reply.js -> ["{com}ui/window/window.js","{lib}util/tab/tab.js","{com}util/cache/meeting.js","{lib}util/list/module.pager.js"]
+[INFO] 2013-07-21 15:28:36.53	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/meeting.manager.js
+[DBUG] 2013-07-21 15:28:36.66	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/meeting.manager.js -> ["{lib}ui/layer/card.wrapper.js"]
+[WARN] 2013-07-21 15:28:36.80	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/create.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleMeetingCreate);
+});
+[DBUG] 2013-07-21 15:28:36.95	-	dependency result: js-code-1374391712061 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/create.js"]
+[WARN] 2013-07-21 15:28:36.108	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/member/card.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleMemberCard);
+});
+[DBUG] 2013-07-21 15:28:36.123	-	dependency result: js-code-1374391712062 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/member/card.js"]
+[INFO] 2013-07-21 15:28:36.136	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/member/card.js
+[DBUG] 2013-07-21 15:28:36.149	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/member/card.js -> ["{pro}module/common/group.js","{com}util/cache/group.js","{com}util/cache/user.js","{com}util/cache/member.js","{lib}util/list/module.waterfall.js"]
+[INFO] 2013-07-21 15:28:36.163	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/user.js
+[DBUG] 2013-07-21 15:28:36.177	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/user.js -> ["{com}util/cache/cache.js"]
+[WARN] 2013-07-21 15:28:36.190	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/member/member.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleMember);
+});
+[DBUG] 2013-07-21 15:28:36.206	-	dependency result: js-code-1374391712063 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/member/member.js"]
+[INFO] 2013-07-21 15:28:36.219	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/member/member.js
+[DBUG] 2013-07-21 15:28:36.233	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/member/member.js -> ["{pro}widget/item/member.js","{pro}module/common/group.js","{pro}widget/window/message.send.js","{com}util/cache/member.js","{com}util/cache/message.js","{lib}util/tab/tab.js","{lib}util/list/module.pager.js"]
+[INFO] 2013-07-21 15:28:36.247	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/member.js
+[DBUG] 2013-07-21 15:28:36.261	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/member.js -> ["{pro}widget/item/item.js"]
+[INFO] 2013-07-21 15:28:36.273	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/message.send.js
+[DBUG] 2013-07-21 15:28:36.287	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/message.send.js -> ["{com}ui/window/window.js"]
+[INFO] 2013-07-21 15:28:36.300	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/message.js
+[DBUG] 2013-07-21 15:28:36.313	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/message.js -> ["{com}util/cache/cache.js"]
+[WARN] 2013-07-21 15:28:36.326	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/group/join.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleJoinGroup);
+});
+[DBUG] 2013-07-21 15:28:36.342	-	dependency result: js-code-1374391712064 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/join.js"]
+[WARN] 2013-07-21 15:28:36.355	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/album.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleAlbum);
+});
+[DBUG] 2013-07-21 15:28:36.371	-	dependency result: js-code-1374391712065 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/album.js"]
+[INFO] 2013-07-21 15:28:36.384	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/album.js
+[DBUG] 2013-07-21 15:28:36.398	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/album.js -> ["{pro}module/common/group.js","{pro}widget/window/album.create.js","{com}util/cache/album.js","{lib}ui/pager/pager.js"]
+[INFO] 2013-07-21 15:28:36.412	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/album.create.js
+[DBUG] 2013-07-21 15:28:36.426	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/album.create.js -> ["{com}ui/window/window.js"]
+[INFO] 2013-07-21 15:28:36.440	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/album.js
+[DBUG] 2013-07-21 15:28:36.454	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/album.js -> ["{com}util/cache/cache.js"]
+[WARN] 2013-07-21 15:28:36.468	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/photo.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModulePhoto);
+});
+[DBUG] 2013-07-21 15:28:36.483	-	dependency result: js-code-1374391712066 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/photo.js"]
+[INFO] 2013-07-21 15:28:36.496	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/photo.js
+[DBUG] 2013-07-21 15:28:36.511	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/photo.js -> ["{pro}module/common/group.js","{pro}widget/window/photo.upload.js","{com}util/cache/album.js","{lib}ui/pager/pager.js"]
+[WARN] 2013-07-21 15:28:36.526	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/photo.show.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModulePhotoShow);
+});
+[DBUG] 2013-07-21 15:28:36.543	-	dependency result: js-code-1374391712067 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/photo.show.js"]
+[INFO] 2013-07-21 15:28:36.556	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/photo.show.js
+[DBUG] 2013-07-21 15:28:36.571	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/photo.show.js -> ["{pro}module/common/group.js","{pro}module/comment/comment.js","{pro}widget/window/confirm.js","{pro}widget/window/photo.upload.js","{pro}widget/window/album.create.js","{pro}widget/window/album.select.js","{com}util/cache/album.js","{lib}ui/pager/pager.js","{lib}util/list/module.pager.js"]
+[INFO] 2013-07-21 15:28:36.586	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/album.select.js
+[DBUG] 2013-07-21 15:28:36.600	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/album.select.js -> ["{com}ui/window/window.js"]
+[WARN] 2013-07-21 15:28:36.613	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/basic.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleSettingBasic);
+});
+[DBUG] 2013-07-21 15:28:36.629	-	dependency result: js-code-1374391712068 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/basic.js"]
+[INFO] 2013-07-21 15:28:36.643	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/basic.js
+[DBUG] 2013-07-21 15:28:36.657	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/basic.js -> ["{pro}module/setting/basic.js","{com}util/cache/group.js","{com}util/form/form.js","{lib}util/data/region/zh.js","{lib}util/region/region.zh.js"]
+[WARN] 2013-07-21 15:28:36.672	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/home.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleSettingHome);
+});
+[DBUG] 2013-07-21 15:28:36.689	-	dependency result: js-code-1374391712069 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/home.js"]
+[INFO] 2013-07-21 15:28:36.703	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/home.js
+[DBUG] 2013-07-21 15:28:36.717	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/home.js -> ["{pro}module/common/group.js"]
+[WARN] 2013-07-21 15:28:36.733	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/join.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleSettingJoin);
+});
+[DBUG] 2013-07-21 15:28:36.750	-	dependency result: js-code-1374391712070 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/join.js"]
+[INFO] 2013-07-21 15:28:36.764	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/join.js
+[DBUG] 2013-07-21 15:28:36.779	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/join.js -> ["{pro}module/setting/join.js"]
+[WARN] 2013-07-21 15:28:36.793	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/message.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleSettingMessage);
+});
+[DBUG] 2013-07-21 15:28:36.809	-	dependency result: js-code-1374391712071 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/message.js"]
+[INFO] 2013-07-21 15:28:36.823	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/message.js
+[DBUG] 2013-07-21 15:28:36.838	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/message.js -> ["{pro}module/common/group.js","{com}util/cache/group.js","{com}util/form/form.js"]
+[WARN] 2013-07-21 15:28:36.853	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/privacy.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleSettingPrivacy);
+});
+[DBUG] 2013-07-21 15:28:36.870	-	dependency result: js-code-1374391712072 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/privacy.js"]
+[INFO] 2013-07-21 15:28:36.885	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/privacy.js
+[DBUG] 2013-07-21 15:28:36.899	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/privacy.js -> ["{pro}module/common/group.js","{com}util/cache/group.js","{com}util/form/form.js"]
+[WARN] 2013-07-21 15:28:36.914	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/tag.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.g')._$$ModuleSettingTag);
+});
+[DBUG] 2013-07-21 15:28:36.931	-	dependency result: js-code-1374391712073 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/tag.js"]
+[INFO] 2013-07-21 15:28:36.945	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/tag.js
+[DBUG] 2013-07-21 15:28:36.960	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/tag.js -> ["{pro}module/setting/tag.js"]
+[WARN] 2013-07-21 15:28:36.975	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/system/home.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(_('mu.m.g')._$$ModuleIndex);
+});
+[DBUG] 2013-07-21 15:28:36.991	-	dependency result: js-code-1374391712074 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/system/home.js"]
+[INFO] 2013-07-21 15:28:37.6	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/system/home.js
+[DBUG] 2013-07-21 15:28:37.21	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/system/home.js -> ["{com}util/module/module.js","{com}util/cache/event.js","{lib}util/data/region/zh.js","{lib}util/region/region.zh.js","{lib}util/list/module.waterfall.js"]
+[WARN] 2013-07-21 15:28:37.36	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(_('mu.m.g')._$$ModuleSearch);
+});
+[DBUG] 2013-07-21 15:28:37.53	-	dependency result: js-code-1374391712075 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search.js"]
+[INFO] 2013-07-21 15:28:37.67	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search.js
+[DBUG] 2013-07-21 15:28:37.81	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search.js -> ["{pro}module/system/search/frame.js","{pro}module/system/search/group.js","{pro}module/system/search/meeting.js","{lib}util/dispatcher/dispatcher.2.js"]
+[INFO] 2013-07-21 15:28:37.97	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search/frame.js
+[DBUG] 2013-07-21 15:28:37.113	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search/frame.js -> ["{com}util/module/module.js","{lib}util/data/region/zh.js","{lib}util/region/region.zh.js","{lib}ui/datepick/datepick.js","{lib}util/tab/tab.js"]
+[INFO] 2013-07-21 15:28:37.129	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search/group.js
+[DBUG] 2013-07-21 15:28:37.144	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search/group.js -> ["{com}util/cache/group.js","{pro}module/system/search/list.js"]
+[INFO] 2013-07-21 15:28:37.159	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search/list.js
+[DBUG] 2013-07-21 15:28:37.174	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search/list.js -> ["{com}util/module/module.js","{lib}util/list/module.waterfall.js"]
+[INFO] 2013-07-21 15:28:37.189	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search/meeting.js
+[DBUG] 2013-07-21 15:28:37.204	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search/meeting.js -> ["{com}util/cache/meeting.js","{pro}module/system/search/list.js"]
+[WARN] 2013-07-21 15:28:37.219	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/user/activate.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.u')._$$ModuleActivate);
+});
+[DBUG] 2013-07-21 15:28:37.237	-	dependency result: js-code-1374391712076 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/activate.js"]
+[INFO] 2013-07-21 15:28:37.252	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/activate.js
+[DBUG] 2013-07-21 15:28:37.267	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/activate.js -> ["{com}util/module/module.js","{com}util/cache/user.js"]
+[WARN] 2013-07-21 15:28:37.282	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/user/contact.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.u')._$$ModuleContact);
+});
+[DBUG] 2013-07-21 15:28:37.300	-	dependency result: js-code-1374391712077 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/contact.js"]
+[INFO] 2013-07-21 15:28:37.315	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/contact.js
+[DBUG] 2013-07-21 15:28:37.330	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/contact.js -> ["{com}util/module/module.js","{com}util/cache/contact.js","{lib}util/tab/tab.js","{lib}util/list/module.pager.js","{pro}widget/window/confirm.js","{pro}widget/window/contact.create.js","{pro}widget/window/contact.import.js"]
+[INFO] 2013-07-21 15:28:37.347	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/contact.import.js
+[DBUG] 2013-07-21 15:28:37.362	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/contact.import.js -> ["{com}ui/window/window.js","{lib}util/file/select.js"]
+[WARN] 2013-07-21 15:28:37.377	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/user/group.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.u')._$$ModuleGroup);
+});
+[DBUG] 2013-07-21 15:28:37.395	-	dependency result: js-code-1374391712078 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/group.js"]
+[INFO] 2013-07-21 15:28:37.410	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/group.js
+[DBUG] 2013-07-21 15:28:37.425	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/group.js -> ["{com}util/module/module.js","{com}util/cache/group.js","{pro}widget/item/group.js","{lib}util/list/module.waterfall.js"]
+[INFO] 2013-07-21 15:28:37.441	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/group.js
+[DBUG] 2013-07-21 15:28:37.457	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/group.js -> ["{pro}widget/item/item.js","{pro}widget/window/group.action.js"]
+[INFO] 2013-07-21 15:28:37.472	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/group.action.js
+[DBUG] 2013-07-21 15:28:37.488	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/group.action.js -> ["{lib}ui/layer/card.wrapper.js"]
+[WARN] 2013-07-21 15:28:37.504	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/user/home.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.u')._$$ModuleUserHome);
+});
+[DBUG] 2013-07-21 15:28:37.521	-	dependency result: js-code-1374391712079 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/home.js"]
+[INFO] 2013-07-21 15:28:37.536	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/home.js
+[DBUG] 2013-07-21 15:28:37.552	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/home.js -> ["{pro}widget/item/meeting.2.js","{com}util/module/module.js","{com}util/cache/user.js","{com}util/cache/meeting.js","{lib}util/tab/tab.js","{lib}util/calendar/calendar.js","{lib}util/list/module.waterfall.js"]
+[INFO] 2013-07-21 15:28:37.569	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/meeting.2.js
+[DBUG] 2013-07-21 15:28:37.585	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/meeting.2.js -> ["{pro}widget/item/item.js"]
+[WARN] 2013-07-21 15:28:37.601	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/user/login/login.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.u')._$$ModuleLogin);
+});
+[DBUG] 2013-07-21 15:28:37.619	-	dependency result: js-code-1374391712080 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/login/login.js"]
+[INFO] 2013-07-21 15:28:37.634	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/login/login.js
+[DBUG] 2013-07-21 15:28:37.650	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/login/login.js -> ["{com}util/module/module.js","{pro}module/user/login/form.js"]
+[INFO] 2013-07-21 15:28:37.666	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/login/form.js
+[DBUG] 2013-07-21 15:28:37.682	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/login/form.js -> ["{lib}util/encode/sha.md5.js","{lib}util/cache/cookie.js","{com}util/api.js","{com}util/form/form.js","{com}util/cache/user.js"]
+[INFO] 2013-07-21 15:28:37.698	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/encode/sha.md5.js
+[DBUG] 2013-07-21 15:28:37.716	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/encode/sha.md5.js -> ["{lib}base/global.js"]
+[WARN] 2013-07-21 15:28:37.733	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/frame.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/meeting.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/comment.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/inform.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/system.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/private.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dispatcher.2.js'],
+function(){
+var _  = NEJ.P,
+_e = _('nej.e'),
+_x = _('nej.ut'),
+_p = _('mu.m.u');
+window.dispatcher = _x._$$Dispatcher
+._$getInstance()
+._$rule('rewrite',{
+'404':'/m/1/',
+'/m/1/':'/meeting/',
+'/m/2/':'/comment/',
+'/m/3/':/^\/inform/,
+'/m/4/':'/system/',
+'/m/5/':'/private/'
+})._$regist({
+'/m':_p._$$ModuleMessageFrame,
+'/m/1/':_p._$$ModuleMessageMeeting,
+'/m/2/':_p._$$ModuleMessageComment,
+'/m/3/':_p._$$ModuleMessageInform,
+'/m/4/':_p._$$ModuleMessageSystem,
+'/m/5/':_p._$$ModuleMessagePrivate
+});
+_e._$parseTemplate('template-box');
+dispatcher._$active();
+});
+[DBUG] 2013-07-21 15:28:37.764	-	dependency result: js-code-1374391712081 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/frame.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/meeting.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/comment.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/inform.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/system.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/private.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dispatcher.2.js"]
+[INFO] 2013-07-21 15:28:37.783	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/frame.js
+[DBUG] 2013-07-21 15:28:37.799	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/frame.js -> ["{com}util/module/module.js"]
+[INFO] 2013-07-21 15:28:37.815	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/meeting.js
+[DBUG] 2013-07-21 15:28:37.831	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/meeting.js -> ["{pro}module/user/message/list.js"]
+[INFO] 2013-07-21 15:28:37.847	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/list.js
+[DBUG] 2013-07-21 15:28:37.863	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/list.js -> ["{com}util/module/module.js","{com}util/cache/message.js","{lib}util/list/module.pager.js"]
+[INFO] 2013-07-21 15:28:37.880	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/comment.js
+[DBUG] 2013-07-21 15:28:37.896	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/comment.js -> ["{pro}module/user/message/list.js"]
+[INFO] 2013-07-21 15:28:37.912	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/inform.js
+[DBUG] 2013-07-21 15:28:37.928	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/inform.js -> ["{pro}module/user/message/list.js"]
+[INFO] 2013-07-21 15:28:37.945	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/system.js
+[DBUG] 2013-07-21 15:28:37.962	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/system.js -> ["{pro}module/user/message/list.js"]
+[INFO] 2013-07-21 15:28:37.978	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/private.js
+[DBUG] 2013-07-21 15:28:37.994	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/private.js -> ["{pro}module/user/message/list.js"]
+[WARN] 2013-07-21 15:28:38.11	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/user/password.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.u')._$$ModulePassword);
+});
+[DBUG] 2013-07-21 15:28:38.29	-	dependency result: js-code-1374391712082 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/password.js"]
+[INFO] 2013-07-21 15:28:38.46	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/password.js
+[DBUG] 2013-07-21 15:28:38.62	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/password.js -> ["{com}util/module/module.js","{com}util/cache/user.js","{com}util/form/form.js","{lib}util/template/tpl.js","{lib}util/tab/tab.js","{lib}util/encode/sha.md5.js"]
+[WARN] 2013-07-21 15:28:38.80	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/user/react.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.u')._$$ModuleReact);
+});
+[DBUG] 2013-07-21 15:28:38.98	-	dependency result: js-code-1374391712083 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/react.js"]
+[INFO] 2013-07-21 15:28:38.115	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/react.js
+[DBUG] 2013-07-21 15:28:38.131	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/react.js -> ["{com}util/api.js","{com}util/module/module.js","{com}util/form/form.js","{com}util/cache/user.js"]
+[WARN] 2013-07-21 15:28:38.148	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dispatcher.2.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/frame.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/email.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/phone.js'],
+function(){
+var _  = NEJ.P,
+_e = _('nej.e'),
+_m = _('mu.m.u');
+_e._$startup({
+rules:{
+rewrite:{
+'404':'/regist/email/',
+'/regist/email/':'/email/',
+'/regist/phone/':'/phone/'
+}
+},
+modules:{
+'/regist':_m._$$ModuleRegistFrame,
+'/regist/email/':_m._$$ModuleRegistEmail,
+'/regist/phone/':_m._$$ModuleRegistPhone
+}
+});
+});
+[DBUG] 2013-07-21 15:28:38.174	-	dependency result: js-code-1374391712084 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dispatcher.2.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/frame.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/email.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/phone.js"]
+[INFO] 2013-07-21 15:28:38.193	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/frame.js
+[DBUG] 2013-07-21 15:28:41.722	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/frame.js -> ["{com}util/module/module.js","{lib}util/tab/tab.js"]
+[INFO] 2013-07-21 15:28:41.738	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/email.js
+[DBUG] 2013-07-21 15:28:41.755	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/email.js -> ["{pro}module/user/regist/regist.js"]
+[INFO] 2013-07-21 15:28:41.771	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/regist.js
+[DBUG] 2013-07-21 15:28:41.788	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/regist.js -> ["{com}util/module/module.js","{lib}util/encode/sha.md5.js","{lib}util/data/region/zh.js","{lib}util/region/region.zh.js","{lib}util/cache/cookie.js","{com}util/api.js","{com}util/form/form.js","{com}util/cache/user.js"]
+[INFO] 2013-07-21 15:28:41.805	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/phone.js
+[DBUG] 2013-07-21 15:28:41.822	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/phone.js -> ["{pro}module/user/regist/regist.js"]
+[WARN] 2013-07-21 15:28:41.839	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/user/reset.js'],
+function(){
+var _ = NEJ.P;
+_('mu.x')._$setup(
+_('mu.m.u')._$$ModuleReset);
+});
+[DBUG] 2013-07-21 15:28:41.857	-	dependency result: js-code-1374391712085 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/reset.js"]
+[INFO] 2013-07-21 15:28:41.874	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/reset.js
+[DBUG] 2013-07-21 15:28:41.891	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/reset.js -> ["{com}util/api.js","{com}util/module/module.js","{com}util/form/form.js","{com}util/cache/user.js","{lib}util/encode/sha.md5.js"]
+[WARN] 2013-07-21 15:28:41.908	-	js file not exist -> define(['D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/frame.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/profile.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/message.js'
+,'D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dispatcher.2.js'],
+function(){
+var _  = NEJ.P,
+_e = _('nej.e'),
+_x = _('nej.ut'),
+_p = _('mu.m.u');
+window.dispatcher = _x._$$Dispatcher
+._$getInstance()
+._$rule('rewrite',{
+'404':'/m/0/',
+'/m/0/':'profile',
+'/m/1/':'message'
+})._$regist({
+'/m':_p._$$ModuleSettingFrame,
+'/m/0/':_p._$$ModuleSettingProfile,
+'/m/1/':_p._$$ModuleSettingMessage
+});
+_e._$parseTemplate('template-box');
+dispatcher._$active();
+});
+[DBUG] 2013-07-21 15:28:41.936	-	dependency result: js-code-1374391712086 -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/frame.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/profile.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/message.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dispatcher.2.js"]
+[INFO] 2013-07-21 15:28:41.955	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/frame.js
+[DBUG] 2013-07-21 15:28:41.972	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/frame.js -> ["{com}util/module/module.js"]
+[INFO] 2013-07-21 15:28:41.989	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/profile.js
+[DBUG] 2013-07-21 15:28:42.7	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/profile.js -> ["{pro}module/user/setting/common.js","{pro}widget/window/password.update.js","{pro}widget/window/personal.update.js","{pro}widget/window/mobile.bind.js","{com}util/cache/user.js","{lib}util/file/select.js"]
+[INFO] 2013-07-21 15:28:42.25	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/common.js
+[DBUG] 2013-07-21 15:28:42.42	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/common.js -> ["{com}util/module/module.js"]
+[INFO] 2013-07-21 15:28:42.59	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/password.update.js
+[DBUG] 2013-07-21 15:28:42.76	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/password.update.js -> ["{com}ui/window/window.js","{lib}util/encode/sha.md5.js"]
+[INFO] 2013-07-21 15:28:42.93	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/personal.update.js
+[DBUG] 2013-07-21 15:28:42.110	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/personal.update.js -> ["{com}ui/window/window.js","{lib}util/data/region/zh.js","{lib}util/region/region.zh.js"]
+[INFO] 2013-07-21 15:28:42.127	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/mobile.bind.js
+[DBUG] 2013-07-21 15:28:42.145	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/mobile.bind.js -> ["{com}ui/window/window.js"]
+[INFO] 2013-07-21 15:28:42.162	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/message.js
+[DBUG] 2013-07-21 15:28:42.180	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/message.js -> ["{pro}module/user/setting/common.js","{pro}widget/item/setting.js","{pro}widget/window/confirm.js","{com}util/cache/group.js","{com}util/form/form.js","{lib}util/list/module.pager.js"]
+[INFO] 2013-07-21 15:28:42.199	-	parse D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/setting.js
+[DBUG] 2013-07-21 15:28:42.216	-	dependency result: D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/setting.js -> ["{pro}widget/item/item.js"]
+[WARN] 2013-07-21 15:28:42.239	-	css file not exist -> D:/WorkSet/meetup/web/web-app/src/css/system/competence.css
+[INFO] 2013-07-21 15:28:42.265	-	core css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/base.css","D:/WorkSet/meetup/web/web-app/src/css/window.css","D:/WorkSet/meetup/web/web-app/src/css/group.css"]
+[INFO] 2013-07-21 15:28:42.283	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/group/about.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/home.css"]
+[INFO] 2013-07-21 15:28:42.301	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/group/competence.ftl css file list -> ["cs-code-1374391712087","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.318	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/group/create.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/setting.tag.css","D:/WorkSet/meetup/web/web-app/src/css/group/setting.join.css","D:/WorkSet/meetup/web/web-app/src/css/group/setting.basic.css","D:/WorkSet/meetup/web/web-app/src/css/group/create.css"]
+[INFO] 2013-07-21 15:28:42.336	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/group/home.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/home.css"]
+[INFO] 2013-07-21 15:28:42.353	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/group/inform.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/inform.css"]
+[INFO] 2013-07-21 15:28:42.371	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/group/invite.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/invite.css"]
+[INFO] 2013-07-21 15:28:42.388	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/group/join.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/join.css"]
+[INFO] 2013-07-21 15:28:42.406	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/helper/about.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/system/about.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.423	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/helper/address.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/system/address.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.442	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/helper/feedback.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/system/feedback.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.460	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/helper/help.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/system/help.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.479	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/helper/job.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/system/job.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.497	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/helper/license.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/system/license.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.515	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/answer.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/meeting.answer.css"]
+[INFO] 2013-07-21 15:28:42.533	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/copy.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/meeting.create.css"]
+[INFO] 2013-07-21 15:28:42.551	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/create.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/meeting.create.css"]
+[INFO] 2013-07-21 15:28:42.570	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/reply.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/meeting.reply.css"]
+[INFO] 2013-07-21 15:28:42.588	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/show.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/meeting.show.css"]
+[INFO] 2013-07-21 15:28:42.606	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/update.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/meeting.create.css"]
+[INFO] 2013-07-21 15:28:42.625	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/member/card.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/member.card.css"]
+[INFO] 2013-07-21 15:28:42.643	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/member/member.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/member.css"]
+[INFO] 2013-07-21 15:28:42.661	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/member/update.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/join.css"]
+[INFO] 2013-07-21 15:28:42.679	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/photo/album.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/photo.css"]
+[INFO] 2013-07-21 15:28:42.697	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/photo/list.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/photo.css"]
+[INFO] 2013-07-21 15:28:42.715	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/photo/show.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/photo.show.css"]
+[INFO] 2013-07-21 15:28:42.733	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/setting/basic.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/setting.basic.css"]
+[INFO] 2013-07-21 15:28:42.751	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/setting/home.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/setting.css"]
+[INFO] 2013-07-21 15:28:42.769	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/setting/join.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/setting.join.css"]
+[INFO] 2013-07-21 15:28:42.787	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/setting/message.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/setting.message.css"]
+[INFO] 2013-07-21 15:28:42.805	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/setting/privacy.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/setting.privacy.css"]
+[INFO] 2013-07-21 15:28:42.824	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/setting/tag.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/group/setting.tag.css"]
+[INFO] 2013-07-21 15:28:42.842	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/system/home.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/system/home.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.860	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/system/search.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/system/search.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.879	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/activate.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/user/regist.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.898	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/contact.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/user/contact.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.917	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/group.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/user/group.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.936	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/home.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/user/home.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.954	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/login.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/user/regist.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.973	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/message.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/user/message.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:42.992	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/password.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/user/regist.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:43.11	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/react.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/user/regist.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:43.30	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/regist.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/user/regist.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:43.49	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/reset.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/user/regist.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:43.68	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/setting.ftl css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/user/setting.css","D:/WorkSet/meetup/web/web-app/res/theme/default/style.css"]
+[INFO] 2013-07-21 15:28:46.704	-	core js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/global.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/platform.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/config.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/config.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/config.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/config.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/config.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/config.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/config.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/constant.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/api.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/api.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/api.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/api.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/api.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/com/api.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/api.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/api.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/event.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/encode/json.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/json.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/json.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/json.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/json.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/json.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/json.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/json.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/element.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/base/util.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/template/trimpath.nej.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/template/jst.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/event.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/event/event.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/loader/loader.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/loader/html.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/loader/style.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/loader/script.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/tag.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/proxy.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/xhr.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/timer/animation.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/flash/flash.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/flash.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/message.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/message.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/message.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/message.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/message.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/message.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/message.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/message.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/frame.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/proxy/upload.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/ajax.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/ajax.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/ajax.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/ajax.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/ajax.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/ajax.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/ajax.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/ajax/xdr.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/template/tpl.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/module.2.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/cache/cookie.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/api.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/module/module.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/file/select.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/cache/cache.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/cache/cache.list.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/cache/cache.list.base.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/cache.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/group.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/common/common.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/common/group.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/base.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/item/item.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/meeting.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/counter/counter.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/holder.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/holder.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/holder.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/holder.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/holder.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/holder.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/holder.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/placeholder/placeholder.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/form/form.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/form/form.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/layer.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/layer.wrapper.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/mask/mask.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dragger/dragger.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/window.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/window.wrapper.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/ui/window/window.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/tab/tab.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/item/list.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/pager/pager.base.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/page/page.base.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/page/page.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/pager/pager.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/list/module.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/list/module.waterfall.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/editor.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-0/editor.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/com/editor.td.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident-1/editor.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/trident/editor.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/gecko/editor.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/webkit/editor.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/patched/presto/editor.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/area.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/toolbar.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/editor.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/editor.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/card.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/font.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/card.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/layer/card.wrapper.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/font.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/fontsize.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/fontsize.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/fontname.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/fontname.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/simple.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/bold.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/italic.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/insertorderedlist.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/insertunorderedlist.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/underline.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/strikethrough.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/slider/slider.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/slider/slider.y.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/slider/slider.xy.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/colorpick/util.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/colorpick/colorpanel.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/colorpick/colorpick.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/color.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/color.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/forecolor.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/backcolor.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/justifyleft.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/justifycenter.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/justifyright.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/editor/command/link.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/link.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/editor/command/blockquote.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/photo.upload.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/editor/photo.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/data/region/zh.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/region/region.zh.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/editor/editor.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/calendar/calendar.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/ui/datepick/datepick.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/create.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/item.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/list/module.pager.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/member.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/group/join.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/album.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/ui/replier.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/comment.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/confirm.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/comment.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/comment/comment.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/album.create.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/editor/editor2.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/setting/basic.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/tag.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/setting/join.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/setting/tag.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/event.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dsp/node.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dsp/util.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dsp/group.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dsp/group.single.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/history/history.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/dispatcher/dispatcher.2.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/user.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/contact.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/contact.create.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/pro/util/cache/message.js","D:/WorkSet/meetup/web/web-app/src/javascript/com/lib/util/encode/sha.md5.js"]
+[INFO] 2013-07-21 15:28:46.817	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/group/about.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/about.js","js-code-1374391712050"]
+[INFO] 2013-07-21 15:28:46.837	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/group/create.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step1.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step2.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/group/create/step3.js","js-code-1374391712051"]
+[INFO] 2013-07-21 15:28:46.857	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/group/home.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/meeting.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/group/home.js","js-code-1374391712052"]
+[INFO] 2013-07-21 15:28:46.878	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/group/inform.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/inform.js","js-code-1374391712053"]
+[INFO] 2013-07-21 15:28:46.899	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/group/invite.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/invite.retry.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/group/invite.js","js-code-1374391712054"]
+[INFO] 2013-07-21 15:28:46.920	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/group/join.ftl js file list -> ["js-code-1374391712055"]
+[INFO] 2013-07-21 15:28:46.940	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/answer.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/answer.js","js-code-1374391712056"]
+[INFO] 2013-07-21 15:28:46.963	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/copy.ftl js file list -> ["js-code-1374391712057"]
+[INFO] 2013-07-21 15:28:46.982	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/create.ftl js file list -> ["js-code-1374391712058"]
+[INFO] 2013-07-21 15:28:47.4	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/reply.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/reply.js","js-code-1374391712059"]
+[INFO] 2013-07-21 15:28:47.24	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/show.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/meeting.reply.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/meeting.manager.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/meeting/show.js","js-code-1374391712060"]
+[INFO] 2013-07-21 15:28:47.46	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/meeting/update.ftl js file list -> ["js-code-1374391712061"]
+[INFO] 2013-07-21 15:28:47.66	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/member/card.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/member/card.js","js-code-1374391712062"]
+[INFO] 2013-07-21 15:28:47.88	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/member/member.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/member.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/message.send.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/member/member.js","js-code-1374391712063"]
+[INFO] 2013-07-21 15:28:47.109	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/member/update.ftl js file list -> ["js-code-1374391712064"]
+[INFO] 2013-07-21 15:28:47.130	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/photo/album.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/album.js","js-code-1374391712065"]
+[INFO] 2013-07-21 15:28:47.151	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/photo/list.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/photo.js","js-code-1374391712066"]
+[INFO] 2013-07-21 15:28:47.172	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/photo/show.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/album.select.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/photo/photo.show.js","js-code-1374391712067"]
+[INFO] 2013-07-21 15:28:47.196	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/setting/basic.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/basic.js","js-code-1374391712068"]
+[INFO] 2013-07-21 15:28:47.217	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/setting/home.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/home.js","js-code-1374391712069"]
+[INFO] 2013-07-21 15:28:47.238	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/setting/join.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/join.js","js-code-1374391712070"]
+[INFO] 2013-07-21 15:28:47.260	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/setting/message.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/message.js","js-code-1374391712071"]
+[INFO] 2013-07-21 15:28:47.281	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/setting/privacy.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/privacy.js","js-code-1374391712072"]
+[INFO] 2013-07-21 15:28:47.303	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/setting/tag.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/group/setting/tag.js","js-code-1374391712073"]
+[INFO] 2013-07-21 15:28:47.324	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/system/home.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/system/home.js","js-code-1374391712074"]
+[INFO] 2013-07-21 15:28:47.345	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/system/search.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search/frame.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search/list.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search/group.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search/meeting.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/system/search.js","js-code-1374391712075"]
+[INFO] 2013-07-21 15:28:47.368	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/activate.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/activate.js","js-code-1374391712076"]
+[INFO] 2013-07-21 15:28:47.390	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/contact.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/contact.import.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/contact.js","js-code-1374391712077"]
+[INFO] 2013-07-21 15:28:47.412	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/group.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/group.action.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/group.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/group.js","js-code-1374391712078"]
+[INFO] 2013-07-21 15:28:47.435	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/home.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/meeting.2.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/home.js","js-code-1374391712079"]
+[INFO] 2013-07-21 15:28:47.457	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/login.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/login/form.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/login/login.js","js-code-1374391712080"]
+[INFO] 2013-07-21 15:28:47.479	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/message.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/frame.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/list.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/meeting.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/comment.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/inform.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/system.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/message/private.js","js-code-1374391712081"]
+[INFO] 2013-07-21 15:28:47.504	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/password.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/password.js","js-code-1374391712082"]
+[INFO] 2013-07-21 15:28:47.526	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/react.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/react.js","js-code-1374391712083"]
+[INFO] 2013-07-21 15:28:47.547	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/regist.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/frame.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/regist.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/email.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/regist/phone.js","js-code-1374391712084"]
+[INFO] 2013-07-21 15:28:47.570	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/reset.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/reset.js","js-code-1374391712085"]
+[INFO] 2013-07-21 15:28:47.592	-	pg_ for D:/WorkSet/meetup/web/grails-app/views/_dev/user/setting.ftl js file list -> ["D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/frame.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/common.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/password.update.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/personal.update.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/window/mobile.bind.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/profile.js","D:/WorkSet/meetup/web/web-app/src/javascript/widget/item/setting.js","D:/WorkSet/meetup/web/web-app/src/javascript/module/user/setting/message.js","js-code-1374391712086"]
+[INFO] 2013-07-21 15:28:49.303	-	output D:/WorkSet/meetup/web/deploy/names.txt
+[INFO] 2013-07-21 15:28:51.622	-	output D:/WorkSet/meetup/web/web-app/r/core.css
+[WARN] 2013-07-21 15:28:51.648	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/group/competence.ftl not exist!
+[WARN] 2013-07-21 15:28:51.670	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/helper/about.ftl not exist!
+[WARN] 2013-07-21 15:28:51.692	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/helper/address.ftl not exist!
+[WARN] 2013-07-21 15:28:51.714	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/helper/feedback.ftl not exist!
+[WARN] 2013-07-21 15:28:51.736	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/helper/help.ftl not exist!
+[WARN] 2013-07-21 15:28:51.758	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/helper/job.ftl not exist!
+[WARN] 2013-07-21 15:28:51.780	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/helper/license.ftl not exist!
+[WARN] 2013-07-21 15:28:51.803	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/system/home.ftl not exist!
+[WARN] 2013-07-21 15:28:51.825	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/system/search.ftl not exist!
+[WARN] 2013-07-21 15:28:51.847	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/user/activate.ftl not exist!
+[WARN] 2013-07-21 15:28:51.869	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/user/contact.ftl not exist!
+[WARN] 2013-07-21 15:28:51.892	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/user/group.ftl not exist!
+[WARN] 2013-07-21 15:28:51.915	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/user/home.ftl not exist!
+[WARN] 2013-07-21 15:28:51.938	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/user/login.ftl not exist!
+[WARN] 2013-07-21 15:28:51.961	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/user/message.ftl not exist!
+[WARN] 2013-07-21 15:28:51.983	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/user/password.ftl not exist!
+[WARN] 2013-07-21 15:28:52.7	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/user/react.ftl not exist!
+[WARN] 2013-07-21 15:28:52.29	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/user/regist.ftl not exist!
+[WARN] 2013-07-21 15:28:52.52	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/user/reset.ftl not exist!
+[WARN] 2013-07-21 15:28:52.74	-	D:/WorkSet/meetup/web/web-app/res/theme/default/img/bg_sprite.png in pg_D:/WorkSet/meetup/web/grails-app/views/_dev/user/setting.ftl not exist!
+[INFO] 2013-07-21 15:28:52.96	-	output D:/WorkSet/meetup/web/web-app/r/core.js
+[INFO] 2013-07-21 15:28:52.228	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/config.ftl
+[INFO] 2013-07-21 15:28:52.252	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/group/about.ftl
+[INFO] 2013-07-21 15:28:52.278	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/group/competence.ftl
+[INFO] 2013-07-21 15:28:52.302	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/group/create.ftl
+[INFO] 2013-07-21 15:28:52.330	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/group/home.ftl
+[INFO] 2013-07-21 15:28:52.359	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/group/inform.ftl
+[INFO] 2013-07-21 15:28:52.385	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/group/invite.ftl
+[INFO] 2013-07-21 15:28:52.416	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/group/join.ftl
+[INFO] 2013-07-21 15:28:52.442	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/helper/about.ftl
+[INFO] 2013-07-21 15:28:52.465	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/helper/address.ftl
+[INFO] 2013-07-21 15:28:52.490	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/helper/feedback.ftl
+[INFO] 2013-07-21 15:28:52.514	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/helper/help.ftl
+[INFO] 2013-07-21 15:28:52.539	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/helper/job.ftl
+[INFO] 2013-07-21 15:28:52.563	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/helper/license.ftl
+[INFO] 2013-07-21 15:28:52.587	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/meeting/answer.ftl
+[INFO] 2013-07-21 15:28:52.613	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/meeting/copy.ftl
+[INFO] 2013-07-21 15:28:52.639	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/meeting/create.ftl
+[INFO] 2013-07-21 15:28:52.665	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/meeting/print.ftl
+[INFO] 2013-07-21 15:28:52.687	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/meeting/reply.ftl
+[INFO] 2013-07-21 15:28:52.714	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/meeting/show.ftl
+[INFO] 2013-07-21 15:28:52.744	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/meeting/update.ftl
+[INFO] 2013-07-21 15:28:52.770	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/member/card.ftl
+[INFO] 2013-07-21 15:28:52.799	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/member/member.ftl
+[INFO] 2013-07-21 15:28:52.830	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/member/update.ftl
+[INFO] 2013-07-21 15:28:52.855	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/photo/album.ftl
+[INFO] 2013-07-21 15:28:52.884	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/photo/list.ftl
+[INFO] 2013-07-21 15:28:52.912	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/photo/show.ftl
+[INFO] 2013-07-21 15:28:52.943	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/setting/basic.ftl
+[INFO] 2013-07-21 15:28:52.969	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/setting/home.ftl
+[INFO] 2013-07-21 15:28:52.995	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/setting/join.ftl
+[INFO] 2013-07-21 15:28:53.20	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/setting/message.ftl
+[INFO] 2013-07-21 15:28:53.47	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/setting/privacy.ftl
+[INFO] 2013-07-21 15:28:53.73	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/setting/tag.ftl
+[INFO] 2013-07-21 15:28:53.99	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/setting/theme.ftl
+[INFO] 2013-07-21 15:28:53.122	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/setting/url.ftl
+[INFO] 2013-07-21 15:28:53.144	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/system/home.ftl
+[INFO] 2013-07-21 15:28:53.172	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/system/search.ftl
+[INFO] 2013-07-21 15:28:53.204	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/user/activate.ftl
+[INFO] 2013-07-21 15:28:53.231	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/user/contact.ftl
+[INFO] 2013-07-21 15:28:53.261	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/user/group.ftl
+[INFO] 2013-07-21 15:28:53.291	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/user/home.ftl
+[INFO] 2013-07-21 15:28:53.321	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/user/login.ftl
+[INFO] 2013-07-21 15:28:53.349	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/user/message.ftl
+[INFO] 2013-07-21 15:28:53.379	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/user/password.ftl
+[INFO] 2013-07-21 15:28:53.407	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/user/react.ftl
+[INFO] 2013-07-21 15:28:53.435	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/user/regist.ftl
+[INFO] 2013-07-21 15:28:53.466	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/user/reset.ftl
+[INFO] 2013-07-21 15:28:53.492	-	output D:/WorkSet/meetup/web/grails-app/views/_prd/user/setting.ftl
+[INFO] 2013-07-21 15:28:53.526	-	release done! view release log D:/WorkSet/meetup/web/deploy/20130721.152830951.txt

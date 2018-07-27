@@ -1,0 +1,170 @@
+app.server.domain = www.hijufou.com
+app.stub.domain = hi4.co
+
+app.mail.server.host = smtp.vip.163.com
+app.mail.server.port = 25
+app.mail.from.alias = hi~聚否
+app.mail.from.address = hijufou@vip.163.com
+app.mail.auth.username = hijufou
+app.mail.auth.password = vipvip
+
+app.user.activate.url = %1$s/active/?s=%2$s
+app.user.activate.mail.subject = 注册邮箱验证
+
+app.user.retrieve.url = %1$s/reset/?s=%2$s
+app.user.retrieve.mail.subject = 找回密码
+
+app.user.invite.url = %1$s/invite/?s=%2$s
+app.user.invite.mail.subject = 邀请加入
+app.mobile.invite.stub = %1$s/%2$s
+app.group.mobile.invite.redirect = /m/group/home.html?groupid=%1$s&userid=%2$s
+app.meeting.mobile.invite.redirect = /m/meeting/show.html?meetid=%1$s&userid=%2$s
+app.group.web.invite.redirect = /%1$s
+app.meeting.web.invite.redirect = /%1$s/meeting/%2$s
+
+app.hdfs.contextPath = /hdfs
+app.hdfs.app.contextPath = /app
+app.hdfs.thumbnail.contextPath = /thumbnail
+app.hdfs.uri = hdfs://localhost:54310
+
+app.sms.f3targetUrl = http://pi.noc.cn/SendSMS.aspx
+app.sms.f3ccid = 305995001
+app.sms.f3password = ljhy
+app.sms.f3sendSmsParams = ?Msisdn=%1$s&SMSContent=%2$s&MSGType=%3$d&ECECCID=%4$s&Password=%5$s
+app.sms.f3queryAmountParams = ?ECECCID=%1$s&Password=%2$s
+app.sms.targetUrl = http://122.224.183.70:8282/axis/services/hysms
+app.sms.ccid = 1069882358
+app.sms.password = 8899jk
+app.sms.sendSmsParams = %1$d,%2$s,%3$d
+app.sms.signature = 【聚否】
+app.sms.whitelist =
+
+app.message.meeting.create.template = meeting/meeting.create_001
+app.message.meeting.comment.template = comment/meeting.comment_001
+app.message.photo.upload.template = comment/photo.upload_001
+app.message.group.join.template = system/member.join_001
+app.message.group.exit.template = system/member.exit_001
+app.message.group.join.check.template = system/member.join.reply_001
+app.message.meeting.reply.template = system/meeting.reply_001
+app.message.meeting.update.template = system/meeting.update_001
+app.message.meeting.reply.update.template = system/meeting.reply.update_001
+app.message.meeting.reply.partner.update.template = system/meeting.reply.update.partner_001
+app.message.meeting.join.template = system/meeting.join_001
+app.message.group.set.manager.template = system/group.manager_001
+app.message.meeting.cancel.template = system/meeting.cancel_001
+app.message.group.dismiss.template = system/group.dismiss_001
+app.message.group.apply.auth.template = system/group.apply.auth_001
+app.message.meeting.apply.template = system/meeting.apply_001
+app.message.meeting.apply.auth.template = system/meeting.apply.auth_001
+
+app.event.meeting.comment.template = meeting.comment_001
+app.event.group.join.template = member.join_001
+app.event.meeting.reply.template = meeting.reply_001
+app.event.meeting.reply.update.template = meeting.reply.update_001
+app.event.photo.upload.template = photo.upload_001
+
+app.ip.lookup.sina = http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&ip=%1$s
+app.ip.lookup.qq = http://ip.qq.com/cgi-bin/searchip?searchip1=%1$s
+
+app.comet.timeout = 30 * 1000
+
+app.cache.expireTime = 60 * 1000
+
+app.cookie.persist.expireTime = 365 * 24 * 60 * 60
+
+app.photo.maxSize = 10 * 1024 * 1024L
+app.portrait.maxSize = 2 * 1024 * 1024L
+
+app.contacts.maxSize = 1 * 1024 * 1024L
+app.contacts.types = txt;csv;vcf;xls;xlsx
+app.contacts.orders = 姓名;电话/手机号码;邮箱地址;QQ;公司
+
+app.photo.original = 640 * 48000
+app.photo.thumbnail = 300 * 22500
+#app.album.cover = 300 * 225
+app.group.logo.original = 640 * 48000
+app.group.logo.thumbnail = 300 * 22500
+app.user.portrait.original = 180 * 180
+app.user.portrait.thumbnail = 110 * 110
+#app.comment.image = 1024 * 768
+app.meeting.cover = 600 * 360
+
+app.abstract.length = 256
+
+app.browser.cache.expire.date = 30
+
+app.search.default.distance = 50 * 1000
+
+app.token.expireTime = 720
+
+app.group.quota.sms = 100
+app.group.quota.photo = 500
+
+app.sms.standard.length = 67 * 2
+
+app.user.quota.group = 10
+
+app.apns.password = jufou123456
+app.apns.enterprise.password = 123123
+
+app.group.categories = 文娱兴趣;体育运动;公益服务;理论学习;学术科技;商贸实践;创业就业;职场商务;展览讲座;电影音乐;戏剧舞台;聚会沙龙;户外旅行;其他
+
+app.comet.offline.time = 30 * 1000
+
+app.ios.download.url = itms-services://?action=download-manifest&url=%1$s/app/?plist
+
+#app.binding.authorize.params = ?client_id=%1$s&response_type=%2$s&redirect_uri=%3$s
+app.binding.token.access.params = ?client_id=%1$s&client_secret=%2$s&code=%3$s&redirect_uri=%4$s&grant_type=authorization_code
+app.binding.token.refresh.params = ?client_id=%1$s&client_secret=%2$s&refresh_token=%3$s&grant_type=refresh_token
+app.binding.token.revoke.params = ?access_token=%1$s
+
+app.binding.sina.url = https://api.weibo.com
+app.binding.sina.app.key = 3283974804
+app.binding.sina.app.secret = 673936fe6d9852e4048607fc78384eb2
+app.binding.sina.app.redirect = %1$s/binding/sina
+app.binding.sina.token.access = %1$s/oauth2/access_token
+app.binding.sina.token.revoke = %1$s/oauth2/revokeoauth2
+app.binding.sina.share.url = %1$s/2/statuses/upload_url_text.json
+app.binding.sina.share.params = ?access_token=%1$s&status=%2$s&url=%3$s&lat=%4$f&long=%5$f
+app.binding.sina.share.length = 140
+
+app.binding.tencent.url = https://open.t.qq.com/cgi-bin/oauth2
+app.binding.tencent.app.key = wx3928c896d76ecbfc
+app.binding.tencent.app.secret = 4f04cb395dd1d26faebdd15f6673033f
+app.binding.tencent.app.redirect = %1$s/binding/tencent
+app.binding.tencent.token.access = %1$s/access_token
+app.binding.tencent.token.revoke =
+
+app.binding.renren.url = https://graph.renren.com
+app.binding.renren.app.key = 50bfa2bded6a44c0845e592a69097f94
+app.binding.renren.app.secret = 5a9de9ae6000406a95758bbac80b37d1
+app.binding.renren.app.redirect = %1$s/binding/renren
+app.binding.renren.token.access = %1$s/oauth/token
+app.binding.renren.token.revoke =
+app.binding.renren.share.url = %1$s/v2/feed/put
+app.binding.renren.share.params = ?access_token=%1$s&message=%2$s&title=%3$s&imageUrl=%4$s&description=%5$s&targetUrl=%6$s
+app.binding.renren.share.length = 200
+
+app.image.types = jpg;jpeg;bmp;png;gif
+
+app.install.file.types = ipa;apk
+
+#app.custom.group.tag = #custom#
+
+app.mobile.group.menus =
+
+app.weixin.developer.token = xiaobai
+#app.weixin.account.suffix = @weixin.com
+app.weixin.open.url = https://open.weixin.qq.com
+app.weixin.auth.key = wx7a540f4e2a8742cc
+app.weixin.auth.secret = ebe15aa3e99233cad18dd0869f690bd3
+app.weixin.auth.authorize.url = /connect/oauth2/authorize
+app.weixin.auth.authorize.params = ?appid=%1$s&redirect_uri=%2$s&response_type=code&scope=snsapi_userinfo&state=%3$s#wechat_redirect
+app.weixin.auth.authorize.redirect = http://%1$s/rest/weixin/access/
+app.weixin.api.url = https://api.weixin.qq.com
+app.weixin.auth.accessToken.url = /sns/oauth2/access_token
+app.weixin.auth.accessToken.params = ?appid=%1$s&secret=%2$s&code=%3$s&grant_type=authorization_code
+app.weixin.auth.refreshToken.url = /sns/oauth2/refresh_token
+app.weixin.auth.refreshToken.params = ?appid=%1$s&grant_type=refresh_token&refresh_token=%2$s
+app.weixin.auth.userInfo.url = /sns/userinfo
+app.weixin.auth.userInfo.params = ?access_token=%1$s&openid=%2$s&lang=zh_CN

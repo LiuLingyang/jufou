@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>聚否</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+       <link href="../../css/meeting/show.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/meeting/comment.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/group.css" rel="stylesheet" type="text/css"/>          
+   </head>
+  <body id="www-hijufou-com">
+    
+    <!-- 组织首页 -->
+    <div class="g-wrp m-id-l0" data-role="page" data-add-back-btn="true">
+      <div class="g-head f-cb">
+         <div class="mbk f-tf" id="meettitle"></div>
+      </div>
+      <div class="g-menu g-menu-1 f-cb">
+        <div class="itm fl">
+          <span class="txt" id="showBtn"><a href="show.html" rel="external" data-transition="pop">活动详情</a></span>
+          <span class="w-arw arw">&nbsp;</span>
+        </div>
+        <div class="itm fl">
+          <span class="txt" id="memberBtn"><a href="member.html" rel="external" data-transition="pop">参加人员</a></span>
+          <span class="w-arw arw">&nbsp;</span>
+        </div>
+        <div class="itm fl js-selected">
+          <span class="txt" id="commentBtn"><a href="comment.html" rel="external" data-transition="pop">讨论</a></span>
+          <span class="w-arw arw">&nbsp;</span>
+        </div>
+        <div class="itm fl">
+          <span class="txt" id="photoBtn"><a href="photo.html" rel="external" data-transition="pop">照片</a></span>
+          <span class="w-arw arw">&nbsp;</span>
+        </div>
+      </div>
+      <div class="g-body" id="commentList"></div>
+      <div>
+    	<input type="text" class="txt sed" id="newcomment"/>
+    	<input type="button" class="w-btn w-btn-b" value="发送" id="addbtn"/>
+      </div>
+      
+    </div>
+    <!-- @DEFINE {nodep:true} -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>       
+    <script src="../../lib/jstorage.js"></script> 
+    <script src="../../lib/meetup.js"></script>  
+    <script src="../../javascript/meeting/comment.js"></script>
+  </body>
+</html>

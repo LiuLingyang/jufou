@@ -1,0 +1,162 @@
+.icard {
+	height: 100%;
+	width: 100%;
+	-webkit-tap-highlight-color: transparent;
+	font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+	-webkit-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+}
+.icard * {
+	border: 0;
+	outline: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.icard a,img {
+	text-decoration: none;
+}
+.icard #btn-ac {
+	display:none;
+	position: fixed;
+	z-index: 1000;
+	cursor: pointer;
+	background-size: 100% auto !important;
+}
+.icard .ctn-page {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	overflow:hidden;
+	transition: all 3s ease 0;
+	-webkit-transition: all .3s ease 0;
+	-webkit-transform: translate3d(0px,0px,0px);
+	transform: translate3d(0px,0px,0px);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	perspective: 1000;
+}
+.icard .ctn-sy{
+	display:none;
+	position:absolute;
+	left:50%;
+	top:0;
+	width: 640px; 
+	height: 100%;
+	overflow: hidden;
+	-webkit-transform: translate3d(-320px,0,0);
+	background-size:100% 100%;
+}
+
+.icard #img-load {
+	display:block;
+	margin: 30% auto;
+	width:100%;
+}
+
+.icard .img-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.icard .arrowup {
+	position: absolute;
+	z-index: 1000;
+	width: 8%;
+	left: 46%;
+	bottom: 30px;
+}
+
+.icard .l-hor-cen {
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+}
+
+.icard .l-cen {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.icard section {
+	position:relative;
+	transition: all 0 ease 0;
+	-webkit-transition: all 0 ease 0;
+	background-size: cover !important;
+	background-position: center center;
+}
+
+.icard .ctn-ver-btn,
+.icard .ctn-hor-btn{
+	position:absolute;
+	display:block;
+	overflow:visible;
+	text-align: center;
+}
+.icard .ctn-hor-btn{
+	font-size:0;
+}
+.icard .btn-ver-main{
+	display:block;
+	position:relative;
+	overflow:visible;
+	cursor:pointer;
+	background-size:100% auto;
+}
+.icard .btn-ver-main:last-child{
+	margin:0;
+}
+.icard .btn-hor-main:last-child{
+	margin:0;
+}
+.icard .btn-hor-main{
+	display:inline-block;
+	position:relative;
+	overflow:visible;
+	cursor:pointer;
+}
+.icard .img-btnimg{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+.icard .dia-wx{
+	display:none;
+	position:absolute;
+	left:50%;
+	top:50%;
+	z-index:1000;
+	width:450px;
+	height:666px;
+	background-size:cover;
+	border-radius:5px;
+	-webkit-transform:translate(-50%,-50%);
+}
+.icard .btn-close{
+	position:absolute;
+	right:32px;
+	top:36px;
+	width:36px;
+	height:36px;
+	cursor:pointer;
+}
+.icard .jfjoin{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	z-index:10000;
+}
+.icard .l-ab{position:absolute;}

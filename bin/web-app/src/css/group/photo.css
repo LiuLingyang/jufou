@@ -1,0 +1,25 @@
+/* 相册列表 */
+#www-jufou-com .t-mdl-30 .mtx{font-size:26px;padding-left:7px;}
+.t-mdl-30,.t-mdl-31{margin-left:4px;} 
+.t-mdl-30 .xtl{margin:20px 0;padding-left:40px;font-size:15px;}
+.t-mdl-30 .xtl .n{font-size:25px;font-weight:bold;margin-right:30px;letter-spacing:-2px;}
+.t-mdl-30 .w-fom{padding:10px 20px;margin:18px 0;}
+.t-mdl-30 .xlb{font-size:14px;font-weight:bold;}
+.t-mdl-30 .pgx{padding:20px 15px;border-width:1px 0 0;border-style:solid;}
+/* 相片列表 */
+#www-jufou-com .t-mdl-31 .mtx{font-size:26px;padding-left:2px;font-weight:normal;}
+.t-mdl-31 .anx{padding:5px 0 15px;margin-top:-9px;font-size:24px;font-weight:bold;border-width:0 0 1px;border-style:solid;}
+.t-mdl-31 .pgx{padding:20px 15px;border-width:1px 0 0;border-style:solid;}
+.t-mdl-31 .tls{display:block;margin-bottom:15px;}
+.t-mdl-31 .atx{font-size:13px;width:100px;font-weight:normal;padding:18px 0 3px 30px;background-position:8px -1733px;}
+.t-mdl-31 .atx-01{background-position:8px -1648px;}
+.t-mdl-31 .atx-02{background-position:4px -1568px;}
+.t-mdl-31 .xbx{margin-top:24px;}
+/* 列表项 */
+.w-xpt{margin:8px 16px 11px;height:230px;}
+.w-xpt .img{width:210px;height:140px;}
+.w-xpt .img img{width:210px;height:140px;}
+.w-xpt .dtl{line-height:20px;}
+.w-xpt .dtl .ln0{padding:8px 4px;overflow:hidden;width:200px;font-weight:bold;max-height:36px;margin-bottom:3px;}
+.w-xpt .dtl .ln1{margin:-6px 6px;}
+.w-xpt .dtl .ln2{margin:8px 4px;line-height:10px;}

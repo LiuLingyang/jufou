@@ -1,0 +1,12 @@
+/* 90-99 */
+.m-id-90 .g-body{text-align:left;}
+.m-id-90 .btl{margin-top:40px;padding:0 40px;font-size:32px;color:#333333;}
+.m-id-90 .bct{padding:25px 40px 0;font-size:28px;line-height:160%;color:#333;}
+.m-id-90 .dtl{margin:0;}
+.m-id-90 .dtl .name{padding:135px 20px;}
+.m-id-90 .fix{position:absolute;bottom:0;width:100%;height:90px;line-height:90px;}
+.m-id-90 .fix .mask{position:absolute;left:0;top:0;width:100%;height:90px;}
+.m-id-90 .fix .itm{width:33%;text-align:center;position:relative;}
+.m-id-90 .fix .itm .arw{border:10px solid transparent;position:absolute;bottom:0;left:50%;height:0;width:0;font-size:0;overflow:hidden;border-bottom-color:#fff;margin-left:-15px;display:none;}
+.m-id-90 .fix .js-selected .arw{display:block;}
+.m-id-90 .fail{background-position:0 -13769px;height:150px;width:150px;margin:180px auto 30px;}

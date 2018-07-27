@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="groupTitle"></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+    <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group/vote.css" rel="stylesheet" type="text/css"/>
+    <link href="../../../../res/mobile/style/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body id="www-hijufou-com" class="bg03"> 
+    <!-- 投票 -->
+    <div class="g-wrp m-id-u1 bg01">
+      <div class="g-head f-cb bd01">
+      	<a href="vote.home.html" class="fl f-bg lbk"><img src="../../../../res/mobile/pic/backs.png"></a>
+        <div class="mbk fc03 fs06">组织投票</div>
+        <a href="javascript:;" class="fr rbk w-btn fc05 fs04" id="result_link">查看结果</a>
+      </div>
+      
+      <!-- 单选题 -->
+      <div id="singleSelection" class="g-body" style="display:none;">
+        <div class="blk bd03">
+      	  <p class="fs04 ln1" id="title"></p>
+      	  <p id="discription1" class="fs08 ln2 fc04"></p>
+      	  <p class="fs08 ln2 fc04">单选题</p>
+        </div>
+        <div id="items1"></div>
+        <a href="javascript:;" onclick='javascript:cast(1)' class="xcxt w-btn btn00">我要投票</a>
+      </div>
+      
+      <!-- 多选题 -->
+      <div id="mutiselection" class="g-body" style="display:none;">
+        <div class="blk bd03">
+      	  <p class="fs04 ln1" id="title1"></p>
+      	  <p class="fs08 ln2 fc04" id="discription2"></p>
+      	  <p class="fs08 ln2 fc04">多选题</p>
+        </div>
+        
+        <div id="items2"></div>
+        <a href="javascript:;" id="" onclick='javascript:cast(2)' class="xcxt w-btn btn00">我要投票</a>
+      </div>
+      
+      <!-- 打分题 -->
+      <div id="grade" class="g-body" style="display:none;">
+        <div class="blk bd03">
+      	  <p class="fs04 ln1" id="title2"></p>
+      	  <p class="fs08 ln2 fc04" id="discription3"></p>
+      	  <p class="fs08 ln2 fc04">打分题</p>
+        </div>
+        <div id="items3"></div>
+        <a href="javascript:;" onclick='javascript:cast(3)' class="xcxt w-btn btn00">我要投票</a>
+      </div>
+      
+    </div>
+    <!-- @DEFINE {nodep:true} -->
+    <script src="../../lib/jquery-1.7.1.min.js"></script>
+    <script src="../../lib/jstorage.js"></script>
+    <script src="../../javascript/common/util.js"></script>
+    <script src="../../javascript/common/base.js"></script>
+    <script src="../../javascript/group/vote.cast.js"></script>
+  </body>
+</html>

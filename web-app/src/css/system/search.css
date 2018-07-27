@@ -1,0 +1,84 @@
+.g-search .t-man{margin-top:30px;}
+.g-search .mre{margin:15px 0;font-size:16px;text-align:center;cursor:pointer;}
+/* 位置设置模块 */
+#www-jufou-com .t-mdl-y0{padding:5px 10px 20px 13px;margin:7px 0}
+#www-jufou-com .t-mdl-y0 .mtx{font-size:16px;}
+.t-mdl-y0 .w-fom select{padding:4px 2px;}
+.t-mdl-y0 .w-fom .wd0{width:170px;}
+.t-mdl-y0 .blk{line-height:20px;margin-top:10px;}
+.t-mdl-y0 .sxl p{margin:5px 0;}
+.t-mdl-y0 .t-btn-1{width:80px;height:26px;line-height:26px;color:#fff;font-size:12px;}
+/* 关键字及分类 */
+.t-mdl-y1 .wd0{width:145px;}
+.t-mdl-y1 .cat{margin-top:10px;}
+.t-mdl-y1 .kwd{position:relative;height:24px;line-height:24px;padding:0 8px;}
+.t-mdl-y1 .kwd .d{position:absolute;top:0;right:5px;cursor:pointer;}
+.t-mdl-y1 .w-tit .tip{margin-top:14px;}
+.t-mdl-y1 .j-fwg{}
+#www-jufou-com .t-mdl-y1{padding:12px 5px 10px 8px;}
+
+/* 日历设置 */
+.t-mdl-y2{text-align:center;margin:7px 0 0 4px;padding:9px;}
+.t-mdl-y2 .grp{width:85px;line-height:60px;font-size:16px;font-weight:bold;cursor:pointer;margin-right:8px;}
+.t-mdl-y2 .itm{width:85px;line-height:20px;font-size:14px;cursor:pointer;}
+.t-mdl-y2 .itm .wk{font-size:12px;}
+.t-mdl-y2 .itm .dy{font-weight:bold;border-width:0 1px 0 0;border-style:solid;border-color:#cdcdcd;}
+.t-mdl-y2 .xxx:hover{background:#eee;}
+.t-mdl-y2 .xxx.js-selected,
+.t-mdl-y2 .xxx.js-selected:hover{background:#D55F55;color:#fff;}
+.t-mdl-y2 .cld{width:45px;line-height:60px;cursor:pointer;background-position:11px -173px;}
+/* 组织活动列表 */
+.t-mdl-y3{margin:15px 0 0 4px;}
+/* 组织空列表 */
+.t-mdl-y4{text-align:center;}
+.t-mdl-y4 .ept{width:210px;height:210px;margin:60px auto;background-position:7px -3200px;}
+.t-mdl-y4 .act .t-btn{margin:30px 295px;;}
+.t-mdl-y4 .tip{margin-top:-23px;}
+/* 组织列表 */
+.t-mdl-y5 .srt{margin:27px 0 0 37px;font-size:14px;font-weight:bold;}
+.t-mdl-y5 .srt select{width:102px;}
+.t-mdl-y5 .sort{font-size:16px;}
+.t-mdl-y5 .lbx{margin:10px 25px;}
+/* 活动项 */
+.w-lfac-a{margin:25px 15px;border-bottom-style:solid;padding-bottom:18px;}
+.w-lfac-a .img img{height:80px;width:80px;margin-right:10px;margin-top:4px;}
+.w-lfac-a .uxr{width:270px;margin-left:-270px;line-height:20px;}
+.w-lfac-a .uxr p{margin:2px 0 10px 68px;}
+.w-lfac-a .uxr .uls{margin-left:70px;}
+.w-lfac-a .uxr img{width:35px;height:35px;margin:4px 6px 0 -5px;}
+.w-lfac-a .dtl{margin:-4px 225px 0 91px;line-height:22px;padding-right:25px;border-right-width:1px;border-right-style:dashed;}
+.w-lfac-a .dtl .wtx{font-size:16px;font-weight:bold;}
+.w-lfac-a .dtl .ht{max-height:50px;overflow:hidden;}
+.w-lfac-a .dtl .tip{line-height:19px;}
+/* 组织列表项 */
+.w-grp{width:218px;height:210px;margin:10px;border-width:1px;border-style:solid;}
+.w-grp .img{position:relative;text-align:center;width:218px;height:140px;overflow:hidden;}
+.w-grp .img img{display:block;margin:0 auto;width:100%;}
+.w-grp .ln{margin:9px;font-weight:bold;}
+.w-grp .ln a{font-size:16px;}
+.w-grp .ln0{margin:0 10px 0 8px;}
+.w-grp .inf{position:absolute;left:0;bottom:0;padding:6px 0;width:100%;text-align:left;}
+.w-grp .ln1{overflow:hidden;text-overflow:ellipsis;font-size:16px;font-weight:bold;margin:0 5px 0 10px;line-height:22px;}
+.w-grp .ln1 a{opacity:.95;}
+
+/* css3 */
+.w-grp .img .inf{
+	background:-webkit-linear-gradient(top,rgba(22,24,27,0),rgba(22,24,27,0.3) 60px,rgba(22,24,27,0.8));
+	background:   -moz-linear-gradient(top,rgba(22,24,27,0),rgba(22,24,27,0.3) 60px,rgba(22,24,27,0.8));
+	background:    -ms-linear-gradient(top,rgba(22,24,27,0),rgba(22,24,27,0.3) 60px,rgba(22,24,27,0.8));
+	background:     -o-linear-gradient(top,rgba(22,24,27,0),rgba(22,24,27,0.3) 60px,rgba(22,24,27,0.8));
+	progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#00000000',EndColorStr='#80000000');
+}
+.w-grp{
+	-webkit-border-radius:3px 3px 3px 3px;
+	   -moz-border-radius:3px 3px 3px 3px;
+	     -o-border-radius:3px 3px 3px 3px;
+	        border-radius:3px 3px 3px 3px;	
+}
+.w-grp .img img{
+	-webkit-border-radius:3px 3px 0 0;
+	   -moz-border-radius:3px 3px 0 0;
+	     -o-border-radius:3px 3px 0 0;
+	        border-radius:3px 3px 0 0;
+}
+

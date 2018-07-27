@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>浙江工商大学社团发展中心</title>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="target-densitydpi=320,width=640,user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="description" content="浙江工商大学社团发展中心" />
+<meta name="keywords" content="浙江工商大学社团发展中心 聚否 微首页" />
+<!-- @STYLE -->
+<link rel="stylesheet" type="text/css" href="../../css/icard/icard.css" ></link>
+<link rel="stylesheet" type="text/css" href="../../css/icard/simpleanimation.css" ></link>
+<style>
+.ctn-sy{background: url(http://www.hijufou.com/res/mobile/pic/cardpic/zgsbg.jpg) no-repeat center center;}
+.ctn-hor-btn{
+	top:68.7%;
+	width:100%;
+}
+.btn-hor-main{
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	color:black;
+	font-size:30px;
+	background: url(http://www.hijufou.com/res/mobile/pic/cardpic/zgsbtn.png);
+	background-size:100% 100%;
+	opacity:0;
+}
+#btn1{
+	-webkit-transform:translate(0px,-120px);
+	-webkit-animation:b-shift .5s 1.5s ease both;
+}
+#btn2{
+	margin-right:20px;
+	-webkit-animation:a-shift .5s 1.2s ease both;
+}
+#btn3{
+	-webkit-animation:a-shift .5s 1.3s ease both;
+}
+#btn4{
+	-webkit-transform:translate(0px,-120px);
+	-webkit-animation:b-shift .5s 1.4s ease both;
+}
+@-webkit-keyframes a-shift{ 
+	0% {opacity: 0;-webkit-transform: translate3d(0px,-50px,0px);}
+	50% {-webkit-transform: translate3d(0px,0px,0px);}
+	75%	{-webkit-transform: translate3d(0px,-12.5px,0px);}
+	100% {opacity: 1;-webkit-transform: none;}
+}
+@-webkit-keyframes b-shift{ 
+	0% {opacity: 0;-webkit-transform: translate3d(0px,-170px,0px);}
+	50% {-webkit-transform: translate3d(0px,-120px,0px);}
+	75%	{-webkit-transform: translate3d(0px,-132.5px,0px);}
+	100% {opacity: 1;-webkit-transform: translate3d(0px,-120px,0px);}
+}
+.zgslogo{
+	position:absolute;
+	left:15%;
+	top:6.9%;
+	width:70%;
+	-webkit-animation:sa-flip 1s .2s ease both;
+	-moz-animation:sa-flip 1s .2s ease both;
+}
+</style>
+</head>
+<body class="icard">
+<img id="img-load" src="../../../../res/mobile/pic/cardpic/loading.gif"></img>
+<div class="ctn-sy" style="display:none">
+<img class="zgslogo" src="../../../../res/mobile/pic/cardpic/zgslogo.png"></img>
+<div class="ctn-hor-btn">
+<div class="btn-hor-main" id="btn1">找社团</div>
+<div class="btn-hor-main" id="btn2">社团纳新</div>
+<div class="btn-hor-main" id="btn3">关于我们</div>
+<div class="btn-hor-main" id="btn4">找活动</div>
+</div> 
+</div>
+	<!-- @DEFINE {nodep:true} -->
+	<script src="../../lib/tongji.js" type="text/javascript"></script>
+	<script src="../../lib/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="../../javascript/icard/zgssy.js"></script>
+</body>
+</html>

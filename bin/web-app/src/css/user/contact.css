@@ -1,0 +1,18 @@
+/* 分组列表 */
+.t-mdl-t0{padding-bottom:50px;}
+.t-mdl-t0 .wd0{width:143px;}
+/* 列表结果 */
+.t-mdl-t1{padding-bottom:25px;}
+.t-mdl-t1 .bxt{margin-left:10px;cursor:pointer;padding-bottom:10px;padding-top:10px;padding-left:30px;background-position:10px -276px;}
+.t-mdl-t1 .bxt2{margin-left:10px;cursor:pointer;padding-bottom:10px;padding-top:10px;padding-left:30px;background-position:10px -353px;letter-spacing:0;}
+.t-mdl-t1 .bxt:hover{text-decoration:underline;}
+.t-mdl-t1 .clst{width:100%;margin-top:20px;border-width:1px;border-style:solid;table-layout:fixed;border-collapse:collapse;text-align:center;}
+.t-mdl-t1 .clst th{font-size:14px;}
+.t-mdl-t1 .clst th,
+.t-mdl-t1 .clst td{padding:10px 5px;border-width:1px;border-style:solid;}
+.t-mdl-t1 .clst .c1{width:250px;}
+.t-mdl-t1 .clst .c3{width:120px;}
+.t-mdl-t1 .clst .c3 a{margin:0 5px;}
+.t-mdl-t1 .clst .ept{padding:80px 0 50px;}
+.t-mdl-t1 .clst .ept .t-btn{margin:20px auto;}
+.t-mdl-t1 .pager{padding-top:15px;}

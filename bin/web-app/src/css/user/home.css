@@ -1,0 +1,48 @@
+/* 个人基本信息 */
+.t-mdl-h0{width:663px;}
+.w-lfac-h{border:0;padding:0;margin:10px 0 0;}
+.w-lfac-h .img img{width:60px;height:60px;}
+.w-lfac-h .dtl{margin-left:80px;padding-top:10px;}
+.w-lfac-h .bio{line-height:20px;overflow:hidden;padding-top:3px;}
+.w-lfac-h .hnm{font-size:16px;font-weight:bold;}
+.w-lfac-h .hlk{text-align:right;}
+/* 活动列表 */
+.t-mdl-h1{width:701px;margin-top:18px;}
+.t-mdl-h1 .t-cnt{position:relative;zoom:1;}
+.t-mdl-h1 .xtp{position:absolute;top:0;right:0;}
+.t-mdl-h1 .xtp select{width:100px;}
+.t-mdl-h1 .w-wtb .abox{padding-top:39px;padding-bottom:30px;}
+/* 日历选择模块 */
+.l-hsd-s{width:262px;}
+.t-mdl-h2{padding:10px;}
+.t-mdl-h2 .xym{line-height:30px;margin-bottom:5px;text-align:center;}
+.t-mdl-h2 .xym .pm{margin-left:10px;}
+.t-mdl-h2 .xym .nm{margin-right:10px;}
+.t-mdl-h2 .xym .bt{cursor:pointer;}
+.t-mdl-h2 .ymt{font-size:14px;font-weight:bold;}
+.t-mdl-h2 .xdt{width:100%;table-layout:fixed;text-align:center;border-collapse:collapse;}
+.t-mdl-h2 .xdt th{padding:5px 0;}
+.t-mdl-h2 .xdt td{padding:8px 0;border-width:3px;border-style:solid;cursor:pointer;}
+#www-jufou-com .t-mdl-h2 .js-extended{color:#999;}
+#www-jufou-com .t-mdl-h2 .js-selected{background:#D55F55;color:#fff;font-weight:bold;}
+/* 组织列表 */
+.t-mdl-h3 .w-lfac .img img{margin-top:4px;}
+
+/* 活动列表项 */
+.w-meet-2{padding:15px 0 5px;border-bottom-width:1px;border-bottom-style:solid;}
+.w-meet-2 .logo{width:115px;margin:8px 0 0 15px;}
+.w-meet-2 .logo img{width:80px;height:80px;}
+.w-meet-2 .numb{width:190px;margin-left:-180px;padding:10px 0;border-left-width:1px;border-left-style:dashed;text-align:center;}
+.w-meet-2 .numb .ln{width:130px;margin:0 auto;}
+.w-meet-2 .numb .ln1{line-height:24px;margin-top:10px;text-align:left;}
+.w-meet-2 .numb .ln2{line-height:24px;}
+.w-meet-2 .numb .c0{padding-right:5px;}
+.w-meet-2 .smry{margin:0 180px 0 115px;line-height:26px;}
+.w-meet-2 .smry .ln0{font-size:14px;font-weight:bold;margin:6px 3px 3px 3px;width:365px;max-height:45px;overflow:hidden;line-height:22px;}
+.w-meet-2 .smry .ln1{font-weight:bold;}
+.w-meet-2 .smry .ln2{line-height:20px;}
+#www-jufou-com .js-first{border-top:0;}
+/* 时间线 */
+.w-tline{display:block;font-size:16px;font-weight:bold;line-height:36px;border-width:1px 0;border-style:solid;padding:0 12px 0 37px;text-align:left;}
+.w-tline .x{position:relative;z-index:10;display:block;width:70px;height:21px;line-height:21px;margin:0 auto;font-size:16px;font-weight:bold;}
+

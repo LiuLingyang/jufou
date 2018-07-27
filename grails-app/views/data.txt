@@ -1,0 +1,198 @@
+var date  = new Date();
+console.log(date.getTime());
+date.setDate(date.getDate()-1);//开始报名
+console.log(date.getTime());
+date.setDate(date.getDate()+5);//结束报名
+console.log(date.getTime());
+date.setDate(date.getDate()+1);//活动开始
+console.log(date.getTime());
+date.setDate(date.getDate()+2);//结束结束
+console.log(date.getTime());
+
+复制活动
+/[gname]/meeting/copy/[mid]/
+更新活动
+/[gname]/meeting/update/[mid]/
+
+置顶活动	meeting/top
+
+
+组织首页  Zaaaaaa/
+
+参加活动
+
+修改活动回复
+
+用户的登入
+
+search活动	search/
+
+search组织
+login/
+regist/
+activation/
+retrieve/
+
+personal/
+setting/
+group/
+profile/
+message/
+retrieve/
+create/	
+组织页（/[gname]/）
+
+组织成员页（/[gname]/member/）
+组织成员卡片页（/[gname]/member/[uid]/）
+组织相册列表页（/[gname]/album/）
+组织相片列表页（/[gname]/album/[aid]/）
+组织相片详情页（/[gname]/photo/[pid]/）
+组织设置首页（/[gname]/setting/）
+组织基本信息设置页（/[gname]/setting/basic/）	
+组织成员设置页（/[gname]/setting/member/）
+组织隐私设置页（/[gname]/setting/privacy/）
+组织标签设置页（/[gname]/setting/tag/）
+组织风格设置页（/[gname]/setting/theme/）
+查看活动页（/[gname]/meeting/[mid]/）
+创建活动页（/[gname]/meeting/create/）
+更新活动页（/[gname]/meeting/update/[mid]/）
+复制活动页（/[gname]/meeting/copy/[mid]/）
+加入组织申请页（/[gname]/join/）
+群通知会员页（/[gname]/notify/）
+
+组织首页
+
+获取组织活动，未开始活动，活动置顶了的放在最前面，有分页获取
+
+获取组织结束活动
+2012-11-13 to YY
+
+======================================
+组织首页接口:
+获取组织活动，未开始活动，活动置顶了的放在最前面，有分页获取
+获取组织结束活动
+填的数据是:
+动态列表(news)，6条，现在没有动态，留着以后调吧 	-------------目前还是测试数据
+相片列表，数据6条								-------------目前还是测试数据
+
+/rest/group/getgroupactivities	
+groupId	组织Id
+type	类型 0为即将开始的活动,		1为已经结束的活坳
+offset	
+limit	
+===========================================================================
+活动详情页
+_$topActivity置顶活动	/rest/meeting/top
+gid	组织id
+mid	活动Id
+回复参加活动	/rest/meeting/attend
+type	1参加0 拒绝
+mid	活动Id
+observer	携带人数
+reply	回复内容
+修改回复活动	/rest/meeting/changereply
+type	1参加0 拒绝
+mid	活动Id
+observer	携带人数
+reply	回复内容
+评论的功能先放下
+========================================================================
+搜索组织
+/rest/group/ searchgroups
+province	省份	先传空字符串，还不知道这地址怎么来
+city	城市		先传空字符串，还不知道这地址怎么来
+location	用户输入的地址
+keyword	关键字
+sort	排序方式		即将开始的活动的组织升序和最新有活动发布的组织升序
+offset	偏移量
+limit	数量
+
+
+
+/rest/group/searchactivities
+province	省份	先传空字符串，还不知道这地址怎么来
+city	城市		先传空字符串，还不知道这地址怎么来
+location	用户输入的地址
+keyword	关键字
+sort	排序方式		即将开始的活动的组织升序和最新有活动发布的组织升序
+date	这个天的活动
+offset	偏移量
+limit	数量
+=========================================================================
+/setting	用户消息设置
+获取用户所在组织	/api/user/getParticipateGroups
+组织列表
+组织对象，需要有一个状态用户是否是该组织的组织者
+
+解散组织	
+/api/user/dismissgroup
+id	groupID
+
+退出组织
+/api/user/cancelgroup
+id	groupID
+
+获取组织设置
+/api/user/getgroupsetting	
+id	groupID
+设置对象
+{
+news:true,有新活动时通知，
+remind：true,//活动提醒设置，
+change：true,//我参加的活动更改了活动信息时通知我，
+comment：true,//我参加的活动有新的评论时通知我，
+activityok：true,//我参加活动后的确认成功通知，
+newphoto：true,//我参加的活动有新照片上传时通知我
+tagphoto: true,//我上传的照片被贴标签时通知我
+photocomment: true,//我上传的照片被评论时通知我
+member: true,//有新会员加入组织申请时通知我
+quite: true,//有会员退出组织时通知我
+newactivity: true,//有会员添加了一个活动时通知我
+friendmember: true,//我的朋友加入这个组织时通知我
+noteupdate: true,//留言板更新
+email: true,//我还希望以邮件的方式接受上述活动信息
+}
+保存设置
+/api/user/savegroupsetting
+和上面的类似，里面有个id，是组织id
+===============================================================================
+/group
+我的组织页
+/api/user/getParticipateGroups	用户参加的组织列表	这接口和消息设置时同一个接口
+
+/api/user/getMyGroups	获取我建的组织列表	
+
+=================================================================================
+/api/user/getnotes
+0	发出的通知
+1	收到的通知
+{type:_type,offset:_pageNum,limit:(_pageNum+1)*30}
+需要把总数传给我，要做分页处理
+{
+group:{name:'杭州周末爱爬山涉水俱乐部',id:'yyyyy',logo:'../../res/images/grouplogo.jpg'},
+note:'这个活动好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好...'
+}
+
+
+/api/user/getmessages
+0	最新活动
+1	我的评论
+2	系统消息
+ {type:_type,offset:_pageNum,limit:(_pageNum+1)*30
+ {activity:{title:'世界如何变化，我们依然信仰音乐 — 痛仰',id:'xxx'},
+group:{name:'杭州周末爱爬山涉水俱乐部',
+id:'yyyyy',logo:'../../res/images/grouplogo.jpg'},
+date:new Date}
+//评论对象结构
+{activity:{title:'世界如何变化，我们依然信仰音乐 — 痛仰',id:'xxx'},
+user:{name:'钱小芸',url:'xxx',ava:'../../res/images/face50.jpg'},	
+date:new Date,
+comment:'这个活动好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好...',
+mateCount:_ut._$randNumber(1,5),//回复参加活动时有同伴选项
+type:_ut._$randNumber(0,3)//0是活动评论,//1回复参加活动//2回复不参加活动
+//系统消息对象
+group:{name:'杭州周末爱爬山涉水俱乐部',id:'yyyyy',logo:'../../res/images/grouplogo.jpg'},
+note:'这个活动好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好有趣好...',
+type:_ut._$randNumber(0,2),//0是发出的通知,//1收到的通知
+date:new Date}
+

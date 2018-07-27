@@ -1,0 +1,62 @@
+/* 回复活动表单 */
+.meeting-show .w-fom{text-align:left;}
+.meeting-show .w-fom .wd0{width:50px;}
+.meeting-show .w-fom .wd1{width:157px;padding:3px 5px;}
+.meeting-show .w-fom .ht0{height:56px;}
+.meeting-show .w-fom .ln{margin:10px 2px;}
+.meeting-show .w-fom .tip{width:170px;height:30px;line-height:30px;font-size:14px;font-weight:bold;}
+.meeting-show .w-fom .ln0{margin-left:5px;}
+.meeting-show .w-fom .ln0 label{margin-right:10px;}
+.meeting-show .w-fom .ln1{line-height:24px;}
+.meeting-show .w-fom .ln1 .xxx{font-weight:bold;}
+.meeting-show .w-fom .ln2{font-weight:bold;font-size:16px;margin-top:0;margin-bottom:17px;}
+.meeting-show .w-fom .ln1 .xx{padding-bottom:5px;}
+.meeting-show .js-ncj .xxx{display:none;}
+.meeting-show .w-fom .cbx-s{margin-left:9px;}
+/* 模块结构 */
+#www-jufou-com .t-mdl-20 .mtx{font-size:17px;}
+#www-jufou-com .t-mdl-21 .mtx,#www-jufou-com .t-mdl-22 .mtx{font-size:17px;letter-spacing:1px;}
+.t-mdl-20 .js-error{padding-left:45px;}
+.t-mdl-21 .shw{height:20px;line-height:20px;padding-bottom:5px;font-weight:bold;border-width:0 0 1px;border-style:dashed;}
+.t-mdl-21 .t-ttl,.t-mdl-20 .t-ttl,.t-mdl-22 .t-ttl{padding:0;margin:-5px 5px 15px;}
+.t-mdl-21 .wd1{height:50px;}
+.t-mdl-21  .t-cnt .w-lfac{padding:15px 8px;margin:0}
+.t-mdl-21  .t-cnt .w-lfac .dtl{margin-top:5px;}
+
+.t-mdl-24 .txt{padding:2px;width:530px;height:50px;font-size:14px;margin-top:10px;}
+.t-mdl-24{padding:20px 10px;text-align:left;position:relative;}
+.t-mdl-24 .nocr{font-size:18px;}
+.t-mdl-24 .pub{position:absolute;top:16px;right:12px;}
+.t-mdl-24 .ref{position:absolute;top:16px;right:150px;}
+
+.t-mdl-25{padding-right:40px;margin-left:4px;margin-right:4px;}
+.t-mdl-25 .addtip{display:block;font-size:14px;font-style:italic;}
+.t-mdl-25 .tx{line-height:110%;font-size:30px;font-weight:bold;margin:13px 6px;overflow:hidden;letter-spacing:-0.75px;}
+.t-mdl-25 .ax{margin:0 0 12px 6px;}
+.t-mdl-25 .ax .ax-1{margin-left:-5px;}
+.t-mdl-25 .ax a{margin-right:5px;}
+.t-mdl-25 .xtb{table-layout:fixed;width:100%;margin:0 0 -5px 6px;}
+.t-mdl-25 .xtb .c0{width:38px;background-position:1px -190px;}
+.t-mdl-25 .xtb .c01{width:30px;background-position:4px -2302px;}
+.t-mdl-25 .xtb .c02{width:30px;vertical-align:top;}
+.t-mdl-25 .xtb .c1{line-height:24px;font-size:16px;}
+.t-mdl-25 .xtb .mr{margin-left:5px;}
+.t-mdl-25 .xtb .ar{padding:9px 0;}
+.t-mdl-25 .xct{margin-top:20px;padding:19px 0 9px 13px;border-width:1px 0 0;border-style:solid;}
+.t-mdl-25 .xct .xc{line-height:160%;overflow:hidden;margin:13px 0 0 -2px;}
+.t-mdl-25 .xct .xc p{margin:10px 0;}
+.t-mdl-25 .xct .xc img{max-width:100%;}
+.t-mdl-25 .xb{margin:2px 0 0 1px;}
+.t-mdl-25 .sns{padding:10px;}
+.t-mdl-26{padding:0;margin:-6px 4px 0;}
+.t-mdl-26 .tax{margin-left:-2px;}
+.t-mdl-26 .tax-s{}
+#www-jufou-com .t-mdl-27{padding:0 0 0 20px;cursor:pointer;}
+.t-mdl-27 .t-ttl{margin-left:-13px;line-height:24px;height:24px;padding:0;background:url(/res/img/sprite.png) no-repeat -9999px -9999px;background-position:171px -817px;}
+#www-jufou-com .t-mdl-27 .mtx{font-size:12px;font-weight:normal;}
+#www-jufou-com .t-mdl-28{padding:10px 10px 15px;position:relative;cursor:default;text-align:center;}
+.t-mdl-28 .hld{height:46px;}
+.t-mdl-28 .sst{position:absolute;top:0;left:0;cursor:default;}
+.t-mdl-28 .xdx .js-mhd{left:97px;}
+
+

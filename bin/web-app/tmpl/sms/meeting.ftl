@@ -1,0 +1,1 @@
+${user.nickname}邀请你参加活动： ${meeting.title}，时间：${meeting.startTime}，邀请链接：${stub}。更多活动信息：www.hijufou.com/${group.homepage}/meeting/${meeting.id}。

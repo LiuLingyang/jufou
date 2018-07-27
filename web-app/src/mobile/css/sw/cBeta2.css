@@ -1,0 +1,279 @@
+*{ border: 0; outline: none; margin: 0; padding: 0;overflow:hidden;}
+.showing *{-webkit-animation-fill-mode:both !important;}
+body{
+	height: 100%; 
+	width: 100%;
+	overflow:hidden;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	font-family: Helvetica; 
+	-webkit-user-select: none;
+	user-select: none;
+	color:white;
+	background-color: black;
+}/*default text color,background color*/
+a, img{-webkit-touch-callout: none;}
+#ctn{
+	display:none;
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+#img-load{
+	margin:auto auto;
+}
+section {
+	display:none;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%; 
+	height: 100%; 
+	-webkit-transition : all 0s linear;
+	background-size:cover;
+	background-position:center center;
+}
+.active{
+	display:block;
+}
+.showing{
+	display:block;
+}
+
+/**/
+.l-hor-cen{
+	position:absolute;
+	left:50%;
+	-webkit-transform:translateX(-50%);
+}
+.l-cen{
+	position:absolute;
+	left:50%;
+	top:50%;
+	-webkit-transform:translate(-50%,-50%);
+}
+.img-bg{
+	position:absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
+}
+
+/**/
+#btn-ac{
+	position: fixed;
+	right: 15px; 
+	top: 50px; 
+	z-index: 1000;
+	width: 30px; 
+	height: 30px;  
+	cursor: pointer; 
+	background:url(http://www.hijufou.com/res/mobile/pic/sw/music2.png);
+	background-size: 100% auto;
+}
+#btn-ac.playing{
+	background:url(http://www.hijufou.com/res/mobile/pic/sw/music.png);
+	background-size: 100% auto;
+}
+
+.img-arw{
+	position: absolute;
+	z-index:100;
+    width:8%;
+    -webkit-animation: ani-arrow 1s;
+    -webkit-animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes ani-arrow{
+    0%  {bottom: 20px;opacity: 0;}
+    50%    {bottom: 30px;opacity: 1;}
+    100%    {bottom: 40px;opacity: 0;}
+}
+/**/
+
+#sec1{background-image:url(http://www.hijufou.com/res/mobile/pic/sw/hchbg.jpg);}
+#sec1 .header{
+	display:block;
+	width:90%;
+	margin:3% auto; 
+	opacity:0;
+}
+#sec1.showing .header{-webkit-animation:a-sec1-header .6s linear .2s 1;}
+@-webkit-keyframes a-sec1-header
+{
+	0% {-webkit-transform:translateY(-50px);opacity:0;}
+	100%{-webkit-transform:;opacity:1;}
+}
+#sec1 .logo{
+	width:40%;
+}
+#sec1 .footer{
+	width:90%;
+	bottom:9.4%;
+}
+#sec1 .detail{
+	padding-bottom:2px;
+	margin-bottom:18px;
+	font-size:1em;
+	border-bottom:0.15em solid white;
+}
+#sec1 .footimg{
+	position:relative;
+	width:100%;
+	opacity:0;
+}
+#sec1.showing .footimg{-webkit-animation:a-sec1-footer .6s linear .2s 1; }
+@-webkit-keyframes a-sec1-footer
+{
+	0% {-webkit-transform:translateY(50px);opacity:0;}
+	100%{-webkit-transform:;opacity:1;}
+}
+#sec2{background-image:url(http://www.hijufou.com/res/mobile/pic/sw/hchbg2.jpg);}
+#sec2 .title{
+	font-size:1.2em;
+	margin-left:5%;
+	padding-top:3%;
+}
+#sec2 .jblist{
+	width:90%;
+	margin:3% auto;
+}
+#sec2 .jb{
+	display:block;
+	width:100%;
+	margin-bottom:4%;
+	opacity:0;
+}
+#sec2.showing #jb1{-webkit-animation:a-sec2-jb1 .8s ease-in .2s 1;}
+@-webkit-keyframes a-sec2-jb1
+{
+	0% {-webkit-transform:translateX(-100px);opacity:0;}
+	90%{-webkit-transform:translateX(20px);opacity:0.9;}
+	100%{-webkit-transform:;opacity:1;}
+}
+#sec2.showing #jb2{-webkit-animation:a-sec2-jb2 .8s ease-in .2s 1;}
+@-webkit-keyframes a-sec2-jb2
+{
+	0% {-webkit-transform:translateX(100px);opacity:0;}
+	90%{-webkit-transform:translateX(-20px);opacity:0.9;}
+	100%{-webkit-transform:;opacity:1;}
+}
+#sec3{background-image:url(http://www.hijufou.com/res/mobile/pic/sw/hchbg2.jpg);}
+#sec3 .title{
+	font-size:1.2em;
+	margin:3% 5% 4.5%;
+}
+
+#sec3 .list{
+	margin:0 auto;
+	width:90%;
+	list-style-type:none
+}
+@media screen and (max-width:500px){
+#sec3 li{
+	margin-bottom:5px;
+}
+#sec3 .listtext{
+	font-size:24px;
+	margin-bottom:5px;
+}
+#sec3 .listtext:before{
+	display: inline-block;
+	width:20px;
+	height:20px;
+	margin-right: 10px;
+	content:'';
+    background-image: url(http://www.hijufou.com/res/mobile/pic/sw/cloc.png);
+    background-size: 100% 100%;
+}
+
+#sec3 .lc{
+	position:relative;
+	height:80px;
+}
+#sec3 .timeline{
+	margin:0 10px;
+	width:2px;
+	height:0;
+}
+#sec3 .lcdetail{
+	position:absolute;
+	left:20px;
+	top:15px;
+	width:70%;
+	opacity:0;
+}
+@-webkit-keyframes a-sec3-tl
+{
+	0% {height:0;}
+	100%{height:80px;}
+}
+@-webkit-keyframes a-sec3-ld
+{
+	0% {opacity:0;}
+	100%{opacity:1;}
+}
+}
+@media screen and (min-width:500px){
+#sec3 li{
+	margin-bottom:8px;
+}
+#sec3 .listtext{
+	font-size:32px;
+	margin-bottom:8px;
+}
+#sec3 .listtext:before{
+	display: inline-block;
+	width:30px;
+	height:30px;
+	margin-right: 15px;
+	content:'';
+    background-image: url(http://www.hijufou.com/res/mobile/pic/sw/cloc.png);
+    background-size: 100% 100%;
+}
+
+#sec3 .lc{
+	position:relative;
+	height:150px;
+}
+#sec3 .timeline{
+	margin:0 15px;
+	width:4px;
+}
+#sec3 .lcdetail{
+	position:absolute;
+	left:30px;
+	top:35px;
+	width:70%;
+	opacity:0;
+}
+@-webkit-keyframes a-sec3-tl
+{
+	0% {height:0;}
+	100%{height:150px;}
+}
+@-webkit-keyframes a-sec3-ld
+{
+	0% {opacity:0;}
+	100%{opacity:1;}
+}
+}
+#sec3.showing #tl1{-webkit-animation:a-sec3-tl 1s linear 0 1;}
+#sec3.showing #ld1{-webkit-animation:a-sec3-ld 1s linear 0 1;}
+#sec3.showing #tl2{-webkit-animation:a-sec3-tl 1s linear 1s 1;}
+#sec3.showing #ld2{-webkit-animation:a-sec3-ld 1s linear 1s 1;}
+#sec3.showing #tl3{-webkit-animation:a-sec3-tl 1s linear 2s 1;}
+#sec3.showing #ld3{-webkit-animation:a-sec3-ld 1s linear 2s 1;}
+#sec3.showing #tl4{-webkit-animation:a-sec3-tl 1s linear 3s 1;}
+#sec3.showing #ld4{-webkit-animation:a-sec3-ld 1s linear 3s 1;}
+
+#sec4{background-image:url(http://www.hijufou.com/res/mobile/pic/sw/hchbg2.jpg);}
+#sec4 .bmtext{
+	display:block;
+	margin:9.3% auto;
+	width:72%;
+}
+#sec4 .bmimg{width:53%}

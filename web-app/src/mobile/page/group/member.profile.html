@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="groupTitle"></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+ 	<meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+    <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group/member.profile.css" rel="stylesheet" type="text/css"/>
+    <link href="../../../../res/mobile/style/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body id="www-hijufou-com">
+    
+    <!-- 组织首页 -->
+    <div class="g-wrp m-id-70" data-role="page">
+      <div class="g-gbr f-cb">
+        <img class="br1 por" id="portrait"/>
+        <div class="uusr fs10 fc03 bd02" id="nickname"></div>
+      </div>
+      <div class="g-menu-1 f-cb">
+        <div class="itm fl js-selected bd02">
+          <span class="txt" id="profile">相关资料</span>
+        </div>
+        <div class="itm fl bd02">
+          <span class="txt" id="relatedGroup">0个组织</span>
+        </div>
+      </div>
+      <div class="g-body">
+      	<div id="tab1">
+          <div class="b1k fs03">
+            <p id="address" class="fc04">&nbsp;</p>
+            <p class="fc04"><span id="time"></span>&nbsp;&nbsp;加入组织</p>
+          </div>
+          <div class="b1k fs03">
+            <label>自我介绍：</label>
+            <span id="description" class="fc04"></span>
+          </div>
+        </div>
+        <div class="" id="tab2" style="display:none">    
+          <div class="lbox f-cb" id="groupsElments">
+          </div>
+          <div class="" id="nogroup" style="display:none;">
+      	    <div class="f-bg nmsg"></div>
+      	    <p class="fs10 fc04">还没有加入任何组织</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- @DEFINE {nodep:true} -->
+    <script src="../../lib/jquery-1.7.1.min.js"></script> 
+    <script src="../../lib/jstorage.js"></script>
+    <script src="../../lib/dateFormat.js"></script>
+    <script src="../../javascript/common/util.js"></script>
+    <script src="../../javascript/common/base.js"></script>
+    <script src="../../javascript/group/member.profile.js"></script>    
+  </body>
+</html>

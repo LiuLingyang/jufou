@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>聚否</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+        <link href="../../css/meeting/show.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/meeting/comment.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/meeting/member.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/meeting/photo.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/group.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/meeting/reply.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+  
+    <!-- 回复邀请-->
+    <div data-role="page">
+    <div data-role="content" class="g-wrp m-id-j2">
+      <div class="g-head f-cb">
+        <a class="fr rbk w-btn w-btn-5" id="submitbtn">回复</a>
+        <div class="mbk">回复邀请</div>
+      </div>
+      <div class="blk blk-02">
+      	<p class="itm1 itm3">你要参加吗？</p>
+      	<div class="xx">
+      	  <input type="button" id="att1" class="tip tip1 w-btn w-btn-s" value="参加" onclick="javascript:isAttend(1)"/>
+      	  <input type="button" id="att2" class=" tip tip2 w-btn" value="不参加" onclick="javascript:isAttend(0)"/>
+        </div>
+      </div>
+      <div class="blk blk-02">
+      	<p class="itm1 itm2">携带<input type="text" class="tip3" placeholder="0" id="attendnumber">位同伴</p>
+      </div>
+      <div class="w-jon g-body">
+      <form class="xcxt stp">
+        <p class="ln0">说些什么</p>
+        <div class="blk tip6">
+        <textarea class="ln1 br0 tip4" id="intr" placeholder="介绍你自己"></textarea>
+        </div>
+      </form>
+      </div>
+    </div>	
+    </div>
+    <!-- @DEFINE {nodep:true} -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="../../lib/jstorage.js"></script>
+    <script src="../../lib/meetup.js"></script>
+    <script src="../../javascript/meeting/attendreply.js"></script> 
+  </body>
+</html>

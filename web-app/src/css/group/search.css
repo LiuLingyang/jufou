@@ -1,0 +1,32 @@
+.m-location{margin-top:40px;}
+.m-date,.m-location,.m-srch,.m-rslact{background-color:#fff;}
+.m-location .tt{height:36px;}
+.m-location .loclbl{height:26px}
+.m-location .address{margin:6px 0}
+.m-location .address .ipt{height:24px;line-height:24px;padding-left:4px}
+.m-location .distancechge{margin:10px 0}
+.m-location,.m-srch{margin-bottom:15px;padding:14px}
+.m-srch .srchipt{height:24px;width:138px;border:1px solid #cdcdcd;border-right:none;outline:none}
+.m-suglbl{line-height:30px;margin-top:10px}
+.m-suglbl li{padding-left:12px}
+.m-suglbl .crt,.m-suglbl .crt a{background-color:#D55F55;color:#fff;height:22px;line-height:22px}
+.m-date{padding:7px 15px;margin-top:40px}
+.m-dateselect .itm{float:left;width:85px;text-align:center;line-height:22px}
+.m-dateselect .itm .date{border-right:1px solid #cdcdcd}
+.m-dateselect .crt{background-color:#D55F55;}
+.m-dateselect .crt .date{border:none}
+.m-rsltcsem{margin-top:15px}
+.m-dateselect .dateselect{position:relative;width:36px;line-height:66px;padding:0  10px;}
+.m-rslact{padding:20px 15px}
+.m-rslact .rslitm{line-height:22px;padding:25px 0;border-bottom:1px solid #eee}
+.m-rslact .rslitm .time,.m-rslact .rslitm .address{color:#535353}
+.m-rslact .logo img{width:82px;height:82px}
+.m-rslact .rslitm .attendee{border-left:1px dashed #ddd;padding-left:10px;height:82px}
+.m-rslact .rslitm .info{width:350px;margin-left:10px}
+.m-rslact .rslitm .clubname{height:18px;line-height:18px}
+.m-rsltcse{margin-top:15px}
+.m-rslgrp{padding:35px 35px 0 35px;background-color:#fff;}
+.m-rslgrp .rslitm{margin-bottom:40px;margin-right:32px;width:210px;overflow:hidden}
+.m-rslgrp .rslitm-1{margin-right:0}
+.m-rslgrp .rslitm .clubname{height:26px;line-height:26px}
+.m-rslgrp .rslitm .member,.m-rslgrp .rslitm .acttime{height:22px;line-height:22px}

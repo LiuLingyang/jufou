@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+	
+	<link rel="shortcut icon" href="image/favicon.ico">
+	<meta charset="utf-8">
+	<meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="description" content="中南大学学生社团联合会，聚否平台微首页">
+	<meta name="keywords" content="中南大学学生社团联合会 The Students’ Association Union of 
+Central South University 聚否 微首页">
+	<title>中南大学学生社团联合会</title>
+
+	<!-- @STYLE -->
+	<style type="text/css">
+		body{padding: 0;margin: 0;}
+		img{border: none;}
+		.bg{position:absolute;width:100%;height:100%;background-image:url(http://www.hijufou.com/res/mobile/pic/zndx/zndx-bg.png);background-size:100% 100%;z-index:-1;}
+		#img-load{margin: 0 120px;/*width: 640px;height:1008px;*/}
+		.welc{background: url(http://www.hijufou.com/res/mobile/pic/zndx/shadow.png) no-repeat;opacity: 0.8;}
+		.welc .logo{position: absolute;margin: 148px 126px; -webkit-animation: spin 0.8s 1 linear;}
+		@-webkit-keyframes spin { from {-webkit-transform: rotateY(180deg);} to {-webkit-transform: rotateY(360deg);} }    
+
+		.btn{float: left;position: relative;}
+		.btn div{float: left;}
+		#btn-1{position: absolute;left: 56px;top:700px;}
+		#btn-2{position: absolute;left: 248px;top:800px;}
+		#btn-3{position: absolute;left: 440px;top:700px;}
+
+		#btn-2{
+
+			-webkit-animation:bounceInDown .3s  1s ease both;
+			-moz-animation:bounceInDown .3s  1s ease both;}
+			@-webkit-keyframes bounceInDown{
+			0%{opacity:0;
+			-webkit-transform:translateY(-200px)}
+			60%{opacity:1;
+			-webkit-transform:translateY(60px)}
+			90%{-webkit-transform:translateY(40px)}
+			100%{-webkit-transform:translateY(0)}
+			}
+			@-moz-keyframes bounceInDown{
+			0%{opacity:0;
+			-moz-transform:translateY(-200px)}
+			60%{opacity:1;
+			-moz-transform:translateY(60px)}
+			90%{-moz-transform:translateY(40px)}
+			100%{-moz-transform:translateY(0)}
+
+		}
+		#btn-1{
+			-webkit-animation:bounceInDown .3s  1.2s ease both;
+			-moz-animation:bounceInDown .3s  1.2s ease both;}
+			@-webkit-keyframes bounceInDown{
+			0%{opacity:0;
+			-webkit-transform:translateY(-200px)}
+			60%{opacity:1;
+			-webkit-transform:translateY(60px)}
+			80%{-webkit-transform:translateY(40px)}
+			100%{-webkit-transform:translateY(0)}
+			}
+			@-moz-keyframes bounceInDown{
+			0%{opacity:0;
+			-moz-transform:translateY(-200px)}
+			60%{opacity:1;
+			-moz-transform:translateY(60px)}
+			80%{-moz-transform:translateY(40px)}
+			100%{-moz-transform:translateY(0px)}
+		}
+		#btn-3{
+			-webkit-animation:bounceInDown .3s  1.4s ease both;
+			-moz-animation:bounceInDown .3s  1.4s ease both;}
+			@-webkit-keyframes bounceInDown{
+			0%{opacity:0;
+			-webkit-transform:translateY(-200px)}
+			60%{opacity:1;
+			-webkit-transform:translateY(60px)}
+			80%{-webkit-transform:translateY(40px)}
+			100%{-webkit-transform:translateY(0px)}
+			}
+			@-moz-keyframes bounceInDown{
+			0%{opacity:0;
+			-moz-transform:translateY(-200px)}
+			60%{opacity:1;
+			-moz-transform:translateY(60px)}
+			80%{-moz-transform:translateY(40px)}
+			100%{-moz-transform:translateY(0px)}
+		}
+
+	</style>
+
+</head>
+<body class="icard" onload="on()">
+	<img id="img-load" src="../../../../res/mobile/pic/zndx/loading.gif">
+	<div class="bg" id="content" style="display:none">
+	<div class="welc">
+		<img class="logo" src="../../../../res/mobile/pic/zndx/icard.png">
+	</div>
+	<div class="btn">
+		<div class="btn-link" id="btn-1"><a href="http://www.hijufou.com/m/system/group.html?meid=2673&groupid=2673&groupcode=zndxxsstl"><img src="../../../../res/mobile/pic/zndx/btn-1.png"></a></div>
+		<div class="btn-link" id="btn-2"><a href="#"><img src="../../../../res/mobile/pic/zndx/btn-2.png"></a></div>
+		<div class="btn-link" id="btn-3"><a href="http://www.hijufou.com/m/system/meet.html?meid=2673&groupid=2673&groupcode=zndxxsstl"><img src="../../../../res/mobile/pic/zndx/btn-3.png"></a></div>
+	</div>
+	</div>
+</body>
+
+<!-- @DEFINE {nodep:true} -->
+<script type="text/javascript">
+	function on(){
+		if(document.readyState=="complete"){
+			document.getElementById("img-load").style.display="none";
+			document.getElementById("content").style.display="block";
+		}
+		else
+			document.getElementById("img-load").style.display="block";
+	}
+</script>
+<script>
+        var imgUrl = "http://www.hijufou.com/res/mobile/pic/zndx/wx-img.png";
+        var lineLink = "http://www.jijufou.com/m/icard/zndx.html";
+        var descContent = '发布最新社团活动动态，分享缤纷校园文化';
+        var shareTitle = '中南大学学生社团联合会';
+        var appid = '';
+         
+        function shareFriend() {
+            WeixinJSBridge.invoke('sendAppMessage',{
+                "appid": appid,
+                "img_url": imgUrl,
+                "img_width": "200",
+                "img_height": "200",
+                "link": lineLink,
+                "desc": descContent,
+                "title": shareTitle
+            }, function(res) {
+                //_report('send_msg', res.err_msg);
+            })
+        }
+        function shareTimeline() {
+            WeixinJSBridge.invoke('shareTimeline',{
+                "img_url": imgUrl,
+                "img_width": "200",
+                "img_height": "200",
+                "link": lineLink,
+                "desc": descContent,
+                "title": shareTitle
+            }, function(res) {
+                   //_report('timeline', res.err_msg);
+            });
+        }
+        function shareWeibo() {
+            WeixinJSBridge.invoke('shareWeibo',{
+                "content": descContent,
+                "url": lineLink,
+            }, function(res) {
+                //_report('weibo', res.err_msg);
+            });
+        }
+        // 当微信内置浏览器完成内部初始化后会触发WeixinJSBridgeReady事件。
+        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+            // 发送给好友
+            WeixinJSBridge.on('menu:share:appmessage', function(argv){
+                shareFriend();
+            });
+            // 分享到朋友圈
+            WeixinJSBridge.on('menu:share:timeline', function(argv){
+                shareTimeline();
+            });
+            // 分享到微博
+            WeixinJSBridge.on('menu:share:weibo', function(argv){
+                shareWeibo();
+            });
+        }, false);
+</script>
+<script src="../../lib/tongji.js" type="text/javascript"></script>
+</html>

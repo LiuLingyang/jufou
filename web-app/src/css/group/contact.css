@@ -1,0 +1,17 @@
+/* 组织通讯录 */
+.t-mdl-v0{padding-bottom:40px;}
+.t-mdl-v0 .lbox{margin-top:20px;}
+.w-contact{margin:4px;width:44%;padding:15px;border-style:solid;border-width:1px;position:relative;}
+.w-contact .xtb{margin-top:20px;width:100%;table-layout:fixed;}
+.w-contact .xtb td{padding:2px;}
+.w-contact .xtb .c{width:36px;}
+.w-contact .action{position:absolute;top:5px;right:0;}
+.w-contact .action a{margin:0 5px;}
+.t-mdl-v0 .bxt{margin-left:10px;cursor:pointer;padding-bottom:10px;padding-top:10px;padding-left:30px;background-position:10px -276px;}
+.t-mdl-v0 .bxt2{margin-left:10px;cursor:pointer;padding-bottom:10px;padding-top:10px;padding-left:30px;background-position:10px -353px;letter-spacing:0;}
+.t-mdl-v0 .bxt:hover{text-decoration:underline;}
+
+
+
+
+

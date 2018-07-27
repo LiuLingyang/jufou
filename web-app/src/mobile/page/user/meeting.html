@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="headtitle"></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+    <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/user/meeting.css" rel="stylesheet" type="text/css"/>
+    <link href="../../../../res/mobile/style/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body id="www-hijufou-com" class="bg03">
+    
+    <!-- 我的活动 -->
+    <div class="g-wrp m-id-z0 bg01">
+      <div class="g-head f-cb bd01 bg01">
+      	<a href="javascript:showmenu()" class="fl f-bg lbk">菜单</a>
+      	<div class="loy">
+      	  <div class="mbk fc01 fs05 fl"><span id="groupname" class="gal f-tf">所有组织</span><span class="f-bg bgi">&nbsp;</span>
+      	    <select class="set" id="groupall" onChange="javascript:regroup()">
+      	    	<option value="all">所有组织</option>
+      	    </select>
+	      </div>
+          <div class="mbk fc01 fs05 fl"><span id="meetingname" class="gal">所有活动</span><span class="f-bg bgi">&nbsp;</span>
+            <select class="set" id="meetingall" onChange="javascript:remeet()">
+          	  <option value="1">已参加活动</option>
+          	  <option value="0">所有活动</option>
+	          <option value="2">未回复活动</option>
+            </select>
+	      </div>
+	    </div>
+      </div>
+      <div class="g-menu-0 f-cb bd02 fc04">
+        <div id="upcome" class="itm fl js-selected">
+          <span class="chk">即将开始</span>
+        </div>
+        <div id="finish" class="itm fl bd02">
+          <span class="chk">已经结束</span>
+        </div>
+      </div>
+      
+      
+      
+      <div class="g-body">
+      	<div class="w-loading" id="loading">&nbsp;</div>
+        <div class="vbox" id="tlist">
+        </div>
+        <!-- 没有活动 -->
+        <div class="" id="nomeeting" style="display:none;">
+          <div class="f-bg nmsg"></div>
+          <div class="fs10 fc04">没有活动</div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- @DEFINE {nodep:true} -->
+    <script src="../../lib/jquery-1.7.1.min.js"></script>
+    <script src="../../lib/jstorage.js"></script>
+    <script src="../../lib/jquery.lazyload.js"></script>	
+    <script src="../../lib/dateFormat.js"></script>
+    <script src="../../javascript/common/util.js"></script>
+    <script src="../../javascript/common/menu.js"></script>
+    <script src="../../javascript/common/base.js"></script>       
+    <script src="../../javascript/user/meeting.js"></script>
+  </body>
+</html>

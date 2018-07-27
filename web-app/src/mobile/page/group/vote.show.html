@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="groupTitle"></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+    <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group/vote.css" rel="stylesheet" type="text/css"/>
+    <link href="../../../../res/mobile/style/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body id="www-hijufou-com" class="bg03"> 
+    <!-- 投票 -->
+    <div class="g-wrp m-id-u1 bg01">
+      <div class="g-head f-cb bd01">
+      	<a href="javascript:history.go(-1)" class="fl f-bg lbk"><img src="../../../../res/mobile/pic/backs.png"></a>
+        <div class="mbk fc03 fs06">查看结果</div>
+      </div>
+      
+      <!-- 单选&&多选 -->
+      <div id="selection" class="g-body" style="display:none;">
+        <div class="blk bd03">
+      	  <p class="fs04 ln1" id="title"></p>
+      	  <p class="fs08 ln2 fc04" id="description1"></p>
+      	  <p class="fs08 ln2 fc04" id="type"></p>
+        </div>
+        <p class="fc03 fs10 cer" id="votecount"></p>
+        <div id="items1"></div>
+      </div>
+      
+      <!-- 打分题 -->
+      <div id="score" class="g-body" style="display:none;">
+        <div class="blk bd03">
+      	  <p class="fs04 ln1" id="title1"></p>
+      	  <p class="fs08 ln2 fc04" id="description2"></p>
+      	  <p class="fs08 ln2 fc04">1-10分打分</p>
+        </div>
+        <p class="fc03 fs10 cer" id="votecount1"></p>
+        <div id="items2"></div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- @DEFINE {nodep:true} -->
+    <script src="../../lib/jquery-1.7.1.min.js"></script>
+    <script src="../../lib/jstorage.js"></script>
+    <script src="../../javascript/common/util.js"></script>
+    <script src="../../javascript/common/base.js"></script>
+    <script src="../../javascript/group/vote.show.js"></script>
+  </body>
+</html>

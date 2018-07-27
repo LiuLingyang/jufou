@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+
+    <title>杭州海创会</title>
+    <!-- @STYLE -->
+    <link href="../../css/card/icard.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container" id="container">
+        <div id="text" style="position:fixed;z-index:200;color:#ff0000;left:10px;top:10px;"></div>
+        <!--<button id="but">click</button>
+        <button id="but2">click2</button>-->
+        <section class="slide-box" data-index="0" style="display:block;z-index:94">
+            <div class="spritespin">
+            </div>           
+            <div><img src="http://www.hijufou.com/res/mobile/pic/card/toptext.png" width="100%"></div>
+           <div class="arrow-down" id="box" style="margin-bottom:10px;">向上滑动</div>
+            <!--<div class="arrow-up"></div>-->
+            <!--<ul class="arrow-down2">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>-->
+        </section>
+        <section class="slide-box box-out" data-index="1" style="z-index:93">
+        <div class="slideboxs">
+            <div class="title-tag">
+            <img src="http://www.hijufou.com/res/mobile/pic/card/hch1-2.jpg" width="100%">
+            </div>
+            <div class="arrow-up" id="box2" style="margin-top:-10px;"></div>
+           <div class="arrow-down" id="box3" style="margin-bottom:-10px;">向上滑动</div>
+		</div>
+        </section>
+
+        <section class="slide-box box-out" data-index="2" style="z-index:92">
+        <div class="slideboxs2">
+        	<div style="position:absolute; top:68%;left:12%; font-size:10px;color:#fff;">
+            <a href="http://www.hijufou.com/m/meeting/show.html?meetid=175" style="color:#fff;display:block;height:90px;width:90px; "></a>
+            </div>
+            <div class="title-tag">
+            <img src="http://www.hijufou.com/res/mobile/pic/card/lc.jpg" width="100%">
+            </div>
+			<div class="btn_weixin" id="btn_weixin">
+            <div style=" position:absolute; bottom:10px; text-align:center;"><a href="http://www.hijufou.com/m/system/meet.html?groupid=421&meid=421&groupcode=haigui"><img src="http://www.hijufou.com/res/mobile/pic/card/btncc.jpg" width="80%"></a></div>
+            <img src="http://www.hijufou.com/res/mobile/pic/card/contactus.png" width="100%"></div>
+            <input id="weixinid" type="hidden" name="weixinid" value="1" />
+            <div class="arrow-up" id="box4" style="margin-bottom:-10px;"></div>
+		</div>
+        </section>
+        <section class="slide-box box-out" data-index="3" style="z-index:91">
+            <div class="title-tag">
+                <div class="guest-title-bg"></div>
+                <div class="guest-title"></div>
+            </div>
+            <div class="arrow-down"></div>
+            <div class="arrow-up"></div>
+        </section>
+        <section class="slide-box box-out" data-index="4" style="z-index:90">
+          
+            <div class="arrow-up"></div>
+            <div class="sponsor-info scale-big" id="sponsor">
+                <div class="contact-us">
+                </div>
+            </div>
+            <div class="qr-code" id="qr-code">
+            </div>
+        </section>
+
+
+    </div>
+    
+    <!-- @DEFINE {nodep:true} --> 
+    <script src="../../javascript/card/jquery-1.8.2.min.js"></script>
+    <script src="../../javascript/card/jquery.mousewheel.js"></script>
+    <script src="../../javascript/card/zepto.js"></script>
+    <script src="../../javascript/card/zepto.touch.js"></script>
+    <script src="../../javascript/card/spritespin.js"></script>
+    <script src="../../javascript/card/data.js"></script>
+    <script src="../../javascript/card/index.js"></script>
+    <script type="text/javascript">
+              $('.spritespin').spritespin({
+                source: SpriteSpin.sourceArray('http://www.hijufou.com/res/mobile/pic/card/sample{frame}.jpg', { frame: [1,12], digits: 3 }),
+                width: 320,
+                height: 320,
+                sense: -1,
+                renderer: 'image'
+              });
+     </script>
+     <script type="text/javascript">
+       var odiv = document.getElementById("box");
+       var odiv2 = document.getElementById("box2");
+       var odiv3 = document.getElementById("box3");
+       var odiv4 = document.getElementById("box4");
+       var flag = true;
+       setInterval(function(){
+           if(flag){
+               odiv.style.marginBottom = "10px";
+               odiv3.style.marginBottom = "-10px";
+               odiv2.style.marginTop = "-10px";
+               odiv4.style.marginTop = "-10px";
+               flag = false;
+           }else{
+               odiv.style.marginBottom = "20px";
+               odiv3.style.marginBottom = "-20px";
+               odiv2.style.marginTop = "-20px";
+               odiv4.style.marginTop = "-20px";
+               flag = true;
+           }
+       },300);
+	   
+	   $('#btn_weixin').click(function () {
+	   if(document.getElementById("weixinid").value==1){
+			$('#btn_weixin').animate({'bottom':'-5px'},300);
+              document.getElementById("weixinid").value=2;
+			  }else if(document.getElementById("weixinid").value==2){
+			$('#btn_weixin').animate({'bottom':'-270px'},300);
+              document.getElementById("weixinid").value=1;
+			  }
+        });
+   </script>
+</body>
+</html>

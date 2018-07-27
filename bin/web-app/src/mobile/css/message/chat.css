@@ -1,0 +1,12 @@
+/* a0-a9 */
+.m-id-a0 .g-body{padding-bottom:90px;}
+
+.w-ich{margin:30px;}
+.w-ich .fac{width:54px;height:54px;border:4px solid #fff;background:#fdc;}
+.w-ich .cnt{margin-left:90px;}
+.w-ich .box{position:relative;padding:15px;border:1px solid #D3D3D3;font-size:28px;text-align:left;background:-webkit-linear-gradient(top,#ffffff,#EFEFEF);}
+.w-ich .box .aw{position:absolute;top:15px;left:-16px;width:16px;height:16px;}
+
+.w-ich-r .fl{float:right;}
+.w-ich-r .cnt{margin:0 90px 0 0;}
+.w-ich-r .box{border:1px solid #C3C3C3;background:-webkit-linear-gradient(top,#DFEDF8,#B6CEE8);}

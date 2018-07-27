@@ -1,0 +1,38 @@
+/* 个人资料 */
+.t-mdl-s1{padding-bottom:50px;}
+.t-mdl-s1 .t-ttl{margin-bottom:20px;}
+/* 设置块 */
+.w-sblk{position:relative;padding:10px 0;border-width:1px 0;border-style:solid;margin-bottom:-1px;zoom:1;}
+.w-sblk-0{border-width:0 0 1px 0;margin-top:-10px;}
+.w-sblk .txl{width:120px;margin-right:-120px;font-size:14px;text-align:center;}
+.w-sblk .txl .t{position:absolute;left:0;top:50%;width:120px;}
+.w-sblk .rmn{margin-left:120px;}
+.w-sblk-0 .img{width:220px;text-align:center;position:relative;}
+.w-sblk-0 .img img{display:block;width:160px;height:160px;margin:10px auto;}
+.w-sblk-0 .rmn .ln{margin:15px 0;}
+.w-sblk-0 .rmn .ln0{margin-top:35px;}
+.w-sblk-0 .w-loading{position:absolute;top:-10px;left:0;width:100%;}
+/* 信息表格 */
+.w-stb{width:100%;table-layout:fixed;}
+.w-stb td{padding:10px;}
+.w-stb .c0{width:80px;text-align:right;}
+.w-stb .c1{width:280px;padding-left:30px;}
+.w-stb .c3{padding-left:60px;background-position:26px -517px;}
+.w-stb .c32{padding-left:60px;background-position:25px -600px;}
+.w-stb .c33{padding-left:60px;background-position:26px -523px;}
+/* 消息设置 */
+.t-mdl-s2 .t-cnt{padding:20px 0;}
+.w-mitm{padding:5px 0;border-width:0 0 1px;border-style:solid;}
+.w-mitm .w-lfac{border:0;padding-bottom:0;}
+.w-mitm .img{width:120px;margin-right:-120px;}
+.w-mitm .img img{width:80px;height:80px;}
+.w-mitm .ftl{font-size:14px;font-weight:bold;line-height:27px;}
+.w-mitm .set{width:200px;margin-left:-200px;padding-top:35px;}
+.w-mitm .dtl{margin-left:120px;margin-right:200px;line-height:30px;}
+.w-mitm .w-xet{margin-bottom:-11px;}
+
+
+
+
+
+

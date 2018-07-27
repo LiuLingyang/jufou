@@ -1,0 +1,34 @@
+<plugin name='searchable' version='0.6.4' grailsVersion='1.0 &gt; *'>
+  <author>Maurice Nicholson</author>
+  <authorEmail>maurice@freeshell.org</authorEmail>
+  <title>Searchable Plugin</title>
+  <description>
+Adds rich search functionality to Grails domain models.
+Built on Compass (http://www.compass-project.org/) and Lucene (http://lucene.apache.org/)
+This version is recommended for JDK 1.5+
+</description>
+  <documentation>http://grails.org/plugin/searchable</documentation>
+  <type>SearchableGrailsPlugin</type>
+  <resources>
+    <resource>SearchableUrlMappings</resource>
+    <resource>grails.plugin.searchable.SearchableController</resource>
+    <resource>grails.plugin.searchable.SearchableService</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements>
+    <plugin name='dataSource' version='1.0 &gt; *' />
+    <plugin name='domainClass' version='1.0 &gt; *' />
+    <plugin name='i18n' version='1.0 &gt; *' />
+    <plugin name='core' version='1.0 &gt; *' />
+    <plugin name='hibernate' version='1.0 &gt; *' />
+  </runtimePluginRequirements>
+  <behavior />
+</plugin>

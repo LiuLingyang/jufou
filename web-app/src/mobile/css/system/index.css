@@ -1,0 +1,11 @@
+/* 0 - 9 */
+body{background:transparent;}
+.m-id-0{min-height:960px;}
+.m-id-0 .bg0{position:absolute;top:0;left:0;z-index:-1;width:100%;}
+.m-id-0 .logo{margin-top:150px;}
+.m-id-0 .gna{margin-left:65px;}
+.m-id-0 .gna span{font-size:40px;color:#fff;margin:0 20px;font-weight:bold;}
+.m-id-0 .ent{margin:230px 15px 0;}
+.m-id-0 .ent .itm{float:left;width:45%;margin:15px;}
+.m-id-0 .ent .itm a{display:block;width:100%;height:80px;line-height:80px;font-size:36px;color:#fff;border:2px solid #fff;text-decoration:none;}
+.m-id-0 .ent .mitm{width:95%;}

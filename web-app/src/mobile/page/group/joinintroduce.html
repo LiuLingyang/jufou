@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title id="groupTitle"></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+    <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+    <!-- <link href="../../css/group.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/group/home.css" rel="stylesheet" type="text/css"/> -->
+    <link href="../../css/meeting/reply.css" rel="stylesheet" type="text/css"/>
+    <link href="../../../../res/mobile/style/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body id="www-hijufou-com">
+    
+    <!-- 第一步 -->
+    <div class="g-wrp m-id-m1" data-role="page">
+      <div class="g-head f-cb bd01 bg01 s-bd00">
+        <a href="javascript:history.go(-1);" class="fl f-bg lbk" id="home_back_btn"><img src="../../../../res/mobile/pic/backs.png"></a>
+        <div class="mbk fc03 fs06">加入组织</div> 
+      </div>
+      <div class="g-body">
+        <div class="fc04 dtl bd03" id="grp1">已经有账号了，点击<a href="javascript:;" class="fc05 jf_need_login">登录</a></div>
+        <div class="fc04 dtl bd03 f-cb" id="grp2" style="display:none">hi<span class="fc04 mle" id="name"></span><span class="fr">不是你？<a href="javascript:logout();" class="fc05 mle">退出</a></span></div>
+        <div class="fs04 fc03 app">填写个人信息<span class="fc04 fs08">（该信息仅组织方可见）</span></div>
+        <p class="fc05 fs04 wrg" id="errorMsg" style="display:none;">&nbsp;</p>
+        <div class="w-fom bd02 bg00">
+          <div class="blk bd02 blk-s">
+            <div class="fs04 bd02 itm itm1">姓名</div><input type="text" id="truename" class="act"/>
+          </div>
+          <div class="blk bd02 blk-s">
+            <div class="fs04 bd02 itm itm1">手机号码</div><input type="text" id="phone" class="act"/>
+          </div>
+          <div class="blk bd02 blk-s">
+            <div class="fs04 bd02 itm itm1">邮箱</div><input type="text" id="email" class="act"/>
+          </div>
+          <div class="blk bd02 blk-s">
+            <div class="fs04 bd02 itm itm1">单位</div><input type="text" id="company" class="act"/>
+          </div>                         
+          <div class="blk bd02 blk-s">
+            <div class="fs04 bd02 itm itm1">性别</div><input type="text" id="sex" class="act"/>
+            <div class="nsex fc03 fs04">
+              <label class="mlab"><input type='radio' class="sex f-bg" name="sex" id="man">男</label>
+              <label class="wlab"><input type='radio' class="sex f-bg" name="sex" id="woman">女</label>
+            </div>
+          </div>
+        </div>
+        <a href="javascript:;" class="xcxt w-btn btn00" id="btn-ok">确定</a>
+      </div>
+    </div>
+    <!-- @DEFINE {nodep:true} -->
+    <script src="../../lib/jquery-1.7.1.min.js"></script> 
+    <script src="../../lib/jstorage.js"></script>	
+    <script src="../../javascript/common/util.js"></script>
+    <script src="../../javascript/common/base.js"></script>       
+    <script src="../../javascript/group/joinintroduce.js"></script>         
+  </body>
+</html>

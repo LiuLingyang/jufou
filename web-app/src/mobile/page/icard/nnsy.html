@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>南京农业大学社团联合会</title>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="target-densitydpi=320,width=640,user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="description" content="南京农业大学社团联合会微首页" />
+<meta name="keywords" content="南京农业大学社团联合会 微首页 聚否" />
+<!-- @STYLE -->
+<link rel="stylesheet" type="text/css" href="../../css/icard/icard.css" ></link>
+<style>
+.ctn-sy{
+	position:absolute;
+	left:0;
+	top:0;
+	width: 100%; 
+	height: 100%;
+	overflow: hidden;
+	background: url(http://www.hijufou.com/res/mobile/pic/cardpic/nnbg.jpg) no-repeat center center;
+	background-size:cover;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+#text{
+	position:absolute;
+	top:300px;
+	left:50%;
+	-webkit-transform:translateX(-50%);
+	z-index:1000;
+}
+@media screen and (max-height:980px) {
+	.ctn-btn{
+		bottom:60px;
+	}
+}
+@media screen and (min-height:980px) {
+	.ctn-btn{
+		bottom:130px;
+	}
+}
+.ctn-btn{
+	position:absolute;
+	left:50%;
+	padding:20px 0;
+	width: 530px;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+}
+.btn-main{
+	position:relative;
+	display:inline-block;
+	margin-right:50px;
+	width:140px;
+	height:140px;
+	line-height:140px;
+	text-align:center;
+	font-size: 28px;
+	color:white;
+}
+.btn-main:last-child{margin:0;}
+.btnimg{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+.jdmenu{
+ position:absolute;
+ left:50%;
+}
+#jdmenu1{
+	top:150px;
+	-webkit-transform:translate(-55%,0);
+	-webkit-animation:a-menu1 .3s ease 0s 1 both;
+}
+@-webkit-keyframes a-menu1{
+	0% {opacity:0;-webkit-transform:translate(-55%,0) rotate(-180deg) scale(0.1);}
+	100% {opacity:1;-webkit-transform:translate(-55%,0);}
+}
+#jdmenu2{
+	top:84px;
+	-webkit-transform:translate(-40%,0);
+	-webkit-animation:a-menu2 .3s ease .2s 1 both;
+}
+@-webkit-keyframes a-menu2{
+	0% {opacity:0;-webkit-transform:translate(-40%,0) rotate(-180deg) scale(0.1);}
+	100% {opacity:1;-webkit-transform:translate(-40%,0);}
+}
+#jdmenu3{
+	top:187px;
+	-webkit-transform:translate(-15%,0);
+	-webkit-animation:a-menu3 .3s ease .4s 1 both;
+}
+@-webkit-keyframes a-menu3{
+	0% {opacity:0;-webkit-transform:translate(-15%,0) rotate(-180deg) scale(0.1);}
+	100% {opacity:1;-webkit-transform:translate(-15%,0);}
+}
+#jdmenu4{
+	top:157px;
+	-webkit-transform:translate(-50%,0);
+	-webkit-animation:a-menu4 .3s ease .6s 1 both;
+}
+@-webkit-keyframes a-menu4{
+	0% {opacity:0;-webkit-transform:translate(-50%,0) rotate(-90deg) scale(0.1);}
+	100% {opacity:1;-webkit-transform:translate(-50%,0);}
+}
+.btnimg{
+	-webkit-animation:a-btn 1.5s linear 0s 2 both;
+}
+@-webkit-keyframes a-btn{
+	0% {-webkit-transform:rotate(0deg);}
+	100% {-webkit-transform:rotate(360deg);}
+}
+#btn1{
+	-webkit-animation:a-btn1 1s ease 0s 1 both;
+}
+@-webkit-keyframes a-btn1{
+	0% {opacity:0;-webkit-transform:translate(-1000px,0);}
+	100% {opacity:1;-webkit-transform:;}
+}
+#btn2{
+	-webkit-animation:a-btn2 1s ease 1s 1 both;
+}
+@-webkit-keyframes a-btn2{
+	0% {opacity:0;-webkit-transform:translate(-860px,0);}
+	100% {opacity:1;-webkit-transform:;}
+}
+#btn3{
+	-webkit-animation:a-btn3 1s ease 2s 1 both;
+}
+@-webkit-keyframes a-btn3{
+	0% {opacity:0;-webkit-transform:translate(-720px,0);}
+	100% {opacity:1;-webkit-transform:;}
+}
+
+</style>
+</head>
+<body class="icard">
+<img id="img-load" src="../../../../res/mobile/pic/cardpic/loading.gif"></img>
+<div class="ctn-sy" style="display:none">
+<img id="text" src="../../../../res/mobile/pic/cardpic/nntext.png"></img>
+<img class="jdmenu" id="jdmenu1" src="../../../../res/mobile/pic/cardpic/nnmenu1.png"></img>
+<img class="jdmenu" id="jdmenu2" src="../../../../res/mobile/pic/cardpic/nnmenu2.png"></img>
+<img class="jdmenu" id="jdmenu3" src="../../../../res/mobile/pic/cardpic/nnmenu3.png"></img>
+<img class="jdmenu" id="jdmenu4" src="../../../../res/mobile/pic/cardpic/nnmenu4.png"></img>
+<div class="ctn-btn">
+<div class="btn-main" id="btn1"><img class="btnimg" src=../../../../res/mobile/pic/cardpic/nnbtn.png></img>找社团</div>
+<div class="btn-main" id="btn2"><img class="btnimg" src=../../../../res/mobile/pic/cardpic/nnbtn.png></img>社团纳新</div>
+<div class="btn-main" id="btn3"><img class="btnimg" src=../../../../res/mobile/pic/cardpic/nnbtn.png></img>找活动</div>
+</div>
+</div>
+	<!-- @DEFINE {nodep:true} -->
+	<script src="../../lib/tongji.js" type="text/javascript"></script>
+	<script src="../../lib/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="../../javascript/icard/nnsy.js"></script>
+</body>
+</html>

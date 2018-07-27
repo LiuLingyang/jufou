@@ -1,0 +1,27 @@
+/* 通用 */
+.t-mdr .xtl{margin:66px 0 23px;font-size:30px;}
+.t-mdr .t-cnt{padding-left:20px;}
+.t-mdr .xtb .vcd img{vertical-align:middle;}
+.t-mdr .xtb .vcd .js-error,
+.t-mdr .xtb .vcd .js-pass{margin-left:200px;}
+.t-mdr .xtb .apt .js-error{margin-left:240px;}
+.t-mdr .xtb .apt .js-pass{visibility:hidden;}
+/* 注册表单 */
+.t-mdl-r0 .w-fom .wd0{width:250px;}
+.t-mdl-r0 .w-fom .wd1{width:50px;}
+.t-mdl-r0 .w-fom .wd2{width:80px;}
+.t-mdl-r0 .xtb{width:100%;table-layout:fixed;}
+.t-mdl-r0 .xtb td{padding:14px 5px;}
+.t-mdl-r0 .xtb .c0{width:60px;font-size:14px;}
+.t-mdl-r0 .xtb .tip{padding:0;}
+#www-jufou-com .t-mdl-r0 .abox{border:0;background:transparent;margin-top:10px;}
+/* 激活页面 */
+.t-mdl-r1 .ln0 .sp{margin:0 5px;}
+.t-mdl-r1 .ln1{margin:10px 0;}
+.t-mdl-r1 .act{margin:25px 0 15px;}
+/* 忘记密码 */
+.t-mdl-r2 .blk{margin:20px 0;}
+.t-mdl-r2 .lab{font-size:14px;}
+.t-mdl-r2 .wd0{width:200px;}
+.t-mdl-r2 .act{margin-left:62px;}
+

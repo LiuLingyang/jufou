@@ -1,0 +1,295 @@
+[INFO] 2013-05-19 16:13:09.726	-	parse D:/WorkSet/meetup/web/deploy/release.mobile.conf
+[INFO] 2013-05-19 16:13:09.738	-	config -> {"DIR_CONFIG":"D:/WorkSet/meetup/web/deploy/","DIR_LOGGER":"D:/WorkSet/meetup/web/deploy/20130519.161309725.txt","DIR_TEMPORARY":"D:/WorkSet/meetup/web/deploy/20130519.161309725/","DIR_WEBROOT":"D:/WorkSet/meetup/web/web-app/","DIR_SOURCE":"D:/WorkSet/meetup/web/web-app/src/mobile/page/","DIR_OUTPUT":"D:/WorkSet/meetup/web/web-app/m/","X_NOCORE_SCRIPT":true,"OBF_NAME_BAGS":"D:/WorkSet/meetup/web/deploy/names.mobile.txt","OBF_MAX_CS_INLINE_SIZE":200,"DIR_SOURCE_TP":"","DIR_OUTPUT_TP":"","DIR_OUTPUT_STATIC":"D:/WorkSet/meetup/web/web-app/m/","DIR_STATIC":"D:/WorkSet/meetup/web/web-app/res/","NEJ_DIR":"","ALIAS_DICTIONARY":{},"ALIAS_START_TAG":"${","ALIAS_END_TAG":"}","ALIAS_REG":{},"DIR_MANIFEST":"","FILE_SUFFIXE":"","FILE_CHARSET":"utf-8","RAND_VERSION":false,"STATIC_VERSION":false,"X_NOCOMPRESS":false,"X_NOPARSE_FLAG":0,"X_NOCORE_STYLE":false,"X_NOT_CLEAR_TEMP":false,"DM_STATIC_CS":"/","DM_STATIC_JS":"/","DM_STATIC_RR":true,"DM_STATIC":"/","DM_STATIC_CS_RR":true,"DM_STATIC_JS_RR":true,"DIR_STATIC_REG":{},"OBF_LEVEL":3,"OBF_LINE_MODE":1,"OBF_MAX_JS_INLINE_SIZE":0,"CORE_LIST_JS":"","CORE_LIST_CS":""}
+[INFO] 2013-05-19 16:13:09.743	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/group/about.html
+[WARN] 2013-05-19 16:13:09.757	-	error named start tag[组织首页],igonre start tag!
+[INFO] 2013-05-19 16:13:09.764	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/group/home.html
+[WARN] 2013-05-19 16:13:09.769	-	error named start tag[组织首页],igonre start tag!
+[INFO] 2013-05-19 16:13:09.775	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/group/join.html
+[WARN] 2013-05-19 16:13:09.782	-	error named start tag[第三步],igonre start tag!
+[INFO] 2013-05-19 16:13:09.786	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/group/joinintroduce.html
+[WARN] 2013-05-19 16:13:09.790	-	error named start tag[第一步],igonre start tag!
+[INFO] 2013-05-19 16:13:09.794	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/group/joinsucess.html
+[WARN] 2013-05-19 16:13:09.800	-	error named start tag[加入组织成功],igonre start tag!
+[INFO] 2013-05-19 16:13:09.805	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/group/member.group.html
+[WARN] 2013-05-19 16:13:09.809	-	error named start tag[组织首页],igonre start tag!
+[INFO] 2013-05-19 16:13:09.814	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/group/member.html
+[WARN] 2013-05-19 16:13:09.818	-	error named start tag[组织首页],igonre start tag!
+[INFO] 2013-05-19 16:13:09.823	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/group/member.profile.html
+[WARN] 2013-05-19 16:13:09.831	-	error named start tag[组织首页],igonre start tag!
+[INFO] 2013-05-19 16:13:09.838	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/attendreply.html
+[WARN] 2013-05-19 16:13:09.847	-	error named start tag[回复邀请],igonre start tag!
+[INFO] 2013-05-19 16:13:09.851	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/comment.html
+[WARN] 2013-05-19 16:13:09.856	-	error named start tag[组织首页],igonre start tag!
+[INFO] 2013-05-19 16:13:09.860	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/meet.html
+[INFO] 2013-05-19 16:13:09.866	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/member.html
+[WARN] 2013-05-19 16:13:09.870	-	error named start tag[组织首页],igonre start tag!
+[INFO] 2013-05-19 16:13:09.874	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/photo.html
+[WARN] 2013-05-19 16:13:09.881	-	error named start tag[组织首页],igonre start tag!
+[INFO] 2013-05-19 16:13:09.888	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/reply.html
+[WARN] 2013-05-19 16:13:09.891	-	error named start tag[组织首页],igonre start tag!
+[INFO] 2013-05-19 16:13:09.898	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/show.html
+[WARN] 2013-05-19 16:13:09.903	-	error named start tag[组织首页],igonre start tag!
+[WARN] 2013-05-19 16:13:09.907	-	error named start tag[费用说明],igonre start tag!
+[INFO] 2013-05-19 16:13:09.915	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/system/group.html
+[WARN] 2013-05-19 16:13:09.919	-	error named start tag[搜索结果],igonre start tag!
+[INFO] 2013-05-19 16:13:09.925	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/system/group.moremember.html
+[WARN] 2013-05-19 16:13:09.930	-	error named start tag[搜索结果],igonre start tag!
+[INFO] 2013-05-19 16:13:09.935	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/system/index.html
+[INFO] 2013-05-19 16:13:09.939	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/system/meet.html
+[WARN] 2013-05-19 16:13:09.943	-	error named start tag[搜索结果],igonre start tag!
+[WARN] 2013-05-19 16:13:09.949	-	error named start tag[菜单卡片],igonre start tag!
+[INFO] 2013-05-19 16:13:09.953	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/user/emailFail.html
+[INFO] 2013-05-19 16:13:09.959	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/user/emailStep.html
+[INFO] 2013-05-19 16:13:09.965	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/user/emailSuccess.html
+[INFO] 2013-05-19 16:13:09.969	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/user/login.html
+[WARN] 2013-05-19 16:13:09.972	-	error named start tag[登录首页],igonre start tag!
+[INFO] 2013-05-19 16:13:09.977	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/user/password.html
+[WARN] 2013-05-19 16:13:09.982	-	error named start tag[手机注册],igonre start tag!
+[INFO] 2013-05-19 16:13:09.986	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/user/phoneStep.html
+[INFO] 2013-05-19 16:13:09.991	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/user/phoneStepFour.html
+[INFO] 2013-05-19 16:13:09.995	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/user/phoneStepThree.html
+[INFO] 2013-05-19 16:13:10.1	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/user/phoneStepTwo.html
+[INFO] 2013-05-19 16:13:10.5	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/user/profile.html
+[WARN] 2013-05-19 16:13:10.9	-	error named start tag[手机注册],igonre start tag!
+[INFO] 2013-05-19 16:13:10.14	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/user/regist.html
+[WARN] 2013-05-19 16:13:10.18	-	error named start tag[注册首页],igonre start tag!
+[INFO] 2013-05-19 16:13:10.23	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/user/registsuccess.html
+[INFO] 2013-05-19 16:13:10.27	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/page/user/setting.html
+[WARN] 2013-05-19 16:13:10.32	-	error named start tag[设置首页],igonre start tag!
+[DBUG] 2013-05-19 16:13:10.36	-	map http://code.jquery.com/jquery-1.7.1.min.js -> 1368951190037.js
+[INFO] 2013-05-19 16:13:10.39	-	downloading http://code.jquery.com/jquery-1.7.1.min.js
+[INFO] 2013-05-19 16:13:10.47	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js
+[DBUG] 2013-05-19 16:13:10.54	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js -> undefined
+[INFO] 2013-05-19 16:13:10.58	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js
+[DBUG] 2013-05-19 16:13:10.64	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js -> undefined
+[INFO] 2013-05-19 16:13:10.68	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/about.js
+[DBUG] 2013-05-19 16:13:10.72	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/about.js -> undefined
+[INFO] 2013-05-19 16:13:10.75	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/home.js
+[DBUG] 2013-05-19 16:13:10.79	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/home.js -> undefined
+[INFO] 2013-05-19 16:13:10.84	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/join.js
+[DBUG] 2013-05-19 16:13:10.88	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/join.js -> undefined
+[INFO] 2013-05-19 16:13:10.92	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/joinintroduce.js
+[DBUG] 2013-05-19 16:13:10.95	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/joinintroduce.js -> undefined
+[INFO] 2013-05-19 16:13:10.101	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/jionsucess.js
+[DBUG] 2013-05-19 16:13:10.104	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/jionsucess.js -> undefined
+[INFO] 2013-05-19 16:13:10.108	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/member.group.js
+[DBUG] 2013-05-19 16:13:10.112	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/member.group.js -> undefined
+[INFO] 2013-05-19 16:13:10.117	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/member.js
+[DBUG] 2013-05-19 16:13:10.121	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/member.js -> undefined
+[INFO] 2013-05-19 16:13:10.125	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/member.profile.js
+[DBUG] 2013-05-19 16:13:10.128	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/member.profile.js -> undefined
+[INFO] 2013-05-19 16:13:10.135	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/attendreply.js
+[DBUG] 2013-05-19 16:13:10.140	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/attendreply.js -> undefined
+[INFO] 2013-05-19 16:13:10.145	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/comment.js
+[DBUG] 2013-05-19 16:13:10.152	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/comment.js -> undefined
+[INFO] 2013-05-19 16:13:10.156	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/meet.js
+[DBUG] 2013-05-19 16:13:10.159	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/meet.js -> undefined
+[WARN] 2013-05-19 16:13:10.167	-	js file not exist -> D:/WorkSet/meetup/web/web-app/src/mobile/lib/purl.js
+[DBUG] 2013-05-19 16:13:10.171	-	dependency result: js-code-1368951190037 -> undefined
+[INFO] 2013-05-19 16:13:10.177	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/member.js
+[DBUG] 2013-05-19 16:13:10.183	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/member.js -> undefined
+[INFO] 2013-05-19 16:13:10.188	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/photo.js
+[DBUG] 2013-05-19 16:13:10.194	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/photo.js -> undefined
+[INFO] 2013-05-19 16:13:10.199	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/lib/klass.min.js
+[DBUG] 2013-05-19 16:13:10.203	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/lib/klass.min.js -> undefined
+[INFO] 2013-05-19 16:13:10.207	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/lib/code.photoswipe-3.0.5.min.js
+[DBUG] 2013-05-19 16:13:10.211	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/lib/code.photoswipe-3.0.5.min.js -> undefined
+[WARN] 2013-05-19 16:13:10.216	-	js file not exist -> (function(window, PhotoSwipe){
+document.addEventListener('DOMContentLoaded', function(){
+var options = {},
+instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery a'), options );
+}, false);
+}(window, window.Code.PhotoSwipe));
+[DBUG] 2013-05-19 16:13:10.222	-	dependency result: js-code-1368951190038 -> undefined
+[INFO] 2013-05-19 16:13:10.228	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/reply.js
+[DBUG] 2013-05-19 16:13:10.235	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/reply.js -> undefined
+[INFO] 2013-05-19 16:13:10.250	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/show.js
+[DBUG] 2013-05-19 16:13:10.269	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/show.js -> undefined
+[INFO] 2013-05-19 16:13:10.275	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/system/group.js
+[DBUG] 2013-05-19 16:13:10.282	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/system/group.js -> undefined
+[INFO] 2013-05-19 16:13:10.288	-	downloading http://code.jquery.com/mobile/latest/jquery.mobile.min.css
+[INFO] 2013-05-19 16:13:10.295	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/system/group.moremember.js
+[DBUG] 2013-05-19 16:13:10.301	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/system/group.moremember.js -> undefined
+[INFO] 2013-05-19 16:13:10.307	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/lib/jquery-1.9.1.js
+[DBUG] 2013-05-19 16:13:10.348	-	ReferenceError: window is not defined
+[WARN] 2013-05-19 16:13:10.356	-	3rd lib with define -> D:/WorkSet/meetup/web/web-app/src/mobile/lib/jquery-1.9.1.js
+[DBUG] 2013-05-19 16:13:10.361	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/lib/jquery-1.9.1.js -> undefined
+[WARN] 2013-05-19 16:13:10.368	-	js file not exist -> $(document).ready(function(){
+$.ajax({
+type : "post",
+url : "http://223.4.158.184/rest/user/login",
+dataType : "json",
+data : {username: "canghong.jin@gmail.com",
+password: "5f4001f77b6ad21d39becc73954661c5",
+captcha:  "4jqh"},
+success : function(json){
+alert(json);
+},
+error:function(XMLHttpRequest, textStatus, errorThrown){
+alert(XMLHttpRequest);
+}
+});
+});
+[DBUG] 2013-05-19 16:13:10.375	-	dependency result: js-code-1368951190040 -> undefined
+[INFO] 2013-05-19 16:13:10.380	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/lib/md5.js
+[DBUG] 2013-05-19 16:13:10.388	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/lib/md5.js -> undefined
+[INFO] 2013-05-19 16:13:10.393	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/emailSuccess.js
+[DBUG] 2013-05-19 16:13:10.400	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/emailSuccess.js -> undefined
+[INFO] 2013-05-19 16:13:10.406	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/emailStep.js
+[DBUG] 2013-05-19 16:13:10.411	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/emailStep.js -> undefined
+[INFO] 2013-05-19 16:13:10.419	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/login.js
+[DBUG] 2013-05-19 16:13:10.425	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/login.js -> undefined
+[INFO] 2013-05-19 16:13:10.430	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/phoneStep.js
+[DBUG] 2013-05-19 16:13:10.439	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/phoneStep.js -> undefined
+[INFO] 2013-05-19 16:13:10.445	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/phoneStepFour.js
+[DBUG] 2013-05-19 16:13:10.453	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/phoneStepFour.js -> undefined
+[INFO] 2013-05-19 16:13:10.458	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/phoneStepThree.js
+[DBUG] 2013-05-19 16:13:10.464	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/phoneStepThree.js -> undefined
+[INFO] 2013-05-19 16:13:10.471	-	parse D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/phoneStepTwo.js
+[DBUG] 2013-05-19 16:13:10.477	-	dependency result: D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/phoneStepTwo.js -> undefined
+[DBUG] 2013-05-19 16:13:11.900	-	dependency result: http://code.jquery.com/jquery-1.7.1.min.js -> undefined
+[WARN] 2013-05-19 16:13:12.94	-	css file not exist -> D:/WorkSet/meetup/web/web-app/meetup/css/meeting/show.css
+[WARN] 2013-05-19 16:13:12.117	-	css file not exist -> D:/WorkSet/meetup/web/web-app/src/css/system/search.meeting.css
+[INFO] 2013-05-19 16:13:12.127	-	core css file list -> ["D:/WorkSet/meetup/web/web-app/src/mobile/css/base.css","D:/WorkSet/meetup/web/web-app/src/mobile/css/group.css","D:/WorkSet/meetup/web/web-app/src/mobile/css/group/home.css","D:/WorkSet/meetup/web/web-app/src/mobile/css/meeting/show.css","D:/WorkSet/meetup/web/web-app/src/mobile/css/meeting/comment.css","D:/WorkSet/meetup/web/web-app/src/mobile/css/meeting/member.css","D:/WorkSet/meetup/web/web-app/src/mobile/css/meeting/photo.css","D:/WorkSet/meetup/web/web-app/src/mobile/css/meeting/reply.css","D:/WorkSet/meetup/web/web-app/src/mobile/css/user/regist.css","D:/WorkSet/meetup/web/web-app/src/mobile/css/user/password.css"]
+[INFO] 2013-05-19 16:13:12.137	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/about.html css file list -> ["D:/WorkSet/meetup/web/web-app/src/mobile/css/group/about.css"]
+[INFO] 2013-05-19 16:13:12.144	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/home.html css file list -> []
+[INFO] 2013-05-19 16:13:12.151	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/join.html css file list -> []
+[INFO] 2013-05-19 16:13:12.157	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/joinintroduce.html css file list -> []
+[INFO] 2013-05-19 16:13:12.164	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/joinsucess.html css file list -> []
+[INFO] 2013-05-19 16:13:12.170	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/member.group.html css file list -> ["D:/WorkSet/meetup/web/web-app/src/mobile/css/group/member.group.css"]
+[INFO] 2013-05-19 16:13:12.179	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/member.html css file list -> ["D:/WorkSet/meetup/web/web-app/src/mobile/css/group/member.css"]
+[INFO] 2013-05-19 16:13:12.185	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/member.profile.html css file list -> ["D:/WorkSet/meetup/web/web-app/src/mobile/css/group/member.profile.css"]
+[INFO] 2013-05-19 16:13:12.190	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/attendreply.html css file list -> []
+[INFO] 2013-05-19 16:13:12.198	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/comment.html css file list -> []
+[INFO] 2013-05-19 16:13:12.202	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/meet.html css file list -> ["D:/WorkSet/meetup/web/web-app/src/mobile/css/jquery.mobile.tabs.css","cs-code-1368951190041"]
+[INFO] 2013-05-19 16:13:12.206	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/member.html css file list -> []
+[INFO] 2013-05-19 16:13:12.211	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/photo.html css file list -> ["D:/WorkSet/meetup/web/web-app/src/mobile/css/photoswipe.css","D:/WorkSet/meetup/web/web-app/src/mobile/css/meeting/styles.css"]
+[INFO] 2013-05-19 16:13:12.217	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/reply.html css file list -> []
+[INFO] 2013-05-19 16:13:12.221	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/show.html css file list -> []
+[INFO] 2013-05-19 16:13:12.225	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/system/group.html css file list -> []
+[INFO] 2013-05-19 16:13:12.230	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/system/group.moremember.html css file list -> ["http://code.jquery.com/mobile/latest/jquery.mobile.min.css"]
+[INFO] 2013-05-19 16:13:12.236	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/system/index.html css file list -> ["D:/WorkSet/meetup/web/web-app/src/mobile/css/system/index.css","D:/WorkSet/meetup/web/web-app/src/mobile/css/jquery.mobile-1.2.0.css"]
+[INFO] 2013-05-19 16:13:12.241	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/system/meet.html css file list -> ["D:/WorkSet/meetup/web/web-app/src/css/base.css","cs-code-1368951190042"]
+[INFO] 2013-05-19 16:13:12.246	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/emailFail.html css file list -> []
+[INFO] 2013-05-19 16:13:12.251	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/emailStep.html css file list -> []
+[INFO] 2013-05-19 16:13:12.255	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/emailSuccess.html css file list -> []
+[INFO] 2013-05-19 16:13:12.259	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/login.html css file list -> ["D:/WorkSet/meetup/web/web-app/src/mobile/css/user/login.css"]
+[INFO] 2013-05-19 16:13:12.265	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/password.html css file list -> []
+[INFO] 2013-05-19 16:13:12.269	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/phoneStep.html css file list -> []
+[INFO] 2013-05-19 16:13:12.273	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/phoneStepFour.html css file list -> []
+[INFO] 2013-05-19 16:13:12.277	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/phoneStepThree.html css file list -> []
+[INFO] 2013-05-19 16:13:12.282	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/phoneStepTwo.html css file list -> []
+[INFO] 2013-05-19 16:13:12.286	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/profile.html css file list -> []
+[INFO] 2013-05-19 16:13:12.290	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/regist.html css file list -> []
+[INFO] 2013-05-19 16:13:12.295	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/registsuccess.html css file list -> []
+[INFO] 2013-05-19 16:13:12.300	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/setting.html css file list -> ["D:/WorkSet/meetup/web/web-app/src/mobile/css/user/setting.css"]
+[INFO] 2013-05-19 16:13:12.305	-	core js file list -> []
+[INFO] 2013-05-19 16:13:12.308	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/about.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/about.js"]
+[INFO] 2013-05-19 16:13:12.315	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/home.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/home.js"]
+[INFO] 2013-05-19 16:13:12.321	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/join.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/join.js"]
+[INFO] 2013-05-19 16:13:12.326	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/joinintroduce.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/joinintroduce.js"]
+[INFO] 2013-05-19 16:13:12.333	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/joinsucess.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/jionsucess.js"]
+[INFO] 2013-05-19 16:13:12.339	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/member.group.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/member.group.js"]
+[INFO] 2013-05-19 16:13:12.345	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/member.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/member.js"]
+[INFO] 2013-05-19 16:13:12.352	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/group/member.profile.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/group/member.profile.js"]
+[INFO] 2013-05-19 16:13:12.357	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/attendreply.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/attendreply.js"]
+[INFO] 2013-05-19 16:13:12.364	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/comment.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/comment.js"]
+[INFO] 2013-05-19 16:13:12.370	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/meet.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/meet.js"]
+[INFO] 2013-05-19 16:13:12.375	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/member.html js file list -> ["js-code-1368951190037","http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/member.js"]
+[INFO] 2013-05-19 16:13:12.381	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/photo.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/photo.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/klass.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/code.photoswipe-3.0.5.min.js","js-code-1368951190038"]
+[INFO] 2013-05-19 16:13:12.388	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/reply.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/reply.js"]
+[INFO] 2013-05-19 16:13:12.393	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/show.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/meeting/show.js"]
+[INFO] 2013-05-19 16:13:12.399	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/system/group.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/system/group.js"]
+[INFO] 2013-05-19 16:13:12.405	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/system/group.moremember.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/system/group.moremember.js"]
+[INFO] 2013-05-19 16:13:12.410	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/system/index.html js file list -> ["D:/WorkSet/meetup/web/web-app/src/mobile/lib/jquery-1.9.1.js","js-code-1368951190040"]
+[INFO] 2013-05-19 16:13:12.416	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/emailFail.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/md5.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/emailSuccess.js"]
+[INFO] 2013-05-19 16:13:12.422	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/emailStep.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/emailStep.js"]
+[INFO] 2013-05-19 16:13:12.427	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/emailSuccess.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/md5.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/emailSuccess.js"]
+[INFO] 2013-05-19 16:13:12.434	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/login.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/md5.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/login.js"]
+[INFO] 2013-05-19 16:13:12.439	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/phoneStep.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/phoneStep.js"]
+[INFO] 2013-05-19 16:13:12.444	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/phoneStepFour.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/md5.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/phoneStepFour.js"]
+[INFO] 2013-05-19 16:13:12.451	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/phoneStepThree.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/phoneStepThree.js"]
+[INFO] 2013-05-19 16:13:12.457	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/phoneStepTwo.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/javascript/user/phoneStepTwo.js"]
+[INFO] 2013-05-19 16:13:12.462	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/regist.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js"]
+[INFO] 2013-05-19 16:13:12.468	-	pg_ for D:/WorkSet/meetup/web/web-app/src/mobile/page/user/registsuccess.html js file list -> ["http://code.jquery.com/jquery-1.7.1.min.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/jstorage.js","D:/WorkSet/meetup/web/web-app/src/mobile/lib/meetup.js"]
+[INFO] 2013-05-19 16:13:20.153	-	output D:/WorkSet/meetup/web/deploy/names.mobile.txt
+[INFO] 2013-05-19 16:13:20.159	-	output D:/WorkSet/meetup/web/web-app/m/core.css
+[WARN] 2013-05-19 16:13:20.164	-	D:/WorkSet/meetup/web/web-app/src/mobile/pic/banner.png in D:/WorkSet/meetup/web/web-app/m/core.css not exist!
+[WARN] 2013-05-19 16:13:20.198	-	D:/WorkSet/meetup/web/web-app/src/mobile/css/loader.gif in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/photo.html not exist!
+[WARN] 2013-05-19 16:13:20.203	-	D:/WorkSet/meetup/web/web-app/src/mobile/css/error.gif in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/photo.html not exist!
+[WARN] 2013-05-19 16:13:20.208	-	D:/WorkSet/meetup/web/web-app/src/mobile/pic/icons.png in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/photo.html not exist!
+[WARN] 2013-05-19 16:13:20.213	-	D:/WorkSet/meetup/web/web-app/src/mobile/css/icons@2x.png in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/meeting/photo.html not exist!
+[WARN] 2013-05-19 16:13:20.219	-	http://code.jquery.com/mobile/latest/images/icons-18-white.png in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/system/group.moremember.html not exist!
+[WARN] 2013-05-19 16:13:20.223	-	http://code.jquery.com/mobile/latest/images/icons-18-black.png in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/system/group.moremember.html not exist!
+[WARN] 2013-05-19 16:13:20.228	-	http://code.jquery.com/mobile/latest/images/icons-36-white.png in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/system/group.moremember.html not exist!
+[WARN] 2013-05-19 16:13:20.234	-	http://code.jquery.com/mobile/latest/images/icons-36-black.png in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/system/group.moremember.html not exist!
+[WARN] 2013-05-19 16:13:20.239	-	http://code.jquery.com/mobile/latest/images/ajax-loader.gif in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/system/group.moremember.html not exist!
+[WARN] 2013-05-19 16:13:20.243	-	data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/system/group.moremember.html not exist!
+[WARN] 2013-05-19 16:13:20.250	-	D:/WorkSet/meetup/web/web-app/src/res/test/bgidx.png in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/system/index.html not exist!
+[WARN] 2013-05-19 16:13:20.258	-	D:/WorkSet/meetup/web/web-app/src/mobile/css/images/icons-18-white.png in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/system/index.html not exist!
+[WARN] 2013-05-19 16:13:20.264	-	D:/WorkSet/meetup/web/web-app/src/mobile/css/images/icons-18-black.png in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/system/index.html not exist!
+[WARN] 2013-05-19 16:13:20.269	-	D:/WorkSet/meetup/web/web-app/src/mobile/css/images/icons-36-white.png in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/system/index.html not exist!
+[WARN] 2013-05-19 16:13:20.274	-	D:/WorkSet/meetup/web/web-app/src/mobile/css/images/icons-36-black.png in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/system/index.html not exist!
+[WARN] 2013-05-19 16:13:20.278	-	D:/WorkSet/meetup/web/web-app/src/mobile/css/images/ajax-loader.gif in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/system/index.html not exist!
+[WARN] 2013-05-19 16:13:20.285	-	data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== in pg_D:/WorkSet/meetup/web/web-app/src/mobile/page/system/index.html not exist!
+[INFO] 2013-05-19 16:13:20.291	-	output D:/WorkSet/meetup/web/web-app/m/pp_group_about.js
+[INFO] 2013-05-19 16:13:20.371	-	output D:/WorkSet/meetup/web/web-app/m/pp_group_home.js
+[INFO] 2013-05-19 16:13:20.452	-	output D:/WorkSet/meetup/web/web-app/m/pp_group_join.js
+[INFO] 2013-05-19 16:13:20.546	-	output D:/WorkSet/meetup/web/web-app/m/pp_group_joinintroduce.js
+[INFO] 2013-05-19 16:13:20.629	-	output D:/WorkSet/meetup/web/web-app/m/pp_group_joinsucess.js
+[INFO] 2013-05-19 16:13:20.702	-	output D:/WorkSet/meetup/web/web-app/m/pp_group_member.group.js
+[INFO] 2013-05-19 16:13:20.775	-	output D:/WorkSet/meetup/web/web-app/m/pp_group_member.js
+[INFO] 2013-05-19 16:13:20.850	-	output D:/WorkSet/meetup/web/web-app/m/pp_group_member.profile.js
+[INFO] 2013-05-19 16:13:20.940	-	output D:/WorkSet/meetup/web/web-app/m/pp_meeting_attendreply.js
+[INFO] 2013-05-19 16:13:21.14	-	output D:/WorkSet/meetup/web/web-app/m/pp_meeting_comment.js
+[INFO] 2013-05-19 16:13:21.89	-	output D:/WorkSet/meetup/web/web-app/m/pp_meeting_meet.js
+[INFO] 2013-05-19 16:13:21.141	-	output D:/WorkSet/meetup/web/web-app/m/pp_meeting_member.js
+[INFO] 2013-05-19 16:13:21.213	-	output D:/WorkSet/meetup/web/web-app/m/pp_meeting_photo.js
+[INFO] 2013-05-19 16:13:21.285	-	output D:/WorkSet/meetup/web/web-app/m/pp_meeting_reply.js
+[INFO] 2013-05-19 16:13:21.340	-	output D:/WorkSet/meetup/web/web-app/m/pp_meeting_show.js
+[INFO] 2013-05-19 16:13:21.414	-	output D:/WorkSet/meetup/web/web-app/m/pp_system_group.js
+[INFO] 2013-05-19 16:13:21.487	-	output D:/WorkSet/meetup/web/web-app/m/pp_system_group.moremember.js
+[INFO] 2013-05-19 16:13:21.561	-	output D:/WorkSet/meetup/web/web-app/m/pp_system_index.js
+[INFO] 2013-05-19 16:13:21.613	-	output D:/WorkSet/meetup/web/web-app/m/pp_user_emailFail.js
+[INFO] 2013-05-19 16:13:21.664	-	output D:/WorkSet/meetup/web/web-app/m/pp_user_emailStep.js
+[INFO] 2013-05-19 16:13:21.715	-	output D:/WorkSet/meetup/web/web-app/m/pp_user_emailSuccess.js
+[INFO] 2013-05-19 16:13:21.766	-	output D:/WorkSet/meetup/web/web-app/m/pp_user_login.js
+[INFO] 2013-05-19 16:13:21.818	-	output D:/WorkSet/meetup/web/web-app/m/pp_user_phoneStep.js
+[INFO] 2013-05-19 16:13:21.869	-	output D:/WorkSet/meetup/web/web-app/m/pp_user_phoneStepFour.js
+[INFO] 2013-05-19 16:13:21.945	-	output D:/WorkSet/meetup/web/web-app/m/pp_user_phoneStepThree.js
+[INFO] 2013-05-19 16:13:21.994	-	output D:/WorkSet/meetup/web/web-app/m/pp_user_phoneStepTwo.js
+[INFO] 2013-05-19 16:13:22.57	-	output D:/WorkSet/meetup/web/web-app/m/pp_user_regist.js
+[INFO] 2013-05-19 16:13:22.130	-	output D:/WorkSet/meetup/web/web-app/m/pp_user_registsuccess.js
+[INFO] 2013-05-19 16:13:22.226	-	output D:/WorkSet/meetup/web/web-app/m/group/about.html
+[INFO] 2013-05-19 16:13:22.232	-	output D:/WorkSet/meetup/web/web-app/m/group/home.html
+[INFO] 2013-05-19 16:13:22.237	-	output D:/WorkSet/meetup/web/web-app/m/group/join.html
+[INFO] 2013-05-19 16:13:22.243	-	output D:/WorkSet/meetup/web/web-app/m/group/joinintroduce.html
+[INFO] 2013-05-19 16:13:22.251	-	output D:/WorkSet/meetup/web/web-app/m/group/joinsucess.html
+[INFO] 2013-05-19 16:13:22.256	-	output D:/WorkSet/meetup/web/web-app/m/group/member.group.html
+[INFO] 2013-05-19 16:13:22.262	-	output D:/WorkSet/meetup/web/web-app/m/group/member.html
+[INFO] 2013-05-19 16:13:22.267	-	output D:/WorkSet/meetup/web/web-app/m/group/member.profile.html
+[INFO] 2013-05-19 16:13:22.273	-	output D:/WorkSet/meetup/web/web-app/m/meeting/attendreply.html
+[INFO] 2013-05-19 16:13:22.279	-	output D:/WorkSet/meetup/web/web-app/m/meeting/comment.html
+[INFO] 2013-05-19 16:13:22.285	-	output D:/WorkSet/meetup/web/web-app/m/meeting/meet.html
+[INFO] 2013-05-19 16:13:22.290	-	output D:/WorkSet/meetup/web/web-app/m/meeting/member.html
+[INFO] 2013-05-19 16:13:22.297	-	output D:/WorkSet/meetup/web/web-app/m/meeting/photo.html
+[INFO] 2013-05-19 16:13:22.304	-	output D:/WorkSet/meetup/web/web-app/m/meeting/reply.html
+[INFO] 2013-05-19 16:13:22.309	-	output D:/WorkSet/meetup/web/web-app/m/meeting/show.html
+[INFO] 2013-05-19 16:13:22.317	-	output D:/WorkSet/meetup/web/web-app/m/system/group.html
+[INFO] 2013-05-19 16:13:22.323	-	output D:/WorkSet/meetup/web/web-app/m/system/group.moremember.html
+[INFO] 2013-05-19 16:13:22.337	-	output D:/WorkSet/meetup/web/web-app/m/system/index.html
+[INFO] 2013-05-19 16:13:22.348	-	output D:/WorkSet/meetup/web/web-app/m/system/meet.html
+[INFO] 2013-05-19 16:13:22.355	-	output D:/WorkSet/meetup/web/web-app/m/user/emailFail.html
+[INFO] 2013-05-19 16:13:22.362	-	output D:/WorkSet/meetup/web/web-app/m/user/emailStep.html
+[INFO] 2013-05-19 16:13:22.368	-	output D:/WorkSet/meetup/web/web-app/m/user/emailSuccess.html
+[INFO] 2013-05-19 16:13:22.373	-	output D:/WorkSet/meetup/web/web-app/m/user/login.html
+[INFO] 2013-05-19 16:13:22.379	-	output D:/WorkSet/meetup/web/web-app/m/user/password.html
+[INFO] 2013-05-19 16:13:22.385	-	output D:/WorkSet/meetup/web/web-app/m/user/phoneStep.html
+[INFO] 2013-05-19 16:13:22.390	-	output D:/WorkSet/meetup/web/web-app/m/user/phoneStepFour.html
+[INFO] 2013-05-19 16:13:22.397	-	output D:/WorkSet/meetup/web/web-app/m/user/phoneStepThree.html
+[INFO] 2013-05-19 16:13:22.402	-	output D:/WorkSet/meetup/web/web-app/m/user/phoneStepTwo.html
+[INFO] 2013-05-19 16:13:22.407	-	output D:/WorkSet/meetup/web/web-app/m/user/profile.html
+[INFO] 2013-05-19 16:13:22.413	-	output D:/WorkSet/meetup/web/web-app/m/user/regist.html
+[INFO] 2013-05-19 16:13:22.418	-	output D:/WorkSet/meetup/web/web-app/m/user/registsuccess.html
+[INFO] 2013-05-19 16:13:22.423	-	output D:/WorkSet/meetup/web/web-app/m/user/setting.html
+[INFO] 2013-05-19 16:13:22.430	-	release done! view release log D:/WorkSet/meetup/web/deploy/20130519.161309725.txt

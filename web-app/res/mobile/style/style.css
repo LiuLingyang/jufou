@@ -1,0 +1,108 @@
+/* 全局 */
+html,input{font-family:'Microsoft YaHei','微软雅黑',tahoma,arial,simsun,'宋体';background:#f7f7f7;}
+
+
+/* 按钮 */
+a.w-btn{display:block;}
+.btn00{background:#fa5a5a;height:80px;line-height:80px;color:#fff;font-size:32px;}
+.btn01{background:#f7f7f7;height:80px;line-height:80px;color:#000;font-size:32px;}
+.btn02{background:#ffffff;height:80px;line-height:80px;color:#000;font-size:32px;}
+.btn03{background:#f7f7f7;height:60px;line-height:60px;color:#fa5a5a;font-size:32px;}
+.btn04{background:transparent;height:66px;line-height:66px;width:266px;color:#fff;font-size:32px;border:4px solid #fff;border-radius:40px;margin:0 auto;}
+.btn05{background:#f7f7f7;height:60px;line-height:60px;width:215px;color:#fa5a5a;font-size:32px;border:3px solid #fa5a5a;border-radius:40px;margin:0 auto;}
+
+
+
+
+/*
+ * 文字颜色定义
+ * fc00 
+ * fc01 - 
+ * fc02 - 
+ * fc03 - head、menu
+ * fc04 - 二级标题颜色
+ * fc05 - 选中色
+ * fc06 - 重发验证码
+ * fc07 - 互动交流
+ */
+.fc00{color:#fff;}
+.fc01{color:#666;}
+.fc02{color:#000;}
+.fc03{color:#393c3d;}
+.fc04{color:#707070;}
+.fc05{color:#fa5a5a;}
+.fc06{color:#b3b3b3;}
+.fc07{color:#ffa200;}
+.fc08{color:#cacbcb;}
+
+
+
+
+
+/*
+ * 边框颜色定义
+ * bd00 - 
+ * bd01 - head
+ * bd02 - menu、输入框边线
+ * bd03 - 模块分割线
+ * bd04 - 找活动分割线
+ * bd05 - 圆形边框
+ * bd06 - 找组织、找活动模块分割线
+ * bd07 - 组织首页
+ * bd08 - 互动交流
+ */
+.bd00{border-color:#fff;}
+.bd01{border-color:#dbdbdb;}
+.bd02{border-color:#dcdcdc;}
+.bd03{border-color:#eaeaea;}
+.bd04{border-color:#c0b7b3;}
+.bd05{border-color:#fa5a5a;}
+.bd06{border-color:#000;}
+.bd07{border-color:#cccccc;}
+.bd08{border-color:#dfdfdf;}
+
+
+
+
+
+/*
+ * 背景颜色定义
+ * bg00 - 
+ * bg01 - 全局背景
+ * bg02 - 计数圈背景
+ * bg03 - 左侧滑动菜单
+ * bg04 - 图片loading底色 
+ * bg05 - 讨论输入框
+ */
+.bg00{background-color:#fff;}
+.bg01{background-color:#f7f7f7;}
+.bg02{background-color:#fa5a5a;}
+.bg03{background-color:#383c41;}
+.bg04{background-color:#282e39;}
+.bg05{background-color:#eeeeee;}
+
+
+
+
+/* 字体大小 */
+.fs00{font-size:16px;}
+.fs01{font-size:20px;}
+.fs02{font-size:24px;}
+.fs03{font-size:28px;}
+.fs04{font-size:32px;}
+.fs05{font-size:34px;}
+.fs06{font-size:40px;}
+.fs07{font-size:60px;}
+.fs08{font-size:22px;}
+.fs09{font-size:38px;}
+.fs10{font-size:42px;}
+
+
+
+
+
+
+
+
+
+

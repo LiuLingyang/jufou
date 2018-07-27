@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="description" content="华南师范大学学生社团联合会"/>
+<meta name="keywords" content="华南师范大学学生社团联合会 聚否"/>
+<title>华南师范大学学生社团联合会</title>
+<!-- @STYLE -->
+<link rel="stylesheet" type="text/css" href="../../css/icard/icard.css" ></link>
+<style>
+.ctn-sy{background-image:url(http://www.hijufou.com/res/mobile/pic/cardpic/hnsfbg.jpg);}
+.btn{
+	opacity: 0;
+	-webkit-transition:2.8s ease;
+}
+#b1{
+	top:53.8%;
+	right: 58px;
+	height: 15%;
+	width: 186px;
+	-webkit-animation:a-b1 .8s ease 0 forwards;
+}
+#b2{
+	top:55.2%;
+	left:134px;
+	height: 15.5%;
+	width: 190px;
+	-webkit-animation:a-b2 .8s ease 0 forwards;
+}
+#b3{
+	top:71.9%;
+	right:86px;
+	height: 14.5%;
+	width: 190px;
+	-webkit-animation:a-b3 .8s ease 0 forwards;
+}
+#b4{
+	top:67.3%;
+	left:0;
+	height: 16.5%;
+	width: 214px;
+	-webkit-animation:a-b4 .8s ease 0 forwards;
+}
+@-webkit-keyframes a-b1{
+	0%{opacity: 0;-webkit-transform:translate3d(0px,-134%,0px) scale(0.1);}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes a-b2{
+	0%{opacity: 0;-webkit-transform:translate3d(260px,-137%,0px) scale(0.1);}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes a-b3{
+	0%{opacity: 0;-webkit-transform:translate3d(22px,-263%,0px) scale(0.1);}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes a-b4{
+	0%{opacity: 0;-webkit-transform:translate3d(366px,-208%,0px) scale(0.1);}
+	100% {opacity: 1;}
+}
+</style>
+</head>
+<body class="icard" data-wx-title="华南师范大学学生社团联合会" data-wx-desc="发布最新社团活动动态，分享缤纷校园文化"
+data-wx-img="http://www.hijufou.com/res/mobile/pic/cardpic/hnsfwxlogo.jpg" >
+<img id="img-load" src="../../../../res/mobile/pic/cardpic/loading.gif"></img>
+<div class="ctn-sy">
+	<img id='b1' class="btn l-ab dhref" data-href="http://www.hijufou.com/m/group/home.html?groupid=4040" src="../../../../res/mobile/pic/cardpic/hnsfbtn1.png" />
+	<img id='b2' class="btn l-ab dhref" data-href="http://www.hijufou.com/m/system/group.html?groupid=4040&meid=4040&groupcode=hnsfdxxsstlhh" src="../../../../res/mobile/pic/cardpic/hnsfbtn2.png" />
+	<img id='b3' class="btn l-ab dhref" data-href="http://www.hijufou.com/m/system/meet.html?groupid=4040&meid=4040&groupcode=hnsfdxxsstlhh" src="../../../../res/mobile/pic/cardpic/hnsfbtn3.png" />
+	<img id='b4' class="btn l-ab dhref" data-href="http://www.hijufou.com/m/group/swap.home.html?groupid=4040" src="../../../../res/mobile/pic/cardpic/hnsfbtn4.png" />
+</div>
+<!-- @DEFINE {nodep:true} -->
+<script src="../../lib/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="../../javascript/icard/card.wsy.js" type="text/javascript"></script>
+<script src="../../javascript/icard/card.href.js" type="text/javascript"></script>
+<script src="../../javascript/icard/card.wxshare.js" type="text/javascript"></script>
+<script type="text/javascript">
+	var scale = 30;
+	function btninit() {
+		$(".btn").css({
+			'opacity' : '1',
+			'-webkit-animation' : 'none',
+		});
+		function btnShift() {
+			$(".btn").each(
+					function() {
+						var s = "translate3d(" + Math.random() * scale + "px,"
+								+ Math.random() * scale + "px,0px)";
+						$(this).css("-webkit-transform", s);
+					});
+		}
+		setInterval(btnShift, 2000);
+	}
+	$(function(){setTimeout(btninit, 1500);});
+</script>
+<script src="../../lib/tongji.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>聚否</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="target-densitydpi=320,width=640,user-scalable=no"/>
+    <!-- @STYLE -->
+    <link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/system/index.css" rel="stylesheet" type="text/css"/>
+    <link href="../../css/jquery.mobile-1.2.0.css" rel="stylesheet" type="text/css"/>
+    <script src="../../lib/jquery-1.9.1.js"></script>
+    
+  </head>
+  <body id="www-hijufou-com">
+      
+    <div class="g-wrp m-id-0">
+      <div class="xttl fc0">
+        <h1>聚否</h1>
+        <p>总有共同之处，让我们相聚在一起</p>
+        <p>表达兴趣，找到组织</p>
+      </div>
+      <div class="xact">
+        <div class="ln ln0 f-cb">
+          <div class="fl wbtn br0">
+            <a class="w-btn w-btn-0" href="../user/regist.html/">注册</a>
+          </div>
+          <div class="fl wbtn br0">
+            <a class="w-btn w-btn-1" href="../user/login.html/">登录</a>
+          </div>
+        </div>
+        <div class="ln ln1">
+          <div class="wbtn-2 br0">
+            <a class="w-btn w-btn-2" href="#">随便逛逛</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
+<script>
+	$(document).ready(function(){ 
+		$.ajax({
+		    type : "post",
+		    url : "http://223.4.158.184/rest/user/login",
+		    dataType : "json",
+		    data : {username: "canghong.jin@gmail.com",
+		            password: "5f4001f77b6ad21d39becc73954661c5",
+		            captcha:  "4jqh"},
+		    success : function(json){
+		        alert(json);
+		    },
+		    error:function(XMLHttpRequest, textStatus, errorThrown){
+		        alert(XMLHttpRequest);
+		    }
+		});
+	}); 
+</script>

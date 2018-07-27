@@ -1,0 +1,121 @@
+/* 申请提示 */
+.w-req{margin:15px 0 0 5px;height:30px;line-height:30px;border-width:1px;border-style:solid;text-align:center;padding:20px;font-size:18px;}
+/* 箭头 */
+.w-arw{height:0;width:0;font-size:0;border:8px solid transparent;overflow:hidden;}
+/* 标签 */
+.w-tag{margin:3px;padding:3px 8px;}
+.w-tag:hover{text-decoration:none;}
+/* 导航链接 */
+.w-nlst{}
+.w-nlst .itm{display:block;width:90px;height:40px;line-height:40px;margin-right:-1px;cursor:pointer;}
+.w-nlst-0 .itm{position:relative;width:70px;padding:0 10px;}
+.w-nlst-0 .itm:hover{background:#B3AE8F;}
+.w-nlst-0 .itm span{font-weight:bold;}
+.w-nlst-0 .itm .w-menu{display:none;}
+.w-nlst-0 .itm:hover .w-menu{display:block;}
+/* 导航菜单 */
+.w-menu{position:absolute;top:40px;left:-45px;width:150%;text-align:left;z-index:10;}
+.w-menu .mit{display:block;height:35px;line-height:35px;padding-left:11px;border-color:#fff;}
+.w-menu .mit:hover{background:#d9d6c7;color:#333;opacity:0.5;filter:alpha(opacity=50);}
+/* 组织统计信息 */
+.w-stat{width:100%;table-layout:fixed;}
+.w-stat td{padding:3px 0;}
+.w-stat .c0{width:120px;}
+.w-stat .c1{text-align:center;}
+/* 评论项 
+ * js-role-0 - 只有回复 
+ * js-role-1 - 有删除有回复 
+ * js-role-2 - 没有删除和回复
+ */
+.w-lfac-0{border-style:solid;padding-bottom:6px;padding-top:5px;}
+.w-lfac-0 .t{margin:0 1px;}
+.w-lfac-0 .dtl .ixg{display:block;max-width:90%;margin:5px 0;}
+.w-lfac-0 .dtl .utx{height:20px;line-height:20px;padding-top:2px;}
+.w-lfac-0 .dtl .axt{width:150px;text-align:right;margin-right:18px;}
+.w-lfac-0 .dtl .js-role-0 .x0,
+/*.w-lfac-0 .dtl .js-role-1 .x1,*/
+.w-lfac-0 .dtl .js-role-2 .x0,
+.w-lfac-0 .dtl .js-role-2 .x1{display:none;}
+/* 参加成员项 */
+.w-lfac-1{border-width:0 0 1px 0;border-style:solid;border-color:#ccc;}
+.w-lfac-1 .xtm{margin-top:7px;}
+.w-lfac-1 .act{width:250px;margin-left:-250px;text-align:right;}
+.w-lfac-1 .dtl{margin-right:250px;}
+/* 评论 */
+.w-nvs{position:absolute;width:0;height:0;left:0;top:0;overflow:hidden;}
+.w-cmx .tpx{height:66px;line-height:70px;padding-left:23px;border-width:0 0 1px;border-style:solid;}
+.w-cmx .tpx .lgx{margin-left:5px;}
+.w-cmx .lbx{padding:0px 20px 5px;}
+.w-cmx .pgx{padding:15px 20px 40px;}
+.w-cmx .rpx{padding:20px;border-width:0 0 1px;border-style:solid;}
+.w-cmx .rpx .img{width:70px;margin-right:-70px;}
+.w-cmx .rpx .img img{width:50px;height:50px;}
+.w-cmx .rpx .ipx{margin-left:70px;zoom:1;}
+.w-cmx .acx{position:relative;margin-top:17px;zoom:1;margin-right:7px;}
+.w-cmx .acx .xfl{position:absolute;top:1px;right:120px;opacity:0;cursor:pointer;}
+.w-cmx .acx .yfl{width:35px;height:35px;cursor:pointer;}
+.w-cmx .acx .tmb{max-width:150px;margin-right:10px;}
+.w-cmx .acx .pic{width:30px;height:30px;margin-right:8px;cursor:pointer;background-position:3px -3530px;}
+.w-cmx .acx .pic-s{width:40px;height:40px;margin:1px 0 0 6px;}
+.w-cmx textarea{width:430px;height:52px;}
+.w-cmx .tax textarea,.w-rpx textarea{vertical-align:text-top;}
+.w-cmx .tax .js-mhd,
+.w-cmx .tax .js-counter,
+.w-rpx .js-mhd{left:3px;top:64px;padding-left:0;}
+.w-rpx .js-mhd{top:60px;}
+.w-cmx .tax .js-pass,
+.w-rpx .js-pass{visibility:hidden;}
+/* 评论回复 */
+.w-rpx{margin:10px 0 0 60px;}
+.w-rpx .gbt{margin:5px 0;}
+.w-rpx .gbt .cc{margin:8px 10px 0;}
+.w-rpx textarea{width:452px;height:50px;}
+/* 标签块 */
+.w-txg{position:relative;padding:10px;margin:20px 0;border-width:1px;border-style:solid;height:24px;}
+.w-txg .txt{width:388px;margin:-7px 0;}
+.w-txg .wdl{position:absolute;top:10px;right:9px;width:26px;height:26px;line-height:27px;font-size:19px;overflow:hidden;text-align:center;cursor:pointer;}
+.w-txg .wnm{width:340px;height:22px;line-height:20px;font-size:14px;font-weight:bold;margin:-9px 0 0 4px;}
+.w-txg .wtp{line-height:18px;visibility:hidden;margin-left:4px;}
+.w-txg .wip{padding:5px 5px 5px 0;height:12px;}
+.w-txg .wsw{display:none;}
+.w-txg.js-xtw .wip{display:none;}
+.w-txg.js-xtw .wsw{display:block;}
+.w-txg.js-xtw .wtp{visibility:visible;}
+.w-txg-0 .wnm{height:auto;line-height:20px;padding-bottom:9px;}
+.w-txg-0 .wdl{top:10px;}
+
+/* 页面主体框架结构 */
+.t-gbx{text-align:center;}
+.t-wrp{width:100%;}
+.t-wrp .t-bdy{width:980px;margin:0 auto;}
+/* 顶栏 */
+.t-top .t-bdy{position:relative;height:90px;}
+.t-top .gsn{position:absolute;left:29px;bottom:20px;text-align:left;width:900px;}
+/* 导航栏 */
+.t-nav .t-bdy{position:relative;z-index:100;}
+.t-nav .t-bdy .join{position:absolute;top:-50%;right:40px;}
+.t-nav a:hover{text-decoration:none;}
+.t-nav .mlnk{width:450px;}
+.t-nav .alnk{width:400px;}
+.t-nav .alnk .w-menu{display:none;}
+.t-nav .alnk .js-toggle .w-menu{display:block;}
+/* 组织简介模块 */
+#www-jufou-com .l-lsd .mtx{font-size:16px;letter-spacing:0;}
+.l-lsd .t-ttl{padding:0;}
+.t-mdl-1 .logo{position:relative;width:180px;}
+.t-mdl-1 .logo img{display:block;width:100%;height:180px;}
+.t-mdl-1 .logo .act{visibility:hidden;position:absolute;left:0;bottom:0;width:100%;height:24px;line-height:24px;background:rgba(0,0,0,0.4);text-align:right;}
+.t-mdl-1 .logo .act .b{margin-right:10px;cursor:pointer;text-decoration:underline;}
+.t-mdl-1 .logo:hover .act{visibility:visible;}
+.t-mdl-1 .logo .w-loading{position:absolute;top:50px;left:0;width:100%;}
+.t-mdl-1 .t-cnt{line-height:18px;}
+.t-mdl-1 .t-cnt p{margin:5px 0;}
+.t-mdl-1 .t-cnt .blk-2{margin:10px 0 5px;padding:5px 0;border-width:1px 0;border-style:dashed;}
+/* 组织者模块 */
+.t-mdl-2 .w-lfac{margin:-3px 0;}
+.t-mdl-2 .w-lfac .img{margin-top:12px;}
+.t-mdl-2 .dtl .unm{padding:8px 0 0 4px;}
+/* 标签列表模块 */
+.t-mdl-3 .t-cnt{padding:10px 0 5px;}
+
+

@@ -1,0 +1,48 @@
+<plugin name='freemarker' version='1.0.1-SNAPSHOT' grailsVersion='1.2 &gt; *'>
+  <author>Jeff Brown</author>
+  <authorEmail>jeff.brown@springsource.com</authorEmail>
+  <title>FreeMarker Grails Plugin</title>
+  <description>The Grails FreeMarker plugin provides support for rendering FreeMarker templates
+as views.
+</description>
+  <documentation>http://grails.org/plugin/freemarker</documentation>
+  <type>FreemarkerGrailsPlugin</type>
+  <resources>
+    <resource>FreemarkerDefaultConfig</resource>
+    <resource>testing.DemoController</resource>
+    <resource>testing.TagPlayController</resource>
+    <resource>grails.plugin.freemarker.FreemarkerTemplateService</resource>
+    <resource>grails.plugin.freemarker.FreemarkerViewService</resource>
+    <resource>freemarker.tags.test.MyTagLib</resource>
+    <resource>freemarker.tags.test.SimpleTagLib</resource>
+    <resource>grails.plugin.freemarker.FreeMarkerTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <test>
+      <dependency group='org.seleniumhq.selenium' name='selenium-htmlunit-driver' version='2.16.1' />
+      <dependency group='org.codehaus.geb' name='geb-spock' version='0.6.2' />
+    </test>
+    <compile>
+      <dependency group='org.freemarker' name='freemarker' version='2.3.18' />
+      <dependency group='commons-io' name='commons-io' version='2.1' />
+    </compile>
+    <provided>
+      <dependency group='net.sourceforge.nekohtml' name='nekohtml' version='1.9.15' />
+      <dependency group='org.codehaus.groovy.modules.http-builder' name='http-builder' version='0.5.2' />
+    </provided>
+  </dependencies>
+  <plugins>
+    <compile>
+      <plugin group='org.grails.plugins' name='plugin-config' version='0.1.5' />
+    </compile>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

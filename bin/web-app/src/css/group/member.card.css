@@ -1,0 +1,32 @@
+/* 会员组织列表模块 */
+#www-jufou-com .t-mdl-80 .mtx{font-size:16px;letter-spacing:0;}
+.t-mdl-80 .ln0{margin:2px 0 15px 1px;}
+.t-mdl-80 .ln0 .tp{margin-right:5px;}
+.t-mdl-80 .ln0 .a{display:none;}
+.t-mdl-80 .js-show .a{display:inline;}
+.t-mdl-80 .js-show .b{display:none;}
+.t-mdl-80 .xbox{border-width:1px 0 0;border-style:dashed;}
+.t-mdl-80 .xmor{}
+.t-mdl-80 .mtx{font-size:17px;}
+.t-mdl-80 .t-ttl{margin:-15px -2px -5px;}
+
+
+/* 会员卡片模块 */
+.t-mdl-81{margin-left:4px;margin-right:4px;}
+.t-mdl-81 .t-cnt{position:relative;zoom:1;margin-left:13px;}
+.t-mdl-81 .ln{margin:21px 0;}
+.t-mdl-81 .ln1{padding:2px 0 1px 23px;background-position:1px -2102px;margin-bottom:18px;}
+.t-mdl-81 .ln2{margin:15px 2px;}
+.t-mdl-81 .ln3{margin:16px 0 0 2px;}
+.t-mdl-81 .yact{padding:10px 0;margin:0 0 0 -13px;border-width:0 0 1px 0;border-style:solid;border-color:#eee;font-size:13px;}
+.t-mdl-81 .yact .edt{padding-left:30px;}
+.t-mdl-81 .blk{margin:15px 0;line-height:20px;}
+.t-mdl-81 .blk .ytl{font-weight:bold;margin:20px 1px 5px;}
+.t-mdl-81 .blk .asw{margin-left:20px;}
+#www-jufou-com .t-mdl-81 .mtx{font-size:26px;padding-left:7px;}
+
+/* 组织名片头像 */
+.t-mdl-82 .img img{width:180px;height:180px;}
+
+.w-jact{margin:15px 0 0 5px;padding:5px;line-height:30px;height:30px;padding:20px;font-size:18px;}
+.w-jact .t-btn{margin:0 5px;}

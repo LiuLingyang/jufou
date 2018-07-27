@@ -1,0 +1,178 @@
+/*设置页面模块CSS*/
+.setting-page {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+.setting-page .align-right{text-align:right;}
+.setting-page .align-left{text-align:left;}
+
+.setting-page .arrowPic{
+	position:relative;
+	top:38px;
+	float:right;
+}
+
+.setting-page .backPic{
+	position:absolute;
+	top:35px;
+	left:40px;
+}
+
+.setting-page .container{
+	width:100%;
+	height:100%;
+	background-color:#f9f9f9;
+}
+
+.setting-page .content{
+	display:block;
+	padding-left:50px;
+	padding-right:30px;
+	border-width:1px;
+	border-color:#dfdfdf;	
+	height:100px;
+	line-height:100px;
+}
+
+.setting-page .end{
+	position:absolute;
+	width:100%;
+	left:0;
+	bottom:0;
+	height:120px;
+	line-height:120px;
+	text-align:center;
+	background-color:#fa5a5a;
+}
+
+.setting-page .goback{
+	position:absolute;
+	top:30px;
+	right:40px;
+}
+
+.setting-page .header{
+	width:100%;
+	padding-top:30px;
+	line-height:42px;
+}
+
+.setting-page .inputline{
+	border-bottom-style:solid;
+}
+
+.setting-page input[type=text],
+.setting-page input[type=password]{
+	width:60%;
+	height:100px;
+	text-align:left;
+	line-height:normal;
+}
+.setting-page .inputtip{
+	display: inline-block;
+	width: 30%;
+	text-align: left;
+}
+
+.setting-page .fc-lightblack{
+	color:#3c3c3c;
+}
+
+/*设置主页面*/
+.m-id-f0 #line1{
+	margin-top:35px;
+	border-style:solid none;
+}
+
+.m-id-f0 #line2{
+	border-bottom-style:solid;
+}
+
+.m-id-f0 #line3{
+	margin-top:50px;
+	border-style:solid none;
+}
+
+/*个人信息设置页面*/
+.m-id-f1 #bio{
+	position:absolute;
+	bottom:120px;
+	left:5%;
+	height:180px;
+	width:90%;
+	padding:30px;
+	background-color:white;
+}
+.m-id-f1 #blankspan{
+	width:50%;
+}
+
+.m-id-f1 .genderinput{
+	margin-right:5px;
+	width:50px;
+	height:50px;
+	-webkit-appearance:none;
+	background-position:4px -12768px;
+	vertical-align:middle;
+}
+
+.m-id-f1 .genderinput:checked{background-position:4px -12943px;}
+
+.m-id-f1 .genderinputtip{
+	display:inline-block;
+	width:20%;
+}
+
+.m-id-f1 .inputcontent{
+	text-align:left;
+	width:60%;
+}
+
+.m-id-f1 .locationinput{
+	width:30%;
+	background:none;
+	border-style:none;
+}
+
+.m-id-f1 #photoArea{
+	margin-top:30px;
+	padding:60px 0;
+	height:150px;
+	border-color:#D3D3D3;
+	border-width:1px;
+	border-style:solid none;
+}
+
+.m-id-f1 #photo{
+	margin:auto;
+	width:150px;
+	height:150px;
+	border-radius:50%;
+}
+
+.setting-page .android-holo .dww .dw-li{font-size:24px;}
+.setting-page .dwbg .dwb {font-size:24px;}
+.setting-page .android-holo .dwv {font-size:24px;padding:10px;}
+.setting-page .dwbw{padding: 15px;}
+/*修改密码页面*/
+.m-id-f2 #errorText{
+	margin-top:18px;
+	margin-left:auto;
+	margin-right:auto;
+	width:250px;
+	height:40px;
+	line-height:40px;
+	border-radius:20px;	
+}
+
+.m-id-f2 #errorbox{
+	margin-top:30px;
+	height:75px;
+	line-height:75px;
+	border-style:solid none;
+	border-color:#dfdfdf;
+	border-width:1px;
+	text-align:center;
+}

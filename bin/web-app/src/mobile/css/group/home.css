@@ -1,0 +1,13 @@
+/* 50 - 59 */
+
+.g-usr{height:78px;line-height:78px;background:-webkit-linear-gradient(top,#F6F6F6,#EAEAEA);text-align:left;overflow:hidden;}
+.g-usr span{font-size:24px;margin:0 15px 0 20px;}
+.g-usr img{display:block;width:36px;height:36px;margin:17px 5px 0;border:4px solid #fff;background:#C6C6C6;}
+
+.w-txm{width:100px;border:1px solid #E1E1E1;background:#fff;}
+.w-txm .m{height:36px;line-height:36px;color:#fff;background:#D02C19;font-size:20px;}
+.w-txm .d{position:relative;height:64px;line-height:64px;font-weight:bold;font-size:36px;}
+.w-txm .c{position:absolute;right:0;bottom:0;}
+
+.w-imet-0 .w-txm{margin:10px 0 0 47px;}
+.w-imet-0 .dtl{margin-left:180px;}

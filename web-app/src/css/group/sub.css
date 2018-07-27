@@ -1,0 +1,10 @@
+/* 组织列表项 */
+.w-grp{width:218px;height:210px;margin:10px;border-width:1px;border-style:solid;}
+.w-grp .img{position:relative;text-align:center;width:218px;height:140px;overflow:hidden;}
+.w-grp .img img{display:block;margin:0 auto;width:100%;}
+.w-grp .ln{margin:9px;font-weight:bold;}
+.w-grp .ln a{font-size:16px;}
+.w-grp .ln0{margin:0 10px 0 8px;}
+.w-grp .inf{position:absolute;left:0;bottom:0;padding:6px 0;width:100%;text-align:left;}
+.w-grp .ln1{overflow:hidden;text-overflow:ellipsis;font-size:16px;font-weight:bold;margin:0 5px 0 10px;line-height:22px;}
+.w-grp .ln1 a{opacity:.95;}
